@@ -18,5 +18,34 @@ export const metadata: Metadata = {
 };
 
 export default function ContactPage() {
-  return <ContactForm />;
+  const contactJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'ContactPage',
+    name: 'Contact AnyOnlineTools Support & Feedback',
+    url: `${siteConfig.domain}/contact/`,
+    description: 'Get in touch with the AnyOnlineTools team for tool requests, feedback, and support.',
+    mainEntity: {
+      '@type': 'Organization',
+      name: siteConfig.siteName,
+      url: siteConfig.domain,
+      email: siteConfig.supportEmail,
+      contactPoint: [
+        {
+          '@type': 'ContactPoint',
+          email: siteConfig.supportEmail,
+          contactType: 'customer support'
+        }
+      ]
+    }
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(contactJsonLd) }}
+      />
+      <ContactForm />
+    </>
+  );
 }

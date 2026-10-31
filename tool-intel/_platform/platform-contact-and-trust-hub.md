@@ -62,11 +62,11 @@ AnyOnlineTools Contact Architecture
 │   └── 1-Click Send with Live Loading & Success States
 │
 └── Column 2: Departmentalized Trust Cards (Right)
-    ├── 1. General Feedback & Tool Requests (support@anyonlinetools.com)
-    ├── 2. Bug Bounty & Calculation Accuracy (qa@anyonlinetools.com)
-    ├── 3. Educational & Website Tool Embeds (partnerships@anyonlinetools.com)
-    ├── 4. Media, Press & Creator Inquiries (press@anyonlinetools.com)
-    ├── 5. Advertising & Direct Placements (ads@anyonlinetools.com)
+    ├── 1. General Feedback & Tool Requests (hello@anyonlinetools.com)
+    ├── 2. Bug Bounty & Calculation Accuracy (hello@anyonlinetools.com)
+    ├── 3. Educational & Website Tool Embeds (hello@anyonlinetools.com)
+    ├── 4. Media, Press & Creator Inquiries (hello@anyonlinetools.com)
+    ├── 5. Advertising & Direct Placements (hello@anyonlinetools.com)
     └── 6. Legal Transparency & Registered Communication Channel
 ```
 
@@ -113,16 +113,16 @@ Directly above the input fields, display an emerald trust pill that eliminates u
     "@type": "Organization",
     "name": "AnyOnlineTools",
     "url": "https://anyonlinetools.com",
-    "email": "support@anyonlinetools.com",
+    "email": "hello@anyonlinetools.com",
     "contactPoint": [
       {
         "@type": "ContactPoint",
-        "email": "support@anyonlinetools.com",
+        "email": "hello@anyonlinetools.com",
         "contactType": "customer support"
       },
       {
         "@type": "ContactPoint",
-        "email": "partnerships@anyonlinetools.com",
+        "email": "hello@anyonlinetools.com",
         "contactType": "partnerships"
       }
     ]
