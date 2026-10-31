@@ -1,0 +1,139 @@
+[
+  {
+    "slug": "text-repeater",
+    "name": "Text Repeater",
+    "category": "text",
+    "categoryLabel": "Text Utilities",
+    "shortDesc": "Repeat words, sentences, or emojis up to 10,000+ times instantly.",
+    "description": "Fast, private in-browser text repeater. Repeat text, emojis, and messages up to 10,000 times with newlines, spaces, or custom separators.",
+    "href": "/text-repeater/",
+    "icon": "Repeat",
+    "badge": "Trending",
+    "seoTitle": "Text Repeater Online – Repeat Text & Emojis 10,000 Times Free",
+    "seoDesc": "Repeat any text, message, or emoji up to 10,000 times in seconds. 100% free, private client-side processing with one-click copy and share.",
+    "keywords": [
+      "text repeater",
+      "repeat text",
+      "word repeater",
+      "emoji multiplier",
+      "repeat text online",
+      "repeat words"
+    ],
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "Enter Text or Emoji",
+        "desc": "Type or paste the word, message, or emoji you want to multiply."
+      },
+      {
+        "step": 2,
+        "title": "Set Repetitions",
+        "desc": "Choose repetition count between 1 and 10,000 using slider or number input."
+      },
+      {
+        "step": 3,
+        "title": "Select Separator",
+        "desc": "Add newlines, spaces, commas, custom characters, or line numbers."
+      },
+      {
+        "step": 4,
+        "title": "Copy or Share",
+        "desc": "Click 'Copy to Clipboard', share to WhatsApp, or download as a .txt file."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How many times can I repeat text?",
+        "a": "You can repeat any text, sentence, or emoji from 1 to 10,000 times instantly. Everything is processed locally in your browser memory."
+      },
+      {
+        "q": "Will repeating text 10,000 times crash my browser or mobile phone?",
+        "a": "No. AnyOnlineTools uses non-blocking client-side string allocation and optimized chunk processing directly inside your browser memory. Even with 10,000 iterations, the generated output typically consumes only a few megabytes of RAM and renders within milliseconds without freezing the UI thread or crashing mobile browsers."
+      },
+      {
+        "q": "How do I send very large repeated text on WhatsApp without app lag or freezing?",
+        "a": "WhatsApp and mobile chat applications can become sluggish when rendering millions of characters in a single chat bubble. For best performance, we recommend generating between 500 and 2,500 repetitions per message block. If you generate 10,000 repeats or more, use our direct 'Download .txt' button to send it as a lightweight text attachment instead of raw clipboard pasting."
+      },
+      {
+        "q": "Are emojis, custom symbols, and multi-byte Unicode characters supported?",
+        "a": "Yes, full UTF-8 and UTF-16 Unicode character encodings are supported. You can multiply complex emojis (including skin tone modifiers and zero-width joiner sequences like 👨‍👩‍👧‍👦), Asian characters, Arabic scripts, math symbols, and custom ASCII art without character corruption or question-mark replacement."
+      },
+      {
+        "q": "Is my confidential text or data saved, logged, or uploaded to any server?",
+        "a": "Never. Unlike traditional online tools that transmit your input to remote cloud servers for processing, AnyOnlineTools runs 100% locally in your device's browser memory. Zero bytes are uploaded to remote servers, zero logs are created, and your inputs are completely cleared when you refresh or close the page."
+      },
+      {
+        "q": "How do custom separators and sequential line numbers work?",
+        "a": "You can select pre-configured separators (newline, single space, comma, period, or none) or enter your own custom separator string (such as pipes, dashes, or decorative emojis). Enabling the 'Add line numbers' toggle prefixes each repetition with sequential numbering (e.g., 1., 2., 3...), ideal for generating ordered testing lists."
+      },
+      {
+        "q": "What should I do if the repeated text is too large to copy to the clipboard?",
+        "a": "Certain mobile browsers and operating systems impose clipboard buffer limits (typically between 1 MB and 4 MB). If your repeated output exceeds clipboard thresholds, click the 'Download' button to instantly save your complete generated text as an offline UTF-8 .txt file onto your device with zero data loss."
+      },
+      {
+        "q": "Can I use this Text Repeater offline without an active internet connection?",
+        "a": "Yes. Because AnyOnlineTools is architected as an offline-first Progressive Web Application (PWA), after your first visit all core JavaScript assets are cached locally by your browser. You can bookmark the tool or add it to your mobile Home Screen and generate repeated text anywhere with zero data connection."
+      }
+    ],
+    "useCases": [
+      {
+        "tag": "QA & Engineering",
+        "title": "Software QA & Stress Testing",
+        "desc": "Test database field boundaries, chat app input limits, API payload sizes, and mobile UI text wrapping under heavy stress with long strings."
+      },
+      {
+        "tag": "Social Media",
+        "title": "Social Messaging & Viral Fun",
+        "desc": "Create engaging WhatsApp greetings, playful multi-line spam messages for friends, repetitive birthday wishes, and custom Instagram captions."
+      },
+      {
+        "tag": "Design & UI/UX",
+        "title": "Layout Dummy Text & Placeholders",
+        "desc": "Generate custom repetitive dummy text and length-variable placeholder strings to stress-test layout overflow, card wrapping, and typography."
+      },
+      {
+        "tag": "Data & Productivity",
+        "title": "Data Preparation & Numbered Lists",
+        "desc": "Produce sequential numbered items, bulk mock CSV test data, ordered checklists, and repetitive string fixtures for spreadsheet formulas."
+      }
+    ],
+    "comparisonTable": {
+      "title": "Performance & Architecture Comparison",
+      "subtitle": "Why AnyOnlineTools delivers superior speed, privacy, and reliability compared to traditional server-based repeaters.",
+      "ourLabel": "AnyOnlineTools (Client-Side)",
+      "traditionalLabel": "Traditional Repeaters (Server-Based)",
+      "rows": [
+        {
+          "feature": "Data Privacy & Confidentiality",
+          "us": "100% In-Memory RAM (0 Bytes Uploaded)",
+          "traditional": "Transmitted to remote server, logged in access files"
+        },
+        {
+          "feature": "Execution Latency",
+          "us": "Instant 0ms (Local device CPU acceleration)",
+          "traditional": "500ms - 3000ms (Server network roundtrip lag)"
+        },
+        {
+          "feature": "Offline & PWA Capability",
+          "us": "Full offline support via PWA caching",
+          "traditional": "Requires constant internet; fails offline"
+        },
+        {
+          "feature": "Repetition Capacity",
+          "us": "Up to 10,000 repeats per batch free",
+          "traditional": "Often capped at 100-500 repeats or paywalled"
+        },
+        {
+          "feature": "Intrusive Popups & Ads",
+          "us": "Zero full-screen popups, zero redirect spam",
+          "traditional": "Aggressive popup ads, video overlays & redirects"
+        },
+        {
+          "feature": "Mobile Touch Optimization",
+          "us": "Native Web Share, Haptic feedback & 1-tap download",
+          "traditional": "Clunky desktop-only layouts with broken mobile inputs"
+        }
+      ]
+    }
+  }
+]

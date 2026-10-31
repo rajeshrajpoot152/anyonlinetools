@@ -1,0 +1,16 @@
+# AnyOnlineTools (anyonlinetools.com)
+> Free, Fast, and 100% Client-Side In-Browser Online Utilities for Developers, Writers, and Professionals.
+
+## Overview
+AnyOnlineTools provides free, privacy-first online tools that execute directly inside the user's web browser using modern JavaScript and Web APIs. Zero bytes are uploaded to external servers.
+
+## Active Tools Directory
+- **Text Repeater**: https://anyonlinetools.com/text-repeater/ (Repeat text, words, and emojis up to 10,000 times in-browser)
+
+## Official Contact & Legal
+- **Website**: https://anyonlinetools.com/
+- **Support Contact**: hello@anyonlinetools.com
+- **About**: https://anyonlinetools.com/about/
+- **All Tools**: https://anyonlinetools.com/all-tools/
+- **Privacy Policy**: https://anyonlinetools.com/privacy/
+- **Terms of Service**: https://anyonlinetools.com/terms/

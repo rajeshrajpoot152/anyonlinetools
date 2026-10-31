@@ -1,0 +1,39 @@
+{
+  "name": "anyonlinetools",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/predev.js && next dev",
+    "build": "node scripts/build-and-export.js",
+    "export": "node scripts/build-and-export.js",
+    "sync": "node scripts/sync-metadata.js",
+    "seo:check": "node scripts/verify-seo-indexing.js",
+    "ai:check": "node scripts/verify-ai-quality.js",
+    "tool:add": "node scripts/create-tool.js",
+    "tool:remove": "node scripts/remove-tool.js",
+    "tool:translate": "node scripts/translate-tool.js",
+    "intel:new": "node scripts/tool-intel.js new",
+    "intel:status": "node scripts/tool-intel.js status",
+    "intel:migrate": "node scripts/tool-intel.js migrate",
+    "start": "next start",
+    "lint": "next lint",
+    "postinstall": "node scripts/patch-webpack-refresh.js"
+  },
+  "dependencies": {
+    "lucide-react": "^0.447.0",
+    "next": "14.2.14",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
+    "@vitalets/google-translate-api": "^9.2.1",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5.4.5"
+  }
+}

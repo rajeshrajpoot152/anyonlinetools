@@ -1,0 +1,37 @@
+# ==============================================================================
+# AnyOnlineTools.com - Robots.txt Policy
+# Engineered for High Search Visibility (Google/Bing) & AI Scraper Protection
+# ==============================================================================
+
+# Search Engines - Full Access Granted for Maximum SEO Crawl & Indexing
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# Global Fallback for All Other Compliant Web Crawlers
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Master XML Sitemap
+Sitemap: https://anyonlinetools.com/sitemap.xml

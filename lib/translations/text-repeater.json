@@ -1,0 +1,2603 @@
+{
+  "en": {
+    "name": "Text Repeater",
+    "seoTitle": "Text Repeater Online – Repeat Text & Emojis 10,000 Times Free",
+    "seoDesc": "Repeat any text, message, or emoji up to 10,000 times in seconds. 100% free, private client-side processing with one-click copy and share.",
+    "keywords": [
+      "text repeater",
+      "repeat text",
+      "repeat words",
+      "repeat emoji",
+      "repeat text online",
+      "text multiplier"
+    ],
+    "heading": "Text Repeater Online",
+    "subheading": "Repeat any text, message, or emoji up to 10,000 times instantly. Runs directly in your browser with zero latency and full privacy.",
+    "badge": "100% Free · Client-Side Processing · No Upload",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "Enter Text or Emoji",
+        "desc": "Type or paste the word, message, or emoji you want to multiply."
+      },
+      {
+        "step": 2,
+        "title": "Set Repetitions",
+        "desc": "Choose repetition count between 1 and 10,000 using slider or number input."
+      },
+      {
+        "step": 3,
+        "title": "Select Separator",
+        "desc": "Add newlines, spaces, commas, custom characters, or line numbers."
+      },
+      {
+        "step": 4,
+        "title": "Copy or Share",
+        "desc": "Click 'Copy to Clipboard', share to WhatsApp, or download as a .txt file."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How many times can I repeat text?",
+        "a": "You can repeat any text, sentence, or emoji from 1 to 10,000 times instantly. Everything is processed locally in your browser memory."
+      },
+      {
+        "q": "Will repeating text 10,000 times crash my browser or mobile phone?",
+        "a": "No. AnyOnlineTools uses non-blocking client-side string allocation and optimized chunk processing directly inside your browser memory. Even with 10,000 iterations, the generated output typically consumes only a few megabytes of RAM and renders within milliseconds without freezing the UI thread or crashing mobile browsers."
+      },
+      {
+        "q": "How do I send very large repeated text on WhatsApp without app lag or freezing?",
+        "a": "WhatsApp and mobile chat applications can become sluggish when rendering millions of characters in a single chat bubble. For best performance, we recommend generating between 500 and 2,500 repetitions per message block. If you generate 10,000 repeats or more, use our direct 'Download .txt' button to send it as a lightweight text attachment instead of raw clipboard pasting."
+      },
+      {
+        "q": "Are emojis, custom symbols, and multi-byte Unicode characters supported?",
+        "a": "Yes, full UTF-8 and UTF-16 Unicode character encodings are supported. You can multiply complex emojis (including skin tone modifiers and zero-width joiner sequences like 👨‍👩‍👧‍👦), Asian characters, Arabic scripts, math symbols, and custom ASCII art without character corruption or question-mark replacement."
+      },
+      {
+        "q": "Is my confidential text or data saved, logged, or uploaded to any server?",
+        "a": "Never. Unlike traditional online tools that transmit your input to remote cloud servers for processing, AnyOnlineTools runs 100% locally in your device's browser memory. Zero bytes are uploaded to remote servers, zero logs are created, and your inputs are completely cleared when you refresh or close the page."
+      },
+      {
+        "q": "How do custom separators and sequential line numbers work?",
+        "a": "You can select pre-configured separators (newline, single space, comma, period, or none) or enter your own custom separator string (such as pipes, dashes, or decorative emojis). Enabling the 'Add line numbers' toggle prefixes each repetition with sequential numbering (e.g., 1., 2., 3...), ideal for generating ordered testing lists."
+      },
+      {
+        "q": "What should I do if the repeated text is too large to copy to the clipboard?",
+        "a": "Certain mobile browsers and operating systems impose clipboard buffer limits (typically between 1 MB and 4 MB). If your repeated output exceeds clipboard thresholds, click the 'Download' button to instantly save your complete generated text as an offline UTF-8 .txt file onto your device with zero data loss."
+      },
+      {
+        "q": "Can I use this Text Repeater offline without an active internet connection?",
+        "a": "Yes. Because AnyOnlineTools is architected as an offline-first Progressive Web Application (PWA), after your first visit all core JavaScript assets are cached locally by your browser. You can bookmark the tool or add it to your mobile Home Screen and generate repeated text anywhere with zero data connection."
+      }
+    ],
+    "useCases": [
+      {
+        "tag": "QA & Engineering",
+        "title": "Software QA & Stress Testing",
+        "desc": "Test database field boundaries, chat app input limits, API payload sizes, and mobile UI text wrapping under heavy stress with long strings."
+      },
+      {
+        "tag": "Social Media",
+        "title": "Social Messaging & Viral Fun",
+        "desc": "Create engaging WhatsApp greetings, playful multi-line spam messages for friends, repetitive birthday wishes, and custom Instagram captions."
+      },
+      {
+        "tag": "Design & UI/UX",
+        "title": "Layout Dummy Text & Placeholders",
+        "desc": "Generate custom repetitive dummy text and length-variable placeholder strings to stress-test layout overflow, card wrapping, and typography."
+      },
+      {
+        "tag": "Data & Productivity",
+        "title": "Data Preparation & Numbered Lists",
+        "desc": "Produce sequential numbered items, bulk mock CSV test data, ordered checklists, and repetitive string fixtures for spreadsheet formulas."
+      }
+    ],
+    "comparisonTable": {
+      "title": "Performance & Architecture Comparison",
+      "subtitle": "Why AnyOnlineTools delivers superior speed, privacy, and reliability compared to traditional server-based repeaters.",
+      "ourLabel": "AnyOnlineTools (Client-Side)",
+      "traditionalLabel": "Traditional Repeaters (Server-Based)",
+      "rows": [
+        {
+          "feature": "Data Privacy & Confidentiality",
+          "us": "100% In-Memory RAM (0 Bytes Uploaded)",
+          "traditional": "Transmitted to remote server, logged in access files"
+        },
+        {
+          "feature": "Execution Latency",
+          "us": "Instant 0ms (Local device CPU acceleration)",
+          "traditional": "500ms - 3000ms (Server network roundtrip lag)"
+        },
+        {
+          "feature": "Offline & PWA Capability",
+          "us": "Full offline support via PWA caching",
+          "traditional": "Requires constant internet; fails offline"
+        },
+        {
+          "feature": "Repetition Capacity",
+          "us": "Up to 10,000 repeats per batch free",
+          "traditional": "Often capped at 100-500 repeats or paywalled"
+        },
+        {
+          "feature": "Intrusive Popups & Ads",
+          "us": "Zero full-screen popups, zero redirect spam",
+          "traditional": "Aggressive popup ads, video overlays & redirects"
+        },
+        {
+          "feature": "Mobile Touch Optimization",
+          "us": "Native Web Share, Haptic feedback & 1-tap download",
+          "traditional": "Clunky desktop-only layouts with broken mobile inputs"
+        }
+      ]
+    },
+    "features": [
+      {
+        "title": "100% Client-Side Privacy",
+        "desc": "Your text never leaves your device. All computations execute directly in your browser memory via native Web APIs."
+      },
+      {
+        "title": "Hardware-Accelerated Speed",
+        "desc": "Zero server roundtrips, no API latency, and no queue waiting. Instant local processing powered by your device CPU."
+      },
+      {
+        "title": "Free Forever & Unlimited",
+        "desc": "No account creation, no subscriptions, no credit card, and zero rate limits. Open the tool and get your work done instantly."
+      }
+    ],
+    "ui": {
+      "inputLabel": "Text or Emojis to Repeat",
+      "inputPlaceholder": "Type your message, words, or emoji...",
+      "quickFill": "Quick Fill:",
+      "repetitionLabel": "Number of Repetitions",
+      "separatorLabel": "Separator Between Repeats",
+      "separators": {
+        "newline": "New Line (Enter)",
+        "space": "Space (\" \")",
+        "comma": "Comma (\", \")",
+        "period": "Period (\". \")",
+        "none": "No Separator",
+        "custom": "Custom Separator"
+      },
+      "customSeparatorPlaceholder": "Enter custom separator...",
+      "lineNumbers": "Add line numbers (1, 2, 3...)",
+      "outputLabel": "Repeated Output Preview",
+      "outputPlaceholder": "Your repeated output will appear here...",
+      "copyButton": "Copy",
+      "copiedToast": "Copied!",
+      "downloadButton": "Download",
+      "clearButton": "Clear",
+      "backToAll": "All Tools Directory",
+      "quickStart": "Quick Start Guide",
+      "howToUseTitle": "How to Use {tool}",
+      "faqBadge": "Questions & Answers",
+      "faqTitle": "Frequently Asked Questions"
+    }
+  },
+  "es": {
+    "name": "Repetidor de Texto",
+    "seoTitle": "Repetidor de Texto Online – Repetir Texto y Emojis 10.000 Veces Gratis",
+    "seoDesc": "Repite cualquier texto, palabra o emoji hasta 10.000 veces al instante. Herramienta 100% gratuita y privada sin subir datos al servidor. Copia con un clic.",
+    "keywords": [
+      "repetidor de texto",
+      "repetir texto online",
+      "multiplicador de texto",
+      "repetir palabras",
+      "repetir texto whatsapp",
+      "generador de texto repetido"
+    ],
+    "heading": "Repetidor de Texto Online",
+    "subheading": "Multiplica cualquier texto, mensaje o emoji hasta 10.000 veces al instante. Procesamiento directo en tu navegador con total privacidad.",
+    "badge": "100% Gratis · Procesamiento en Navegador · Sin Subidas",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "Introduce el Texto o Emoji",
+        "desc": "Escribe o pega la palabra, mensaje o emoji que deseas multiplicar."
+      },
+      {
+        "step": 2,
+        "title": "Indica las Repeticiones",
+        "desc": "Selecciona entre 1 y 10.000 repeticiones mediante el selector numérico."
+      },
+      {
+        "step": 3,
+        "title": "Elige el Separador",
+        "desc": "Añade saltos de línea, espacios, comas, separadores personalizados o numeración."
+      },
+      {
+        "step": 4,
+        "title": "Copia o Comparte",
+        "desc": "Pulsa 'Copiar', comparte en WhatsApp o descarga el resultado en un archivo .txt."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Cuántas veces puedo repetir un texto?",
+        "a": "Puedes repetir cualquier texto, frase o emoji desde 1 hasta 10.000 veces por lote. Se procesa al instante en la memoria de tu navegador."
+      },
+      {
+        "q": "¿Mis datos se envían a algún servidor?",
+        "a": "No. AnyOnlineTools funciona 100% del lado del cliente. Tu texto nunca sale de tu dispositivo ni se guarda en ninguna base de datos."
+      },
+      {
+        "q": "¿Puedo añadir números de línea o separadores personalizados?",
+        "a": "Sí. Puedes alternar saltos de línea, espacios, comas, caracteres propios o numeración secuencial (1, 2, 3...)."
+      },
+      {
+        "q": "¿Cómo comparto el texto repetido en WhatsApp?",
+        "a": "Solo haz clic en el botón 'Compartir en WhatsApp' y se abrirá la aplicación con tu mensaje listo para enviar."
+      }
+    ],
+    "features": [
+      {
+        "title": "100% Privacidad en Cliente",
+        "desc": "Tus datos nunca salen de tu dispositivo. Todo se ejecuta de forma segura en la memoria de tu navegador."
+      },
+      {
+        "title": "Velocidad Ultrarrápida",
+        "desc": "Cero esperas y sin servidores intermedios. Tu procesador genera 10.000 repeticiones en milisegundos."
+      },
+      {
+        "title": "Completamente Gratis",
+        "desc": "Sin límites de uso, sin registros obligatorios y sin suscripciones. Úsalo tantas veces como necesites."
+      }
+    ],
+    "ui": {
+      "inputLabel": "Texto o Emojis para Repetir",
+      "inputPlaceholder": "Escribe tu mensaje, palabras o emojis...",
+      "quickFill": "Relleno Rápido:",
+      "repetitionLabel": "Número de Repeticiones",
+      "separatorLabel": "Separador entre Repeticiones",
+      "separators": {
+        "newline": "Salto de Línea (Enter)",
+        "space": "Espacio (\" \")",
+        "comma": "Coma (\", \")",
+        "period": "Punto (\". \")",
+        "none": "Sin Separador",
+        "custom": "Separador Personalizado"
+      },
+      "customSeparatorPlaceholder": "Introduce separador personalizado...",
+      "lineNumbers": "Añadir numeración de línea (1, 2, 3...)",
+      "outputLabel": "Vista Previa del Resultado",
+      "outputPlaceholder": "Tu texto repetido aparecerá aquí...",
+      "copyButton": "Copiar",
+      "copiedToast": "¡Copiado!",
+      "downloadButton": "Descargar",
+      "clearButton": "Borrar",
+      "backToAll": "Directorio de Herramientas",
+      "quickStart": "Guía de Inicio Rápido",
+      "howToUseTitle": "Cómo Usar {tool}",
+      "faqBadge": "Preguntas y Respuestas",
+      "faqTitle": "Preguntas Frecuentes"
+    }
+  },
+  "pt": {
+    "name": "Repetidor de Texto",
+    "seoTitle": "Repetidor de Texto Online – Repetir Palavras e Emojis Grátis",
+    "seoDesc": "Repita qualquer texto, mensagem ou emoji até 10.000 vezes em segundos. 100% gratuito e privado, sem envio de dados para servidores. Copie com 1 clique.",
+    "keywords": [
+      "repetidor de texto",
+      "repetir texto online",
+      "gerador de texto repetido",
+      "repetidor de mensagem whatsapp",
+      "multiplicar texto"
+    ],
+    "heading": "Repetidor de Texto Online",
+    "subheading": "Repita palavras, mensagens ou emojis até 10.000 vezes em milissegundos. Processamento 100% no seu navegador com privacidade total.",
+    "badge": "100% Gratuito · Processamento Local · Sem Upload",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "Insira o Texto ou Emoji",
+        "desc": "Digite ou cole a palavra, mensagem ou emoji que deseja multiplicar."
+      },
+      {
+        "step": 2,
+        "title": "Defina as Repetições",
+        "desc": "Escolha entre 1 e 10.000 repetições usando a caixa de quantidade."
+      },
+      {
+        "step": 3,
+        "title": "Escolha o Separador",
+        "desc": "Adicione quebras de linha, espaços, vírgulas ou numeração automática."
+      },
+      {
+        "step": 4,
+        "title": "Copie ou Compartilhe",
+        "desc": "Clique em 'Copiar', envie diretamente para o WhatsApp ou baixe em arquivo .txt."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Quantas vezes posso repetir o texto?",
+        "a": "Você pode repetir de 1 a 10.000 vezes por lote instantaneamente na memória RAM do seu navegador."
+      },
+      {
+        "q": "Meu texto é enviado para servidores?",
+        "a": "Não. AnyOnlineTools funciona 100% no seu navegador. Nenhum dado é salvo ou transmitido pela internet."
+      },
+      {
+        "q": "Posso adicionar numeração de linhas?",
+        "a": "Sim, basta ativar a opção de numeração para gerar listas organizadas sequencialmente (1, 2, 3...)."
+      },
+      {
+        "q": "Como compartilho no WhatsApp?",
+        "a": "Clique no botão 'WhatsApp' após gerar o texto e ele abrirá o app com a mensagem pronta para envio."
+      }
+    ],
+    "features": [
+      {
+        "title": "100% Privacidade Local",
+        "desc": "Seus dados nunca saem do seu aparelho. Todo o processamento ocorre na memória local do navegador."
+      },
+      {
+        "title": "Velocidade Instantânea",
+        "desc": "Sem tempo de espera ou servidores lentos. O hardware do seu dispositivo gera repetições na hora."
+      },
+      {
+        "title": "Gratuito para Sempre",
+        "desc": "Sem taxas, sem planos pagos e sem exigência de login. Use à vontade quando quiser."
+      }
+    ],
+    "ui": {
+      "inputLabel": "Texto ou Emojis para Repetir",
+      "inputPlaceholder": "Digite sua mensagem, palavras ou emojis...",
+      "quickFill": "Preenchimento Rápido:",
+      "repetitionLabel": "Número de Repetições",
+      "separatorLabel": "Separador entre Repetições",
+      "separators": {
+        "newline": "Nova Linha (Enter)",
+        "space": "Espaço (\" \")",
+        "comma": "Vírgula (\", \")",
+        "period": "Ponto (\". \")",
+        "none": "Sem Separador",
+        "custom": "Separador Personalizado"
+      },
+      "customSeparatorPlaceholder": "Digite o separador personalizado...",
+      "lineNumbers": "Adicionar numeração de linhas (1, 2, 3...)",
+      "outputLabel": "Pré-visualização do Resultado",
+      "outputPlaceholder": "O texto repetido aparecerá aqui...",
+      "copyButton": "Copiar",
+      "copiedToast": "Copiado!",
+      "downloadButton": "Baixar",
+      "clearButton": "Limpar",
+      "backToAll": "Diretório de Ferramentas",
+      "quickStart": "Guia Rápido",
+      "howToUseTitle": "Como Usar o {tool}",
+      "faqBadge": "Perguntas & Respostas",
+      "faqTitle": "Perguntas Frequentes"
+    }
+  },
+  "id": {
+    "name": "Pengulang Teks",
+    "seoTitle": "Pengulang Teks Online – Ulangi Teks & Emoji hingga 10.000x Gratis",
+    "seoDesc": "Ulangi teks, kata, atau emoji hingga 10.000 kali secara instan. 100% gratis, aman tanpa upload server, dan salin langsung ke WhatsApp.",
+    "keywords": [
+      "pengulang teks",
+      "ulang teks online",
+      "bom teks whatsapp",
+      "perbanyak teks",
+      "text repeater online"
+    ],
+    "heading": "Pengulang Teks Online",
+    "subheading": "Ulangi kata, kalimat, atau emoji favorit Anda hingga 10.000 kali dalam hitungan detik. Cepat, aman, dan tanpa iklan mengganggu.",
+    "badge": "100% Gratis · Pemrosesan di Browser · Tanpa Upload",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "Masukkan Teks atau Emoji",
+        "desc": "Ketik atau tempel kata, kalimat, atau emoji yang ingin diulang."
+      },
+      {
+        "step": 2,
+        "title": "Tentukan Jumlah Ulang",
+        "desc": "Pilih jumlah pengulangan antara 1 hingga 10.000 kali."
+      },
+      {
+        "step": 3,
+        "title": "Pilih Pemisah",
+        "desc": "Gunakan baris baru, spasi, koma, karakter khusus, atau nomor baris."
+      },
+      {
+        "step": 4,
+        "title": "Salin atau Bagikan",
+        "desc": "Klik 'Salin', bagikan ke WhatsApp, atau simpan sebagai file .txt."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Berapa kali saya bisa mengulang teks?",
+        "a": "Anda dapat mengulang hingga 10.000 kali per proses secara instan tanpa membuat perangkat Anda lemot."
+      },
+      {
+        "q": "Apakah teks saya disimpan di server?",
+        "a": "Tidak sama sekali. Semua pemrosesan berlangsung 100% di peramban (browser) Anda tanpa pengiriman data."
+      },
+      {
+        "q": "Bisakah menambahkan nomor urut?",
+        "a": "Bisa, cukup centang opsi 'Nomor baris' untuk membuat daftar bernomor secara otomatis."
+      },
+      {
+        "q": "Bagaimana cara membagikan ke WhatsApp?",
+        "a": "Klik tombol 'WhatsApp' dan aplikasi WhatsApp akan terbuka otomatis dengan teks yang sudah siap dikirim."
+      }
+    ],
+    "features": [
+      {
+        "title": "Privasi 100% Terjamin",
+        "desc": "Data Anda tidak pernah keluar dari perangkat. Semua diproses langsung di memori browser."
+      },
+      {
+        "title": "Super Cepat Tanpa Antrean",
+        "desc": "Tanpa server awan, tanpa lag. Proses selesai dalam hitungan milidetik."
+      },
+      {
+        "title": "Gratis Selamanya",
+        "desc": "Tanpa langganan, tanpa daftar akun, dan tanpa batasan harian."
+      }
+    ],
+    "ui": {
+      "inputLabel": "Teks atau Emoji yang Ingin Diulang",
+      "inputPlaceholder": "Tulis pesan, kata, atau emoji...",
+      "quickFill": "Isi Cepat:",
+      "repetitionLabel": "Jumlah Pengulangan",
+      "separatorLabel": "Pemisah Antar Teks",
+      "separators": {
+        "newline": "Baris Baru (Enter)",
+        "space": "Spasi (\" \")",
+        "comma": "Koma (\", \")",
+        "period": "Titik (\". \")",
+        "none": "Tanpa Pemisah",
+        "custom": "Pemisah Khusus"
+      },
+      "customSeparatorPlaceholder": "Masukkan pemisah khusus...",
+      "lineNumbers": "Tambahkan nomor baris (1, 2, 3...)",
+      "outputLabel": "Pratinjau Hasil Pengulangan",
+      "outputPlaceholder": "Hasil teks berulang akan tampil di sini...",
+      "copyButton": "Salin",
+      "copiedToast": "Tersalin!",
+      "downloadButton": "Unduh",
+      "clearButton": "Hapus",
+      "backToAll": "Katalog Semua Alat",
+      "quickStart": "Panduan Cepat",
+      "howToUseTitle": "Cara Menggunakan {tool}",
+      "faqBadge": "Tanya Jawab",
+      "faqTitle": "Pertanyaan yang Sering Diajukan"
+    }
+  },
+  "ar": {
+    "name": "مكرر النصوص",
+    "seoTitle": "مكرر النصوص أونلاين – تكرار الكلمات والإيموجي 10,000 مرة مجاناً",
+    "seoDesc": "كرر أي نص أو رسالة أو إيموجي حتى 10,000 مرة في ثوانٍ. أداة مجانية 100% وخاصة تعمل داخل المتصفح دون رفع أي بيانات مع نسخ ومشاركة مباشرة.",
+    "keywords": [
+      "مكرر النصوص",
+      "تكرار النص",
+      "مكرر الكلام",
+      "تكرار رسائل واتساب",
+      "مضاعف النصوص"
+    ],
+    "heading": "مكرر النصوص أونلاين",
+    "subheading": "كرر أي نص أو كلمة أو إيموجي حتى 10,000 مرة في أجزاء من الثانية. خصوصية تامة وسرعة فائقة داخل متصفحك مباشرة.",
+    "badge": "مجاني 100% · معالجة بالمتصفح · بدون رفع بيانات",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "أدخل النص أو الإيموجي",
+        "desc": "اكتب أو الصق الكلمة أو الرسالة أو الرموز التعبيرية المراد تكرارها."
+      },
+      {
+        "step": 2,
+        "title": "حدد عدد مرات التكرار",
+        "desc": "اختر العدد المطلوب بين 1 وحتى 10,000 مرة."
+      },
+      {
+        "step": 3,
+        "title": "اختر الفاصل",
+        "desc": "اختر أسطر جديدة، مسافات، فواصل، فواصل مخصصة أو أرقام تسلسلية."
+      },
+      {
+        "step": 4,
+        "title": "انسخ أو شارك",
+        "desc": "انقر على 'نسخ' أو شارك فوراً عبر واتساب أو حمّل النص كملف .txt."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "كم عدد المرات التي يمكنني تكرار النص فيها؟",
+        "a": "يمكنك تكرار النص حتى 10,000 مرة في الدفعة الواحدة بشكل فوري دون أي بطء في جهازك."
+      },
+      {
+        "q": "هل يتم حفظ نصوصي أو إرسالها لخوادم؟",
+        "a": "لا على الإطلاق. تعمل أدواتنا داخل ذاكرة متصفحك 100% ولا تخرج أي بيانات من جهازك أبداً."
+      },
+      {
+        "q": "هل يمكنني ترقيم الأسطر؟",
+        "a": "نعم، يمكنك تفعيل خيار ترقيم الأسطر التلقائي لإضافة أرقام متسلسلة (1، 2، 3...)."
+      },
+      {
+        "q": "كيف يمكنني مشاركة النص على واتساب؟",
+        "a": "ببساطة اضغط على زر 'مشاركة عبر واتساب' وسيتم فتح التطبيق مع النص جاهزاً للإرسال."
+      }
+    ],
+    "features": [
+      {
+        "title": "خصوصية تامة 100%",
+        "desc": "بياناتك لا تغادر جهازك أبداً، وتتم المعالجة بالكامل محلياً داخل المتصفح."
+      },
+      {
+        "title": "سرعة خارقة",
+        "desc": "بدون خوادم وسيطة أو انتظار، ينتج المعالج 10,000 تكرار في أجزاء من الثانية."
+      },
+      {
+        "title": "مجاني للأبد",
+        "desc": "استخدام غير محدود بدون اشتراكات أو تسجيل دخول أو رسوم خفية."
+      }
+    ],
+    "ui": {
+      "inputLabel": "النص أو الإيموجي المراد تكراره",
+      "inputPlaceholder": "اكتب رسالتك أو كلماتك هنا...",
+      "quickFill": "تعبئة سريعة:",
+      "repetitionLabel": "عدد مرات التكرار",
+      "separatorLabel": "الفاصل بين التكرارات",
+      "separators": {
+        "newline": "سطر جديد (Enter)",
+        "space": "مسافة (\" \")",
+        "comma": "فاصلة (\", \")",
+        "period": "نقطة (\". \")",
+        "none": "بدون فاصل",
+        "custom": "فاصل مخصص"
+      },
+      "customSeparatorPlaceholder": "اكتب الفاصل المخصص...",
+      "lineNumbers": "إضافة ترقيم الأسطر (1, 2, 3...)",
+      "outputLabel": "معاينة النتيجة المكررة",
+      "outputPlaceholder": "سيظهر النص المكرر هنا تلقائياً...",
+      "copyButton": "نسخ",
+      "copiedToast": "تم النسخ!",
+      "downloadButton": "تحميل",
+      "clearButton": "مسح",
+      "backToAll": "دليل جميع الأدوات",
+      "quickStart": "دليل البدء السريع",
+      "howToUseTitle": "كيفية استخدام {tool}",
+      "faqBadge": "الأسئلة الشائعة",
+      "faqTitle": "الأسئلة الأكثر تكراراً"
+    }
+  },
+  "fr": {
+    "name": "Répéteur de Texte",
+    "seoTitle": "Répéteur de Texte en Ligne – Répéter Texte et Émojis Gratuit",
+    "seoDesc": "Répétez n'importe quel texte, mot ou émoji jusqu'à 10 000 fois instantanément. 100% gratuit et privé, sans envoi sur serveur. Copiez en un clic.",
+    "keywords": [
+      "répéteur de texte",
+      "répéter texte en ligne",
+      "générateur de texte répété",
+      "multiplier texte",
+      "répéter message whatsapp"
+    ],
+    "heading": "Répéteur de Texte en Ligne",
+    "subheading": "Multipliez vos messages, mots et émojis jusqu'à 10 000 fois en quelques millisecondes. Rapide, privé et entièrement gratuit.",
+    "badge": "100% Gratuit · Traitement Navigateur · Aucun Upload",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "Saisissez le Texte ou l'Émoji",
+        "desc": "Tapez ou collez le message, le mot ou l'émoji à répéter."
+      },
+      {
+        "step": 2,
+        "title": "Définissez les Répétitions",
+        "desc": "Choisissez un nombre entre 1 et 10 000 répétitions."
+      },
+      {
+        "step": 3,
+        "title": "Sélectionnez le Séparateur",
+        "desc": "Ajoutez des retours à la ligne, espaces, virgules ou numéros de ligne."
+      },
+      {
+        "step": 4,
+        "title": "Copiez ou Partagez",
+        "desc": "Cliquez sur 'Copier', partagez directement sur WhatsApp ou téléchargez en .txt."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Combien de fois puis-je répéter le texte ?",
+        "a": "Vous pouvez répéter un texte jusqu'à 10 000 fois par lot instantanément dans la mémoire de votre navigateur."
+      },
+      {
+        "q": "Mes données sont-elles envoyées sur un serveur ?",
+        "a": "Non. AnyOnlineTools fonctionne à 100% côté client. Vos textes ne quittent jamais votre appareil."
+      },
+      {
+        "q": "Puis-je numéroter les lignes ?",
+        "a": "Oui, cochez simplement la case 'Ajouter numéros de ligne' pour obtenir une liste ordonnée (1, 2, 3...)."
+      },
+      {
+        "q": "Comment envoyer le texte sur WhatsApp ?",
+        "a": "Cliquez sur 'Partager sur WhatsApp' et l'application s'ouvrira directement avec votre message pré-rempli."
+      }
+    ],
+    "features": [
+      {
+        "title": "100% Confidentialité Client",
+        "desc": "Vos textes restent strictement sur votre appareil sans transit externe."
+      },
+      {
+        "title": "Vitesse Instantanée",
+        "desc": "Aucun serveur distant, aucune attente : votre processeur exécute le calcul en millisecondes."
+      },
+      {
+        "title": "Gratuit à Vie",
+        "desc": "Aucun compte requis, aucune formule payante et zéro limitation d'usage."
+      }
+    ],
+    "ui": {
+      "inputLabel": "Texte ou Émojis à Répéter",
+      "inputPlaceholder": "Tapez votre message, vos mots ou vos émojis...",
+      "quickFill": "Remplissage Rapide :",
+      "repetitionLabel": "Nombre de Répétitions",
+      "separatorLabel": "Séparateur entre les Répétitions",
+      "separators": {
+        "newline": "Nouvelle Ligne (Entrée)",
+        "space": "Espace (\" \")",
+        "comma": "Virgule (\", \")",
+        "period": "Point (\". \")",
+        "none": "Sans Séparateur",
+        "custom": "Séparateur Personnalisé"
+      },
+      "customSeparatorPlaceholder": "Entrez un séparateur personnalisé...",
+      "lineNumbers": "Ajouter numéros de ligne (1, 2, 3...)",
+      "outputLabel": "Aperçu du Texte Répété",
+      "outputPlaceholder": "Le texte répété apparaîtra ici...",
+      "copyButton": "Copier",
+      "copiedToast": "Copié !",
+      "downloadButton": "Télécharger",
+      "clearButton": "Effacer",
+      "backToAll": "Répertoire de Tous les Outils",
+      "quickStart": "Guide de Démarrage Rapide",
+      "howToUseTitle": "Comment Utiliser {tool}",
+      "faqBadge": "Questions & Réponses",
+      "faqTitle": "Foire Aux Questions"
+    }
+  },
+  "de": {
+    "name": "Text-Repeater",
+    "seoTitle": "Text-Repeater Online – Text & Emojis bis zu 10.000 Mal Wiederholen",
+    "seoDesc": "Wiederhole jeden Text, jedes Wort oder Emoji bis zu 10.000 Mal in Sekundenschnelle. 100% kostenlos & privat im Browser, ohne Datenupload.",
+    "keywords": [
+      "text repeater",
+      "text wiederholen online",
+      "text multiplizieren",
+      "whatsapp text wiederholen",
+      "wörter vervielfachen"
+    ],
+    "heading": "Text-Repeater Online",
+    "subheading": "Vervielfache beliebige Texte, Wörter oder Emojis blitzschnell bis zu 10.000 Mal. Volle Privatsphäre ohne Serverübertragung.",
+    "badge": "100% Kostenlos · Lokale Ausführung · Kein Upload",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "Text oder Emoji Eingeben",
+        "desc": "Tippe oder füge den gewünschten Text oder Emojis in das Eingabefeld ein."
+      },
+      {
+        "step": 2,
+        "title": "Wiederholungen Wählen",
+        "desc": "Stelle die gewünschte Anzahl zwischen 1 und 10.000 ein."
+      },
+      {
+        "step": 3,
+        "title": "Trennzeichen Festlegen",
+        "desc": "Wähle Zeilenumbrüche, Leerzeichen, Kommas oder benutzerdefinierte Zeichen."
+      },
+      {
+        "step": 4,
+        "title": "Kopieren oder Teilen",
+        "desc": "Klicke auf 'Kopieren', teile direkt auf WhatsApp oder lade eine .txt-Datei herunter."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Wie oft kann ich Text wiederholen?",
+        "a": "Du kannst Text oder Emojis bis zu 10.000 Mal auf einmal wiederholen. Die Verarbeitung erfolgt blitzschnell in deinem Browser."
+      },
+      {
+        "q": "Werden meine Daten auf Server hochgeladen?",
+        "a": "Nein. AnyOnlineTools arbeitet zu 100% im Browser. Deine Daten verlassen zu keinem Zeitpunkt dein Gerät."
+      },
+      {
+        "q": "Kann ich Zeilennummern hinzufügen?",
+        "a": "Ja, aktiviere einfach die Zeilennummerierung, um nummerierte Listen (1, 2, 3...) zu erzeugen."
+      },
+      {
+        "q": "Wie teile ich den Text auf WhatsApp?",
+        "a": "Klicke nach der Generierung auf den WhatsApp-Button, um die Nachricht direkt in WhatsApp einzufügen."
+      }
+    ],
+    "features": [
+      {
+        "title": "100% Privatsphäre",
+        "desc": "Deine Daten bleiben lokal auf deinem Gerät und werden niemals über das Internet versendet."
+      },
+      {
+        "title": "Hardware-Beschleunigt",
+        "desc": "Keine Server-Warteschlangen. Dein lokaler Prozessor liefert Ergebnisse in Millisekunden."
+      },
+      {
+        "title": "Dauerhaft Kostenlos",
+        "desc": "Keine Anmeldung, keine versteckten Gebühren und unbegrenzte Nutzungsmöglichkeiten."
+      }
+    ],
+    "ui": {
+      "inputLabel": "Zu wiederholender Text oder Emojis",
+      "inputPlaceholder": "Gib deine Nachricht, Wörter oder Emojis ein...",
+      "quickFill": "Schnellvorlagen:",
+      "repetitionLabel": "Anzahl der Wiederholungen",
+      "separatorLabel": "Trennzeichen zwischen Wiederholungen",
+      "separators": {
+        "newline": "Neue Zeile (Enter)",
+        "space": "Leerzeichen (\" \")",
+        "comma": "Komma (\", \")",
+        "period": "Punkt (\". \")",
+        "none": "Kein Trennzeichen",
+        "custom": "Benutzerdefiniert"
+      },
+      "customSeparatorPlaceholder": "Eigenes Trennzeichen eingeben...",
+      "lineNumbers": "Zeilennummern hinzufügen (1, 2, 3...)",
+      "outputLabel": "Vorschau des Ergebnisses",
+      "outputPlaceholder": "Der wiederholte Text erscheint hier...",
+      "copyButton": "Kopieren",
+      "copiedToast": "Kopiert!",
+      "downloadButton": "Download",
+      "clearButton": "Leeren",
+      "backToAll": "Übersicht aller Tools",
+      "quickStart": "Schnellstartanleitung",
+      "howToUseTitle": "So verwendest du {tool}",
+      "faqBadge": "Fragen & Antworten",
+      "faqTitle": "Häufig gestellte Fragen"
+    }
+  },
+  "ja": {
+    "name": "テキストリピーター",
+    "seoTitle": "テキストリピーター オンライン – 文字や絵文字を最大10,000回繰り返し生成【無料】",
+    "seoDesc": "入力した文字、単語、絵文字を最大10,000回瞬時に繰り返し生成。完全無料・サーバー送信なしの安心ブラウザ処理。ワンクリックでコピー可能。",
+    "keywords": [
+      "テキストリピーター",
+      "文字 繰り返し",
+      "テキスト 連打",
+      "絵文字 繰り返し",
+      "文章 増殖"
+    ],
+    "heading": "テキストリピーター オンライン",
+    "subheading": "文字、フレーズ、絵文字を最大10,000回まで一瞬で連続生成。端末内のブラウザメモリで高速処理され、プライバシーも万全です。",
+    "badge": "完全無料 · ブラウザ完結処理 · 外部送信なし",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "文字や絵文字を入力",
+        "desc": "繰り返したいメッセージ、単語、または絵文字を入力エリアに貼り付けます。"
+      },
+      {
+        "step": 2,
+        "title": "繰り返し回数を指定",
+        "desc": "1回から最大10,000回までの回数を指定します。"
+      },
+      {
+        "step": 3,
+        "title": "区切り文字を選択",
+        "desc": "改行、スペース、カンマ、または自由な区切り文字や行番号を選択します。"
+      },
+      {
+        "step": 4,
+        "title": "コピーまたは共有",
+        "desc": "「コピー」ボタンをクリックしてクリップボードに保存するか、ファイル保存します。"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "テキストは何回まで繰り返せますか？",
+        "a": "1回から最大10,000回まで一瞬で生成可能です。すべてブラウザの内部メモリで処理されます。"
+      },
+      {
+        "q": "入力したデータはサーバーに保存されますか？",
+        "a": "いいえ、一切保存されません。すべての処理はお手元のデバイス上のみで行われ、外部への送信はありません。"
+      },
+      {
+        "q": "行番号を付けることはできますか？",
+        "a": "はい、「行番号を追加」にチェックを入れるだけで、連番付きリストを自動生成できます。"
+      },
+      {
+        "q": "LINEやSNSですぐに使えますか？",
+        "a": "はい、コピーボタンでコピーした後、LINE、X（旧Twitter）、Discordなどにそのまま貼り付けできます。"
+      }
+    ],
+    "features": [
+      {
+        "title": "100% 安全なローカル処理",
+        "desc": "データが端末の外へ送信されることはありません。高いプライバシー基準を満たします。"
+      },
+      {
+        "title": "ミリ秒単位の超高速生成",
+        "desc": "サーバー通信のタイムラグなし。端末のCPUを活用し一瞬で出力します。"
+      },
+      {
+        "title": "完全無料で制限なし",
+        "desc": "会員登録や有料プランは一切不要。いつでも自由に何度でもご利用いただけます。"
+      }
+    ],
+    "ui": {
+      "inputLabel": "繰り返したいテキストまたは絵文字",
+      "inputPlaceholder": "メッセージや絵文字を入力してください...",
+      "quickFill": "クイック入力:",
+      "repetitionLabel": "繰り返し回数",
+      "separatorLabel": "区切り記号",
+      "separators": {
+        "newline": "改行 (Enter)",
+        "space": "スペース (\" \")",
+        "comma": "カンマ (\", \")",
+        "period": "ピリオド (\". \")",
+        "none": "区切りなし",
+        "custom": "カスタム区切り"
+      },
+      "customSeparatorPlaceholder": "区切り文字を入力...",
+      "lineNumbers": "行番号を付与 (1, 2, 3...)",
+      "outputLabel": "生成結果プレビュー",
+      "outputPlaceholder": "生成されたテキストがここに表示されます...",
+      "copyButton": "コピー",
+      "copiedToast": "コピー完了！",
+      "downloadButton": "保存",
+      "clearButton": "クリア",
+      "backToAll": "全ツール一覧へ",
+      "quickStart": "クイックスタートガイド",
+      "howToUseTitle": "{tool} の使い方",
+      "faqBadge": "よくあるご質問",
+      "faqTitle": "FAQ"
+    }
+  },
+  "ru": {
+    "name": "Повторитель Текста",
+    "seoTitle": "Повторитель Текста Онлайн – Повторить Слова и Эмодзи До 10 000 Раз",
+    "seoDesc": "Повторяйте любой текст, слово или эмодзи до 10 000 раз за секунды. 100% бесплатно и безопасно в браузере. Копируйте в буфер в 1 клик.",
+    "keywords": [
+      "повторитель текста",
+      "повторить текст онлайн",
+      "размножитель текста",
+      "повторить текст для ватсап",
+      "спам текст генератор"
+    ],
+    "heading": "Повторитель Текста Онлайн",
+    "subheading": "Быстро размножайте любые фразы, слова или смайлики до 10 000 раз. Работает прямо в вашем браузере без задержек и отправки на сервер.",
+    "badge": "100% Бесплатно · Обработка в Браузере · Без Загрузки",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "Введите текст или эмодзи",
+        "desc": "Напечатайте или вставьте слова, фразу или смайлики в поле ввода."
+      },
+      {
+        "step": 2,
+        "title": "Укажите количество",
+        "desc": "Выберите количество повторений от 1 до 10 000 раз."
+      },
+      {
+        "step": 3,
+        "title": "Выберите разделитель",
+        "desc": "Используйте новую строку, пробел, запятую или свои символы."
+      },
+      {
+        "step": 4,
+        "title": "Скопируйте результат",
+        "desc": "Нажмите 'Копировать', отправьте в WhatsApp или скачайте как .txt файл."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Сколько раз можно повторить текст?",
+        "a": "Вы можете повторить текст до 10 000 раз за один клик без зависаний вашего устройства."
+      },
+      {
+        "q": "Отправляются ли мои данные на сервер?",
+        "a": "Нет. AnyOnlineTools работает полностью на стороне клиента. Данные не покидают ваш браузер."
+      },
+      {
+        "q": "Можно ли пронумеровать строки?",
+        "a": "Да, включите опцию нумерации строк для создания упорядоченного списка (1, 2, 3...)."
+      },
+      {
+        "q": "Как отправить текст в WhatsApp?",
+        "a": "Нажмите кнопку 'Поделиться в WhatsApp', и приложение откроется с готовым сообщением."
+      }
+    ],
+    "features": [
+      {
+        "title": "100% Конфиденциальность",
+        "desc": "Ваши тексты никогда не передаются в интернет и обрабатываются локально."
+      },
+      {
+        "title": "Мгновенная Скорость",
+        "desc": "Без очередей и задержек сервера: генерация 10 000 строк занимает миллисекунды."
+      },
+      {
+        "title": "Бесплатно и Без Лимитов",
+        "desc": "Без регистрации, подписок и ограничений по количеству генераций."
+      }
+    ],
+    "ui": {
+      "inputLabel": "Текст или эмодзи для повторения",
+      "inputPlaceholder": "Введите ваше сообщение, слова или эмодзи...",
+      "quickFill": "Быстрый ввод:",
+      "repetitionLabel": "Количество повторений",
+      "separatorLabel": "Разделитель между повторами",
+      "separators": {
+        "newline": "Новая строка (Enter)",
+        "space": "Пробел (\" \")",
+        "comma": "Запятая (\", \")",
+        "period": "Точка (\". \")",
+        "none": "Без разделителя",
+        "custom": "Свой разделитель"
+      },
+      "customSeparatorPlaceholder": "Введите свой разделитель...",
+      "lineNumbers": "Добавить номера строк (1, 2, 3...)",
+      "outputLabel": "Предпросмотр результата",
+      "outputPlaceholder": "Повторенный текст появится здесь...",
+      "copyButton": "Копировать",
+      "copiedToast": "Скопировано!",
+      "downloadButton": "Скачать",
+      "clearButton": "Очистить",
+      "backToAll": "Каталог всех инструментов",
+      "quickStart": "Краткое руководство",
+      "howToUseTitle": "Как использовать {tool}",
+      "faqBadge": "Вопросы и ответы",
+      "faqTitle": "Часто задаваемые вопросы"
+    }
+  },
+  "tr": {
+    "name": "Metin Tekrarlayıcı",
+    "seoTitle": "Metin Tekrarlayıcı Online – Yazıları ve Emojileri 10.000 Kez Tekrarla",
+    "seoDesc": "Herhangi bir metni, kelimeyi veya emojiyi anında 10.000 defaya kadar tekrarlayın. %100 ücretsiz, sunucuya yüklemesiz ve gizli. Tek tıkla kopyala.",
+    "keywords": [
+      "metin tekrarlayıcı",
+      "yazı tekrarlayıcı",
+      "kelime tekrarlayıcı",
+      "whatsapp mesaj tekrarlayıcı",
+      "metin çoğaltıcı"
+    ],
+    "heading": "Online Metin Tekrarlayıcı",
+    "subheading": "Metinleri, kelimeleri ve emojileri saniyeler içinde 10.000 defaya kadar çoğaltın. Tarayıcınızda sıfır gecikmeyle çalışır.",
+    "badge": "%100 Ücretsiz · Tarayıcı İçi İşlem · Yükleme Yok",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "Metni veya Emojiyi Girin",
+        "desc": "Çoğaltmak istediğiniz kelimeyi, cümleyi veya emojileri yazın."
+      },
+      {
+        "step": 2,
+        "title": "Tekrar Sayısını Seçin",
+        "desc": "1 ile 10.000 arasında bir tekrar sayısı belirleyin."
+      },
+      {
+        "step": 3,
+        "title": "Ayırıcıyı Belirleyin",
+        "desc": "Yeni satır, boşluk, virgül veya özel karakter seçin."
+      },
+      {
+        "step": 4,
+        "title": "Kopyalayın veya Paylaşın",
+        "desc": "'Kopyala' butonuna tıklayın, WhatsApp'ta paylaşın veya .txt olarak indirin."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Metni kaç defa tekrarlayabilirim?",
+        "a": "Tek seferde 1 ile 10.000 arasında istediğiniz kadar metin veya emoji tekrarlayabilirsiniz."
+      },
+      {
+        "q": "Metnim sunucuya yükleniyor mu?",
+        "a": "Hayır. AnyOnlineTools tamamen istemci tarafında (tarayıcınızda) çalışır. Hiçbir veri kaydedilmez."
+      },
+      {
+        "q": "Satır numarası ekleyebilir miyim?",
+        "a": "Evet, satır numarası seçeneğini işaretleyerek numaralı liste (1, 2, 3...) oluşturabilirsiniz."
+      },
+      {
+        "q": "WhatsApp'ta nasıl paylaşırım?",
+        "a": "Tek tıkla 'WhatsApp'ta Paylaş' butonuna basarak metni doğrudan uygulamaya aktarabilirsiniz."
+      }
+    ],
+    "features": [
+      {
+        "title": "%100 Gizlilik",
+        "desc": "Verileriniz cihazınızdan asla ayrılmaz. Tüm işlemler tarayıcı belleğinde gerçekleşir."
+      },
+      {
+        "title": "Işık Hızında",
+        "desc": "Sunucu bekleme süresi olmadan cihazınızın işlemcisiyle milisaniyeler içinde sonuç üretir."
+      },
+      {
+        "title": "Sonsuza Kadar Ücretsiz",
+        "desc": "Üyelik, kredi kartı veya günlük kota sınırlaması olmadan sınırsız kullanın."
+      }
+    ],
+    "ui": {
+      "inputLabel": "Tekrarlanacak Metin veya Emoji",
+      "inputPlaceholder": "Mesajınızı veya kelimelerinizi buraya yazın...",
+      "quickFill": "Hızlı Doldur:",
+      "repetitionLabel": "Tekrar Sayısı",
+      "separatorLabel": "Tekrarlar Arası Ayırıcı",
+      "separators": {
+        "newline": "Yeni Satır (Enter)",
+        "space": "Boşluk (\" \")",
+        "comma": "Virgül (\", \")",
+        "period": "Nokta (\". \")",
+        "none": "Ayırıcı Yok",
+        "custom": "Özel Ayırıcı"
+      },
+      "customSeparatorPlaceholder": "Özel ayırıcı girin...",
+      "lineNumbers": "Satır numarası ekle (1, 2, 3...)",
+      "outputLabel": "Sonuç Önizlemesi",
+      "outputPlaceholder": "Tekrarlanan metin burada görünecektir...",
+      "copyButton": "Kopyala",
+      "copiedToast": "Kopyalandı!",
+      "downloadButton": "İndir",
+      "clearButton": "Temizle",
+      "backToAll": "Tüm Araçlar Dizini",
+      "quickStart": "Hızlı Başlangıç",
+      "howToUseTitle": "{tool} Nasıl Kullanılır?",
+      "faqBadge": "Soru & Cevap",
+      "faqTitle": "Sıkça Sorulan Sorular"
+    }
+  },
+  "vi": {
+    "name": "Bộ Lặp Văn Bản",
+    "seoTitle": "Bộ Lặp Văn Bản Online – Lặp Lại Chữ & Emoji 10.000 Lần Miễn Phí",
+    "seoDesc": "Lặp lại văn bản, từ ngữ hoặc biểu tượng cảm xúc lên đến 10.000 lần tức thì. 100% miễn phí, bảo mật trong trình duyệt, sao chép 1 chạm.",
+    "keywords": [
+      "bộ lặp văn bản",
+      "lặp lại văn bản",
+      "spam tin nhắn",
+      "lặp chữ online",
+      "nhân bản tin nhắn"
+    ],
+    "heading": "Bộ Lặp Văn Bản Trực Tuyến",
+    "subheading": "Nhân bản từ ngữ, tin nhắn hoặc emoji yêu thích lên đến 10.000 lần trong chớp mắt. An toàn và hoàn toàn bảo mật.",
+    "badge": "100% Miễn Phí · Xử Lý Trực Tiếp · Không Tải Lên",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "Nhập Văn Bản hoặc Emoji",
+        "desc": "Nhập hoặc dán từ ngữ, thông điệp hoặc biểu tượng cảm xúc cần lặp lại."
+      },
+      {
+        "step": 2,
+        "title": "Chọn Số Lần Lặp",
+        "desc": "Chọn số lần từ 1 đến 10.000 lần theo nhu cầu."
+      },
+      {
+        "step": 3,
+        "title": "Chọn Dấu Phân Cách",
+        "desc": "Chọn xuống dòng, dấu cách, dấu phẩy hoặc ký tự tùy chỉnh."
+      },
+      {
+        "step": 4,
+        "title": "Sao Chép hoặc Chia Sẻ",
+        "desc": "Nhấn 'Sao chép', chia sẻ qua WhatsApp hoặc tải xuống tệp .txt."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Tôi có thể lặp lại bao nhiêu lần?",
+        "a": "Bạn có thể lặp lại văn bản từ 1 đến 10.000 lần mỗi lượt xử lý với tốc độ siêu nhanh."
+      },
+      {
+        "q": "Dữ liệu của tôi có được tải lên máy chủ không?",
+        "a": "Không. Mọi thao tác thực thi 100% ngay trên trình duyệt thiết bị của bạn, tuyệt đối an toàn."
+      },
+      {
+        "q": "Có thể đánh số thứ tự từng dòng không?",
+        "a": "Có, bạn chỉ cần tích chọn 'Thêm số dòng' để tạo danh sách có số thứ tự (1, 2, 3...)."
+      },
+      {
+        "q": "Làm thế nào để gửi sang WhatsApp?",
+        "a": "Nhấp vào nút 'Chia sẻ qua WhatsApp' để mở ứng dụng với nội dung có sẵn."
+      }
+    ],
+    "features": [
+      {
+        "title": "Bảo Mật 100%",
+        "desc": "Văn bản không bao giờ rời khỏi thiết bị của bạn, bảo mật tuyệt đối."
+      },
+      {
+        "title": "Xử Lý Tức Thì",
+        "desc": "Không chờ đợi máy chủ, tận dụng CPU thiết bị cho kết quả dưới 2 mili giây."
+      },
+      {
+        "title": "Miễn Phí Mãi Mãi",
+        "desc": "Không yêu cầu đăng ký, không giới hạn số lần thực hiện."
+      }
+    ],
+    "ui": {
+      "inputLabel": "Văn bản hoặc Emoji cần lặp",
+      "inputPlaceholder": "Nhập tin nhắn, từ ngữ hoặc biểu tượng cảm xúc...",
+      "quickFill": "Điền Nhanh:",
+      "repetitionLabel": "Số Lần Lặp Lại",
+      "separatorLabel": "Dấu Phân Cách Giữa Các Lần Lặp",
+      "separators": {
+        "newline": "Dòng Mới (Enter)",
+        "space": "Dấu Cách (\" \")",
+        "comma": "Dấu Phẩy (\", \")",
+        "period": "Dấu Chấm (\". \")",
+        "none": "Không Phân Cách",
+        "custom": "Tùy Chỉnh"
+      },
+      "customSeparatorPlaceholder": "Nhập ký tự phân cách...",
+      "lineNumbers": "Thêm số thứ tự dòng (1, 2, 3...)",
+      "outputLabel": "Xem Trước Kết Quả",
+      "outputPlaceholder": "Kết quả lặp lại sẽ xuất hiện ở đây...",
+      "copyButton": "Sao Chép",
+      "copiedToast": "Đã sao chép!",
+      "downloadButton": "Tải Về",
+      "clearButton": "Xóa",
+      "backToAll": "Danh Mục Tất Cả Công Cụ",
+      "quickStart": "Hướng Dẫn Nhanh",
+      "howToUseTitle": "Cách Sử Dụng {tool}",
+      "faqBadge": "Hỏi & Đáp",
+      "faqTitle": "Câu Hỏi Thường Gặp"
+    }
+  },
+  "th": {
+    "name": "ตัวทำซ้ำข้อความ",
+    "seoTitle": "ตัวทำซ้ำข้อความออนไลน์ – ทำซ้ำข้อความและอีโมจิ 10,000 ครั้ง ฟรี",
+    "seoDesc": "ทำซ้ำข้อความ คำ หรืออีโมจิได้สูงสุด 10,000 ครั้งในเสี้ยววินาที ฟรี 100% ปลอดภัย ประมวลผลในเบราว์เซอร์ คัดลอกได้ทันทีด้วยคลิกเดียว",
+    "keywords": [
+      "ตัวทำซ้ำข้อความ",
+      "ทำซ้ำข้อความออนไลน์",
+      "ปั๊มข้อความ",
+      "ทำซ้ำอีโมจิ",
+      "ทำซ้ำคำ"
+    ],
+    "heading": "ตัวทำซ้ำข้อความออนไลน์",
+    "subheading": "ทำซ้ำคำ วลี หรืออีโมจิต่างๆ ได้สูงสุดถึง 10,000 ครั้งอย่างรวดเร็ว ทำงานบนเบราว์เซอร์โดยตรง ปลอดภัย ไร้กังวล",
+    "badge": "ฟรี 100% · ทำงานบนเบราว์เซอร์ · ไม่มีการอัปโหลด",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "ป้อนข้อความหรืออีโมจิ",
+        "desc": "พิมพ์หรือวางข้อความ คำ หรืออีโมจิที่คุณต้องการทำซ้ำ"
+      },
+      {
+        "step": 2,
+        "title": "กำหนดจำนวนครั้ง",
+        "desc": "เลือกจำนวนครั้งที่ต้องการทำซ้ำได้ตั้งแต่ 1 ถึง 10,000 ครั้ง"
+      },
+      {
+        "step": 3,
+        "title": "เลือกตัวคั่น",
+        "desc": "เลือกระหว่างขึ้นบรรทัดใหม่ เว้นวรรค จุลภาค หรือกำหนดเอง"
+      },
+      {
+        "step": 4,
+        "title": "คัดลอกหรือแชร์",
+        "desc": "คลิก 'คัดลอก' หรือส่งต่อไปยัง WhatsApp ได้ทันที"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "สามารถทำซ้ำข้อความได้สูงสุดกี่ครั้ง?",
+        "a": "คุณสามารถทำซ้ำได้สูงสุด 10,000 ครั้งต่อครั้งโดยไม่ทำให้เครื่องค้าง"
+      },
+      {
+        "q": "ข้อความจะถูกส่งไปยังเซิร์ฟเวอร์หรือไม่?",
+        "a": "ไม่เลย ข้อมูลทั้งหมดได้รับการประมวลผลบนเบราว์เซอร์ในเครื่องของคุณ 100%"
+      },
+      {
+        "q": "สามารถใส่เลขลำดับบรรทัดได้หรือไม่?",
+        "a": "ได้ เพียงเลือกตัวเลือก 'ใส่เลขลำดับ' เพื่อสร้างรายการเรียงลำดับ (1, 2, 3...)"
+      },
+      {
+        "q": "แชร์ไปยัง WhatsApp ได้อย่างไร?",
+        "a": "คลิกปุ่ม 'แชร์ไปยัง WhatsApp' เพื่อเปิดแอปพร้อมส่งข้อความได้ทันที"
+      }
+    ],
+    "features": [
+      {
+        "title": "ความเป็นส่วนตัว 100%",
+        "desc": "ข้อความของคุณจะไม่ถูกส่งออกภายนอก ประมวลผลอย่างปลอดภัยในอุปกรณ์"
+      },
+      {
+        "title": "ความเร็วระดับเสี้ยววินาที",
+        "desc": "ไม่ต้องรอเซิร์ฟเวอร์ ทำงานเสร็จสิ้นภายในไม่กี่มิลลิวินาที"
+      },
+      {
+        "title": "ใช้งานฟรีตลอดไป",
+        "desc": "ไม่มีค่าธรรมเนียม ไม่ต้องสมัครสมาชิก ไม่มีขีดจำกัดการใช้งาน"
+      }
+    ],
+    "ui": {
+      "inputLabel": "ข้อความหรืออีโมจิที่ต้องการทำซ้ำ",
+      "inputPlaceholder": "พิมพ์ข้อความ คำ หรืออีโมจิของคุณ...",
+      "quickFill": "ข้อความด่วน:",
+      "repetitionLabel": "จำนวนครั้งที่ทำซ้ำ",
+      "separatorLabel": "ตัวคั่นระหว่างข้อความ",
+      "separators": {
+        "newline": "ขึ้นบรรทัดใหม่ (Enter)",
+        "space": "เว้นวรรค (\" \")",
+        "comma": "จุลภาค (\", \")",
+        "period": "จุด (\". \")",
+        "none": "ไม่ใส่ตัวคั่น",
+        "custom": "กำหนดตัวคั่นเอง"
+      },
+      "customSeparatorPlaceholder": "ใส่ตัวคั่นที่คุณต้องการ...",
+      "lineNumbers": "ใส่เลขลำดับบรรทัด (1, 2, 3...)",
+      "outputLabel": "ตัวอย่างผลลัพธ์",
+      "outputPlaceholder": "ข้อความที่ทำซ้ำจะปรากฏที่นี่...",
+      "copyButton": "คัดลอก",
+      "copiedToast": "คัดลอกแล้ว!",
+      "downloadButton": "ดาวน์โหลด",
+      "clearButton": "ล้างข้อมูล",
+      "backToAll": "หน้ารวมเครื่องมือทั้งหมด",
+      "quickStart": "คู่มือเริ่มต้นอย่างรวดเร็ว",
+      "howToUseTitle": "วิธีใช้งาน {tool}",
+      "faqBadge": "คำถามและคำตอบ",
+      "faqTitle": "คำถามที่พบบ่อย"
+    }
+  },
+  "it": {
+    "name": "Ripetitore di Testo",
+    "seoTitle": "Ripetitore di Testo Online – Ripeti Testo ed Emoji Fino a 10.000 Volte",
+    "seoDesc": "Ripeti qualsiasi testo, frase o emoji fino a 10.000 volte in un attimo. 100% gratuito e sicuro nel browser, senza invio al server. Copia con 1 clic.",
+    "keywords": [
+      "ripetitore di testo",
+      "ripetere testo online",
+      "moltiplicatore di testo",
+      "ripeti parole",
+      "ripetitore messaggi whatsapp"
+    ],
+    "heading": "Ripetitore di Testo Online",
+    "subheading": "Moltiplica parole, frasi ed emoji fino a 10.000 volte in pochi millisecondi. Massima privacy ed esecuzione istantanea.",
+    "badge": "100% Gratuito · Esecuzione nel Browser · Zero Upload",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "Inserisci Testo o Emoji",
+        "desc": "Digita o incolla il testo o l'emoji che desideri moltiplicare."
+      },
+      {
+        "step": 2,
+        "title": "Imposta le Ripetizioni",
+        "desc": "Scegli un numero compreso tra 1 e 10.000 ripetizioni."
+      },
+      {
+        "step": 3,
+        "title": "Scegli il Separatore",
+        "desc": "Aggiungi a capo, spazi, virgole, caratteri personalizzati o numeri."
+      },
+      {
+        "step": 4,
+        "title": "Copia o Condividi",
+        "desc": "Clicca 'Copia', condividi su WhatsApp o salva come file .txt."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Quante volte posso ripetere il testo?",
+        "a": "Puoi generare da 1 a 10.000 ripetizioni per volta istantaneamente nella memoria RAM del browser."
+      },
+      {
+        "q": "I miei dati vengono salvati su server?",
+        "a": "No. AnyOnlineTools funziona al 100% in locale nel tuo browser. Nessun dato lascia il tuo dispositivo."
+      },
+      {
+        "q": "Posso aggiungere la numerazione delle righe?",
+        "a": "Sì, basta attivare l'opzione 'Numeri di riga' per ottenere un elenco numerato sequenziale."
+      },
+      {
+        "q": "Come condivido il testo su WhatsApp?",
+        "a": "Premi 'Condividi su WhatsApp' e l'app si aprirà con il messaggio già compilato."
+      }
+    ],
+    "features": [
+      {
+        "title": "Privacy Assoluta al 100%",
+        "desc": "I tuoi testi non transitano mai su server esterni e restano protetti."
+      },
+      {
+        "title": "Velocità Istantanea",
+        "desc": "Nessun ritardo: il motore in-browser completa 10.000 ripetizioni in pochi millisecondi."
+      },
+      {
+        "title": "Gratuito per Sempre",
+        "desc": "Nessun abbonamento, nessuna registrazione e nessun limite di utilizzo."
+      }
+    ],
+    "ui": {
+      "inputLabel": "Testo o Emoji da Ripetere",
+      "inputPlaceholder": "Digita il tuo messaggio, parole o emoji...",
+      "quickFill": "Esempi Rapidi:",
+      "repetitionLabel": "Numero di Ripetizioni",
+      "separatorLabel": "Separatore tra le Ripetizioni",
+      "separators": {
+        "newline": "Nuova Riga (Invio)",
+        "space": "Spazio (\" \")",
+        "comma": "Virgola (\", \")",
+        "period": "Punto (\". \")",
+        "none": "Nessun Separatore",
+        "custom": "Separatore Personalizzato"
+      },
+      "customSeparatorPlaceholder": "Inserisci separatore personalizzato...",
+      "lineNumbers": "Aggiungi numeri di riga (1, 2, 3...)",
+      "outputLabel": "Anteprima Risultato",
+      "outputPlaceholder": "Il testo ripetuto comparirà qui...",
+      "copyButton": "Copia",
+      "copiedToast": "Copiato!",
+      "downloadButton": "Scarica",
+      "clearButton": "Cancella",
+      "backToAll": "Elenco Completo Strumenti",
+      "quickStart": "Guida Rapida",
+      "howToUseTitle": "Come Usare {tool}",
+      "faqBadge": "Domande e Risposte",
+      "faqTitle": "Domande Frequenti"
+    }
+  },
+  "ko": {
+    "name": "텍스트 반복기",
+    "seoTitle": "텍스트 반복기 온라인 – 글자 및 이모티콘 10,000회 무료 반복 생성",
+    "seoDesc": "단어, 문장, 이모티콘을 최대 10,000번까지 즉시 반복 생성합니다. 서버 전송 없는 100% 무료 프라이빗 브라우저 도구. 원클릭 복사 지원.",
+    "keywords": [
+      "텍스트 반복기",
+      "글자 반복",
+      "텍스트 도배기",
+      "이모티콘 반복",
+      "문장 복사기"
+    ],
+    "heading": "온라인 텍스트 반복기",
+    "subheading": "원하는 글자나 이모티콘을 최대 10,000회까지 눈 깜짝할 사이에 반복 생성하세요. 안전하고 강력한 브라우저 엔진으로 구동됩니다.",
+    "badge": "100% 무료 · 브라우저 로컬 연산 · 서버 업로드 없음",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "텍스트 또는 이모티콘 입력",
+        "desc": "반복하고 싶은 글자, 단어, 메시지 또는 이모티콘을 입력합니다."
+      },
+      {
+        "step": 2,
+        "title": "반복 횟수 설정",
+        "desc": "1회부터 최대 10,000회까지 원하는 횟수를 지정합니다."
+      },
+      {
+        "step": 3,
+        "title": "구분 기호 선택",
+        "desc": "줄바꿈, 띄어쓰기, 쉼표, 맞춤 기호 또는 줄 번호를 선택합니다."
+      },
+      {
+        "step": 4,
+        "title": "복사 및 공유",
+        "desc": "'복사' 버튼을 눌러 클립보드에 담거나 파일로 다운로드합니다."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "텍스트는 몇 번까지 반복할 수 있나요?",
+        "a": "한 번에 최대 10,000번까지 지연 없이 즉각 반복 생성할 수 있습니다."
+      },
+      {
+        "q": "입력한 텍스트가 서버에 저장되나요?",
+        "a": "아니요. AnyOnlineTools는 100% 사용자 브라우저 내에서만 실행되며 어떤 데이터도 전송되지 않습니다."
+      },
+      {
+        "q": "줄 번호를 추가할 수 있나요?",
+        "a": "네, '줄 번호 추가'를 체크하면 순서가 매겨진 목록(1, 2, 3...)으로 자동 생성됩니다."
+      },
+      {
+        "q": "카카오톡이나 메신저에 바로 붙여넣을 수 있나요?",
+        "a": "네, 생성된 결과는 버튼 하나로 복사하여 카카오톡, 인스타그램, 텔레그램 등에 바로 전송할 수 있습니다."
+      }
+    ],
+    "features": [
+      {
+        "title": "100% 로컬 개인정보 보호",
+        "desc": "사용자 데이터는 외부 서버로 유출되지 않으며 브라우저 메모리 안에서만 안전하게 처리됩니다."
+      },
+      {
+        "title": "초고속 즉시 연산",
+        "desc": "서버 대기 시간 없이 사용자 기기의 연산 능력을 통해 10,000번 반복도 0.002초 안에 완료합니다."
+      },
+      {
+        "title": "평생 무료 무제한",
+        "desc": "회원가입, 결제, 사용 횟수 제한 없이 언제 어디서나 바로 사용할 수 있습니다."
+      }
+    ],
+    "ui": {
+      "inputLabel": "반복할 텍스트 또는 이모티콘",
+      "inputPlaceholder": "메시지, 단어, 이모티콘을 입력하세요...",
+      "quickFill": "빠른 채우기:",
+      "repetitionLabel": "반복 횟수",
+      "separatorLabel": "반복 간 구분 기호",
+      "separators": {
+        "newline": "줄바꿈 (Enter)",
+        "space": "공백 (\" \")",
+        "comma": "쉼표 (\", \")",
+        "period": "마침표 (\". \")",
+        "none": "구분 없음",
+        "custom": "직접 입력"
+      },
+      "customSeparatorPlaceholder": "구분 기호 입력...",
+      "lineNumbers": "줄 번호 추가 (1, 2, 3...)",
+      "outputLabel": "반복 결과 미리보기",
+      "outputPlaceholder": "반복 생성된 텍스트가 여기에 표시됩니다...",
+      "copyButton": "복사",
+      "copiedToast": "복사 완료!",
+      "downloadButton": "다운로드",
+      "clearButton": "초기화",
+      "backToAll": "전체 도구 목록",
+      "quickStart": "빠른 시작 안내",
+      "howToUseTitle": "{tool} 사용법",
+      "faqBadge": "질문과 답변",
+      "faqTitle": "자주 묻는 질문"
+    }
+  },
+  "pl": {
+    "name": "Powtarzacz Tekstu",
+    "seoTitle": "Powtarzacz Tekstu Online – Powtórz Tekst i Emoji do 10 000 Razy Gratis",
+    "seoDesc": "Powtórz dowolny tekst, wiadomość lub emoji do 10 000 razy w kilka sekund. 100% darmowe, bezpieczne narzędzie w przeglądarce bez wysyłania danych.",
+    "keywords": [
+      "powtarzacz tekstu",
+      "powtarzanie tekstu online",
+      "multiplikator tekstu",
+      "spam tekst whatsapp",
+      "generator powtórzeń"
+    ],
+    "heading": "Powtarzacz Tekstu Online",
+    "subheading": "Powielaj dowolne słowa, frazy i emoji do 10 000 razy błyskawicznie. Całkowita prywatność i natychmiastowe kopiowanie.",
+    "badge": "100% Gratis · Praca w Przeglądarce · Zero Uploadu",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "Wpisz Tekst lub Emoji",
+        "desc": "Wpisz lub wklej słowo, wiadomość albo emoji do powtórzenia."
+      },
+      {
+        "step": 2,
+        "title": "Wybierz Liczbę Powtórzeń",
+        "desc": "Ustaw liczbę powtórzeń w przedziale od 1 do 10 000."
+      },
+      {
+        "step": 3,
+        "title": "Wybierz Separator",
+        "desc": "Ustaw nową linię, spację, przecinek, własny znak lub numerację."
+      },
+      {
+        "step": 4,
+        "title": "Kopiuj lub Udostępnij",
+        "desc": "Kliknij 'Kopiuj', wyślij na WhatsApp lub pobierz jako plik .txt."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Ile razy mogę powtórzyć tekst?",
+        "a": "Możesz wygenerować od 1 do 10 000 powtórzeń naraz bezpośrednio w pamięci RAM swojej przeglądarki."
+      },
+      {
+        "q": "Czy moje dane trafiają na serwery?",
+        "a": "Nie. Narzędzie działa w 100% lokalnie na Twoim urządzeniu. Nic nie jest nigdzie wysyłane."
+      },
+      {
+        "q": "Czy mogę dodać numerację wierszy?",
+        "a": "Tak, zaznacz opcję 'Dodaj numery wierszy', aby otrzymać ponumerowaną listę (1, 2, 3...)."
+      },
+      {
+        "q": "Jak wysłać tekst na WhatsApp?",
+        "a": "Kliknij przycisk 'Udostępnij na WhatsApp', a aplikacja otworzy się z przygotowanym tekstem."
+      }
+    ],
+    "features": [
+      {
+        "title": "100% Prywatności",
+        "desc": "Twoje dane nigdy nie opuszczają Twojego urządzenia i nie są zapisywane w sieci."
+      },
+      {
+        "title": "Błyskawiczna Prędkość",
+        "desc": "Brak kolejek serwera: generowanie 10 000 wierszy trwa zaledwie ułamek sekundy."
+      },
+      {
+        "title": "Darmowe Na Zawsze",
+        "desc": "Brak subskrypcji, rejestracji oraz jakichkolwiek limitów użycia."
+      }
+    ],
+    "ui": {
+      "inputLabel": "Tekst lub Emoji do Powtórzenia",
+      "inputPlaceholder": "Wpisz wiadomość, słowa lub emoji...",
+      "quickFill": "Szybkie Uzupełnienie:",
+      "repetitionLabel": "Liczba Powtórzeń",
+      "separatorLabel": "Separator Pomiędzy Powtórzeniami",
+      "separators": {
+        "newline": "Nowa Linia (Enter)",
+        "space": "Spacja (\" \")",
+        "comma": "Przecinek (\", \")",
+        "period": "Kropka (\". \")",
+        "none": "Brak Separatora",
+        "custom": "Własny Separator"
+      },
+      "customSeparatorPlaceholder": "Wpisz własny separator...",
+      "lineNumbers": "Dodaj numery linii (1, 2, 3...)",
+      "outputLabel": "Podgląd Wyniku",
+      "outputPlaceholder": "Powtórzony tekst pojawi się tutaj...",
+      "copyButton": "Kopiuj",
+      "copiedToast": "Skopiowano!",
+      "downloadButton": "Pobierz",
+      "clearButton": "Wyczyść",
+      "backToAll": "Katalog Wszystkich Narzędzi",
+      "quickStart": "Szybki Start",
+      "howToUseTitle": "Jak Używać {tool}",
+      "faqBadge": "Pytania i Odpowiedzi",
+      "faqTitle": "Często Zadawane Pytania"
+    }
+  },
+  "nl": {
+    "name": "Tekstherhaler",
+    "seoTitle": "Tekstherhaler Online – Tekst & Emoji's tot 10.000 Keer Herhalen Gratis",
+    "seoDesc": "Herhaal elke tekst, woord of emoji tot 10.000 keer in seconden. 100% gratis en privé in je browser, zonder uploads. Kopieer met 1 klik.",
+    "keywords": [
+      "tekstherhaler",
+      "tekst herhalen online",
+      "tekst vermenigvuldiger",
+      "whatsapp tekst herhalen",
+      "woorden herhalen"
+    ],
+    "heading": "Online Tekstherhaler",
+    "subheading": "Vermenigvuldig woorden, berichten of emoji's tot 10.000 keer in milliseconden. Volledig lokaal en privé in je browser.",
+    "badge": "100% Gratis · Browserverwerking · Geen Uploads",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "Voer Tekst of Emoji in",
+        "desc": "Typ of plak het gewenste bericht of emoji in het tekstvak."
+      },
+      {
+        "step": 2,
+        "title": "Kies Aantal Herhalingen",
+        "desc": "Stel het gewenste aantal in tussen 1 en 10.000."
+      },
+      {
+        "step": 3,
+        "title": "Selecteer Scheidingsteken",
+        "desc": "Kies voor nieuwe regel, spatie, komma, eigen teken of nummering."
+      },
+      {
+        "step": 4,
+        "title": "Kopieer of Deel",
+        "desc": "Klik op 'Kopiëren', deel via WhatsApp of download als .txt bestand."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Hoe vaak kan ik tekst herhalen?",
+        "a": "Je kunt tekst of emoji's tot 10.000 keer per keer herhalen in het geheugen van je browser."
+      },
+      {
+        "q": "Wordt mijn tekst opgeslagen op een server?",
+        "a": "Nee. AnyOnlineTools werkt 100% aan de client-zijde. Je tekst verlaat nooit je apparaat."
+      },
+      {
+        "q": "Kan ik regelnummers toevoegen?",
+        "a": "Ja, vink eenvoudig 'Regelnummers toevoegen' aan om een genummerde lijst (1, 2, 3...) te maken."
+      },
+      {
+        "q": "Hoe deel ik dit op WhatsApp?",
+        "a": "Klik op de WhatsApp-knop en het bericht wordt direct geopend in je WhatsApp-applicatie."
+      }
+    ],
+    "features": [
+      {
+        "title": "100% Privacy",
+        "desc": "Geen dataverzending naar externe servers. Alles draait veilig lokaal."
+      },
+      {
+        "title": "Razendsnel",
+        "desc": "Geen wachtrijen: 10.000 herhalingen worden binnen milliseconden berekend."
+      },
+      {
+        "title": "Altijd Gratis",
+        "desc": "Geen abonnementen, geen registratie en onbeperkt te gebruiken."
+      }
+    ],
+    "ui": {
+      "inputLabel": "Te Herhalen Tekst of Emoji's",
+      "inputPlaceholder": "Typ je bericht, woorden of emoji's...",
+      "quickFill": "Snel Kiezen:",
+      "repetitionLabel": "Aantal Herhalingen",
+      "separatorLabel": "Scheidingsteken Tussen Herhalingen",
+      "separators": {
+        "newline": "Nieuwe Regel (Enter)",
+        "space": "Spatie (\" \")",
+        "comma": "Komma (\", \")",
+        "period": "Punt (\". \")",
+        "none": "Geen Scheidingsteken",
+        "custom": "Aangepast Scheidingsteken"
+      },
+      "customSeparatorPlaceholder": "Voer aangepast scheidingsteken in...",
+      "lineNumbers": "Regelnummers toevoegen (1, 2, 3...)",
+      "outputLabel": "Voorbeeld van Resultaat",
+      "outputPlaceholder": "De herhaalde tekst verschijnt hier...",
+      "copyButton": "Kopiëren",
+      "copiedToast": "Gekopieerd!",
+      "downloadButton": "Downloaden",
+      "clearButton": "Wissen",
+      "backToAll": "Alle Tools Overzicht",
+      "quickStart": "Snelle Handleiding",
+      "howToUseTitle": "Hoe Gebruik Je {tool}",
+      "faqBadge": "Vragen & Antwoorden",
+      "faqTitle": "Veelgestelde Vragen"
+    }
+  },
+  "sv": {
+    "name": "Textupprepare",
+    "seoTitle": "Textupprepare Online – Upprepa Text och Emojis upp till 10 000 Gånger Gratis",
+    "seoDesc": "Upprepa vilken text, ord eller emoji som helst upp till 10 000 gånger blixtsnabbt. 100% gratis och privat i webbläsaren. Kopiera med ett klick.",
+    "keywords": [
+      "textupprepare",
+      "upprepa text online",
+      "textmultiplikator",
+      "upprepa ord",
+      "upprepa meddelande"
+    ],
+    "heading": "Textupprepare Online",
+    "subheading": "Multiplicera meddelanden och emojis upp till 10 000 gånger direkt i din webbläsare med noll fördröjning och full sekretess.",
+    "badge": "100% Gratis · Behandling i Webbläsaren · Ingen Uppladdning",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "Ange Text eller Emoji",
+        "desc": "Skriv eller klistra in det du vill multiplicera i inmatningsfältet."
+      },
+      {
+        "step": 2,
+        "title": "Välj Antal Upprepningar",
+        "desc": "Välj ett antal mellan 1 och 10 000 gånger."
+      },
+      {
+        "step": 3,
+        "title": "Välj Skiljetecken",
+        "desc": "Välj ny rad, mellanslag, komma eller eget anpassat tecken."
+      },
+      {
+        "step": 4,
+        "title": "Kopiera eller Dela",
+        "desc": "Klicka på 'Kopiera', dela direkt till WhatsApp eller ladda ner som .txt."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Hur många gånger kan jag upprepa text?",
+        "a": "Du kan upprepa text eller emojis upp till 10 000 gånger i taget utan att datorn blir långsam."
+      },
+      {
+        "q": "Laddas mina data upp på någon server?",
+        "a": "Nej. AnyOnlineTools körs 100% i din webbläsare. Ingen data lämnar någonsin din enhet."
+      },
+      {
+        "q": "Kan jag lägga till radnummer?",
+        "a": "Ja, markera alternativet för radnummer för att generera en numrerad lista (1, 2, 3...)."
+      },
+      {
+        "q": "Hur delar jag till WhatsApp?",
+        "a": "Klicka på WhatsApp-knappen så öppnas appen med texten färdig att skickas."
+      }
+    ],
+    "features": [
+      {
+        "title": "100% Integritet",
+        "desc": "Inga uppladdningar eller sparad data. Allt sker lokalt i webbläsaren."
+      },
+      {
+        "title": "Blixtsnabb Körning",
+        "desc": "Ingen väntetid i serverköer. Resultatet genereras på millisekunder."
+      },
+      {
+        "title": "Gratis för Alltid",
+        "desc": "Inga konton, inga prenumerationer och obegränsad användning."
+      }
+    ],
+    "ui": {
+      "inputLabel": "Text eller Emojis att Upprepa",
+      "inputPlaceholder": "Skriv ditt meddelande, ord eller emojis...",
+      "quickFill": "Snabbval:",
+      "repetitionLabel": "Antal Upprepningar",
+      "separatorLabel": "Skiljetecken Mellan Upprepningar",
+      "separators": {
+        "newline": "Ny Rad (Enter)",
+        "space": "Mellanslag (\" \")",
+        "comma": "Komma (\", \")",
+        "period": "Punkt (\". \")",
+        "none": "Inget Skiljetecken",
+        "custom": "Anpassat Skiljetecken"
+      },
+      "customSeparatorPlaceholder": "Ange anpassat skiljetecken...",
+      "lineNumbers": "Lägg till radnummer (1, 2, 3...)",
+      "outputLabel": "Förhandsgranskning av Resultat",
+      "outputPlaceholder": "Den upprepade texten visas här...",
+      "copyButton": "Kopiera",
+      "copiedToast": "Kopierad!",
+      "downloadButton": "Ladda ner",
+      "clearButton": "Rensa",
+      "backToAll": "Katalog över Alla Verktyg",
+      "quickStart": "Snabbstartsguide",
+      "howToUseTitle": "Hur du Använder {tool}",
+      "faqBadge": "Frågor & Svar",
+      "faqTitle": "Vanliga Frågor"
+    }
+  },
+  "zh-cn": {
+    "name": "文本重复器",
+    "seoTitle": "在线文本重复器 – 文字与表情符号一键重复10,000次【完全免费】",
+    "seoDesc": "将任意文字、短句或Emoji表情符号瞬间重复最多10,000次。100%免费、纯前端本地运行零上传，支持换行、空格及一键复制分享。",
+    "keywords": [
+      "文本重复器",
+      "文字重复生成器",
+      "文字复制多次",
+      "表情包重复",
+      "消息轰炸生成器"
+    ],
+    "heading": "在线文本重复器",
+    "subheading": "秒级将文本、词语或表情符号重复生成高达10,000次。浏览器本地内存快速运算，隐私安全零数据泄露。",
+    "badge": "100%免费 · 浏览器本地计算 · 零数据上传",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "输入文字或表情",
+        "desc": "在输入框中键入或粘贴您想要重复的文字、句子或Emoji。"
+      },
+      {
+        "step": 2,
+        "title": "设置重复次数",
+        "desc": "在1至10,000次之间自由设置所需的重复倍数。"
+      },
+      {
+        "step": 3,
+        "title": "选择分隔符号",
+        "desc": "可选择换行符、空格、逗号、自定义符号或添加行号。"
+      },
+      {
+        "step": 4,
+        "title": "一键复制或分享",
+        "desc": "点击'复制'按钮存入剪贴板，或一键导出为.txt文本文件。"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "最多可以重复多少次？",
+        "a": "每次最高支持瞬间重复10,000次，纯前端内存在毫秒级内完成，不会造成浏览器卡顿。"
+      },
+      {
+        "q": "我的文字会被上传到服务器吗？",
+        "a": "绝对不会。AnyOnlineTools 采用 100% 纯客户端本地计算，数据绝不离开您的设备。"
+      },
+      {
+        "q": "可以给每行添加序号吗？",
+        "a": "可以，只需勾选'添加行号'，即可自动生成带序号的整齐列表（1, 2, 3...）。"
+      },
+      {
+        "q": "生成的文本可以直接发送到社交应用吗？",
+        "a": "可以，一键复制后可直接粘贴至微信、QQ、WhatsApp、小红书或任意聊天界面。"
+      }
+    ],
+    "features": [
+      {
+        "title": "100% 隐私安全保障",
+        "desc": "所有数据均在您的设备浏览器内本地处理，零网络上传，完全保密。"
+      },
+      {
+        "title": "毫秒级硬件加速",
+        "desc": "无需等待远程服务器队列，利用本地CPU瞬时输出超长文本。"
+      },
+      {
+        "title": "永久免费无限制",
+        "desc": "无需注册、无付费门槛、无每日使用额度限制，随时即开即用。"
+      }
+    ],
+    "ui": {
+      "inputLabel": "需要重复的文本或Emoji表情",
+      "inputPlaceholder": "输入您的文字、留言或表情...",
+      "quickFill": "快速填充:",
+      "repetitionLabel": "重复次数",
+      "separatorLabel": "每次重复之间的分隔符",
+      "separators": {
+        "newline": "换行符 (Enter)",
+        "space": "空格 (\" \")",
+        "comma": "逗号 (\", \")",
+        "period": "句号 (\". \")",
+        "none": "无分隔符",
+        "custom": "自定义分隔符"
+      },
+      "customSeparatorPlaceholder": "输入自定义分隔符号...",
+      "lineNumbers": "添加行号 (1, 2, 3...)",
+      "outputLabel": "重复结果预览",
+      "outputPlaceholder": "生成的重复文本将自动显示在此处...",
+      "copyButton": "复制",
+      "copiedToast": "已复制到剪贴板！",
+      "downloadButton": "下载文件",
+      "clearButton": "清空",
+      "backToAll": "全部在线工具导航",
+      "quickStart": "快速使用指南",
+      "howToUseTitle": "如何使用 {tool}",
+      "faqBadge": "常见问题答疑",
+      "faqTitle": "用户常见问题"
+    }
+  },
+  "zh-tw": {
+    "name": "文字重複器",
+    "seoTitle": "線上文字重複器 – 詞句與表情符號一鍵重複10,000次【免費免登入】",
+    "seoDesc": "將任意文字、訊息或Emoji表情符號瞬間重複最高達10,000次。100%免費且注重隱私，純瀏覽器端運算無須上傳，一鍵複製與分享。",
+    "keywords": [
+      "文字重複器",
+      "文字重複工具",
+      "文字複製多遍",
+      "Emoji重複",
+      "線上文字產生器"
+    ],
+    "heading": "線上文字重複器",
+    "subheading": "瞬間複製文字、短語或表情符號達10,000次。本地瀏覽器端極速處理，無延遲且絕不保留個人資料。",
+    "badge": "100%免費 · 瀏覽器端極速運算 · 零上傳",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "輸入文字或表情符號",
+        "desc": "在輸入區貼上欲重複的單詞、句子或Emoji圖案。"
+      },
+      {
+        "step": 2,
+        "title": "設定重複次數",
+        "desc": "支援1次到10,000次自由調整次數。"
+      },
+      {
+        "step": 3,
+        "title": "選擇分隔方式",
+        "desc": "可自訂換行、空格、逗號或自動標註行號。"
+      },
+      {
+        "step": 4,
+        "title": "一鍵複製或分享",
+        "desc": "點擊'複製'即可直接貼到LINE、WhatsApp或存為.txt檔。"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "文字最多能重複多少次？",
+        "a": "單次最高可連續重複10,000次，由瀏覽器記憶體秒級生成，效能流暢不卡頓。"
+      },
+      {
+        "q": "我的文字內容會被伺服器記錄嗎？",
+        "a": "不會。AnyOnlineTools 100% 於瀏覽器端執行，資料絕不上傳至任何外部主機。"
+      },
+      {
+        "q": "能夠自動編號嗎？",
+        "a": "可以，只要勾選'加入行號'，系統將自動排列出序號清單（1, 2, 3...）。"
+      },
+      {
+        "q": "可以直接傳送到通訊軟體嗎？",
+        "a": "複製後可直接貼到 LINE、Telegram、Instagram 或任何編輯器中。"
+      }
+    ],
+    "features": [
+      {
+        "title": "100% 本地隱私安全",
+        "desc": "文字絕不外傳，所有運算皆於使用者裝置本地完成。"
+      },
+      {
+        "title": "極速毫秒級運算",
+        "desc": "免除伺服器往返延遲，運用本機硬體瞬間產出十萬字文本。"
+      },
+      {
+        "title": "永久免費無廣告阻礙",
+        "desc": "無需註冊帳號、不綁信用卡，隨時開啟即刻享受流暢工具體驗。"
+      }
+    ],
+    "ui": {
+      "inputLabel": "欲重複之文字或Emoji表情符號",
+      "inputPlaceholder": "請輸入訊息、文字或表情符號...",
+      "quickFill": "快速範本:",
+      "repetitionLabel": "重複次數",
+      "separatorLabel": "間隔分隔符號",
+      "separators": {
+        "newline": "換行 (Enter)",
+        "space": "空格 (\" \")",
+        "comma": "逗號 (\", \")",
+        "period": "句號 (\". \")",
+        "none": "無分隔",
+        "custom": "自訂符號"
+      },
+      "customSeparatorPlaceholder": "輸入自訂分隔符號...",
+      "lineNumbers": "加入行號 (1, 2, 3...)",
+      "outputLabel": "結果預覽",
+      "outputPlaceholder": "重複產生的文字將顯示於此...",
+      "copyButton": "複製",
+      "copiedToast": "複製成功！",
+      "downloadButton": "下載",
+      "clearButton": "清除",
+      "backToAll": "工具總覽目錄",
+      "quickStart": "快速操作指南",
+      "howToUseTitle": "如何使用 {tool}",
+      "faqBadge": "問與答",
+      "faqTitle": "常見問答"
+    }
+  },
+  "bg": {
+    "name": "Повторител на Текст",
+    "seoTitle": "Повторител на Текст Онлайн – Повтори Текст и Емотикони До 10 000 Пъти Безплатно",
+    "seoDesc": "Повторете всеки текст, дума или емотикон до 10 000 пъти за секунди. 100% безплатно и защитено в браузъра без качване на данни. Копиране с 1 клик.",
+    "keywords": [
+      "повторител на текст",
+      "повтори текст онлайн",
+      "мултипликатор на думи",
+      "повторение на съобщения",
+      "текст спам генератор"
+    ],
+    "heading": "Повторител на Текст Онлайн",
+    "subheading": "Умножете съобщения, думи и емотикони до 10 000 пъти за милисекунди. Пълна поверителност и светкавична скорост.",
+    "badge": "100% Безплатно · Локална Обработка · Без Качване",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "Въведете Текст или Емотикон",
+        "desc": "Напишете или поставете думите или емотиконите, които искате да повторите."
+      },
+      {
+        "step": 2,
+        "title": "Задайте Брой Повторения",
+        "desc": "Изберете между 1 и 10 000 повторения."
+      },
+      {
+        "step": 3,
+        "title": "Изберете Разделител",
+        "desc": "Задайте нов ред, интервал, запетая или персонализиран символ."
+      },
+      {
+        "step": 4,
+        "title": "Копирайте или Споделете",
+        "desc": "Кликнете 'Копирай', изпратете в WhatsApp или изтеглете като .txt файл."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Колко пъти мога да повторя текста?",
+        "a": "Можете да повторите текст от 1 до 10 000 пъти наведнъж директно в паметта на браузъра."
+      },
+      {
+        "q": "Качват ли се данните ми на сървър?",
+        "a": "Не. AnyOnlineTools работи 100% локално на вашето устройство. Нищо не се предава в интернет."
+      },
+      {
+        "q": "Мога ли да номерирам редовете?",
+        "a": "Да, включете опцията за номерация на редовете за създаване на номериран списък (1, 2, 3...)."
+      },
+      {
+        "q": "Как да изпратя резултата в WhatsApp?",
+        "a": "Натиснете бутона 'WhatsApp' и приложението ще се отвори с готовото за изпращане съобщение."
+      }
+    ],
+    "features": [
+      {
+        "title": "100% Поверителност",
+        "desc": "Вашите данни не напускат вашето устройство и се обработват изцяло в браузъра."
+      },
+      {
+        "title": "Мигновена Скорост",
+        "desc": "Без чакане на опашки за сървъри: 10 000 повторения са готови за милисекунди."
+      },
+      {
+        "title": "Напълно Безплатно",
+        "desc": "Без абонаменти, без регистрация и без лимити за ползване."
+      }
+    ],
+    "ui": {
+      "inputLabel": "Текст или емотикони за повтаряне",
+      "inputPlaceholder": "Въведете вашето съобщение или думи...",
+      "quickFill": "Бърз избор:",
+      "repetitionLabel": "Брой повторения",
+      "separatorLabel": "Разделител между повторенията",
+      "separators": {
+        "newline": "Нов ред (Enter)",
+        "space": "Интервал (\" \")",
+        "comma": "Запетая (\", \")",
+        "period": "Точка (\". \")",
+        "none": "Без разделител",
+        "custom": "Персонализиран"
+      },
+      "customSeparatorPlaceholder": "Въведете разделител...",
+      "lineNumbers": "Добави номерация (1, 2, 3...)",
+      "outputLabel": "Преглед на резултата",
+      "outputPlaceholder": "Повтореният текст ще се появи тук...",
+      "copyButton": "Копирай",
+      "copiedToast": "Копирано!",
+      "downloadButton": "Изтегли",
+      "clearButton": "Изчисти",
+      "backToAll": "Всички инструменти",
+      "quickStart": "Бързо ръководство",
+      "howToUseTitle": "Как се използва {tool}",
+      "faqBadge": "Въпроси и отговори",
+      "faqTitle": "Често задавани въпроси"
+    }
+  },
+  "ca": {
+    "name": "Repetidor de Text",
+    "seoTitle": "Repetidor de Text Online – Repeteix Text i Emojis Fins a 10.000 Vegades Gratis",
+    "seoDesc": "Repeteix qualsevol text, missatge o emoji fins a 10.000 vegades a l'instant. 100% gratuït i privat al teu navegador sense càrregues al servidor.",
+    "keywords": [
+      "repetidor de text",
+      "repetir text online",
+      "multiplicador de text",
+      "repetir paraules",
+      "repetir missatges"
+    ],
+    "heading": "Repetidor de Text Online",
+    "subheading": "Multiplica frases, paraules o emojis fins a 10.000 vegades en qüestió de mil·lisegons. Màxima privadesa al teu navegador.",
+    "badge": "100% Gratuït · Execució al Navegador · Sense Càrregues",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "Introdueix Text o Emoji",
+        "desc": "Escriu o enganxa les paraules o emojis que vulguis multiplicar."
+      },
+      {
+        "step": 2,
+        "title": "Tria les Repeticions",
+        "desc": "Selecciona una quantitat d'1 a 10.000 repeticions."
+      },
+      {
+        "step": 3,
+        "title": "Escull el Separador",
+        "desc": "Afegeix salts de línia, espais, comes, caràcters personalitzats o números."
+      },
+      {
+        "step": 4,
+        "title": "Copia o Comparteix",
+        "desc": "Fes clic a 'Copiar', comparteix a WhatsApp o desa el text en .txt."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Quantes vegades puc repetir el text?",
+        "a": "Pots repetir text o emojis fins a 10.000 vegades a l'instant a la memòria del navegador."
+      },
+      {
+        "q": "Es guarden les meves dades al servidor?",
+        "a": "No. Tot es processa 100% al costat del client al teu dispositiu sense sortir mai del navegador."
+      },
+      {
+        "q": "Puc afegir números de línia?",
+        "a": "Sí, activa l'opció de numeració per generar una llista ordenada (1, 2, 3...)."
+      },
+      {
+        "q": "Com ho comparteixo a WhatsApp?",
+        "a": "Clica el botó de WhatsApp per obrir directament el xat amb el missatge preparat."
+      }
+    ],
+    "features": [
+      {
+        "title": "100% Privadesa Garantida",
+        "desc": "Les teves dades mai surten del teu navegador ni es transmeten per internet."
+      },
+      {
+        "title": "Velocitat Immediata",
+        "desc": "Sense servidors externs: la teva CPU processa 10.000 repeticions en mil·lisegons."
+      },
+      {
+        "title": "Sempre Gratuït",
+        "desc": "Sense comptes, sense pagaments i sense cap límit d'ús diari."
+      }
+    ],
+    "ui": {
+      "inputLabel": "Text o Emojis a Repetir",
+      "inputPlaceholder": "Escriu el teu missatge o paraules...",
+      "quickFill": "Opció Ràpida:",
+      "repetitionLabel": "Nombre de Repeticions",
+      "separatorLabel": "Separador entre Repeticions",
+      "separators": {
+        "newline": "Salt de Línia (Enter)",
+        "space": "Espai (\" \")",
+        "comma": "Coma (\", \")",
+        "period": "Punt (\". \")",
+        "none": "Sense Separador",
+        "custom": "Personalitzat"
+      },
+      "customSeparatorPlaceholder": "Introdueix separador...",
+      "lineNumbers": "Afegeix números de línia (1, 2, 3...)",
+      "outputLabel": "Previsualització del Resultat",
+      "outputPlaceholder": "El text repetit apareixerà aquí...",
+      "copyButton": "Copiar",
+      "copiedToast": "Copiat!",
+      "downloadButton": "Descarregar",
+      "clearButton": "Netejar",
+      "backToAll": "Catàleg de Totes les Eines",
+      "quickStart": "Guia Ràpida",
+      "howToUseTitle": "Com Utilitzar {tool}",
+      "faqBadge": "Preguntes & Respostes",
+      "faqTitle": "Preguntes Més Freqüents"
+    }
+  },
+  "el": {
+    "name": "Επαναλήπτης Κειμένου",
+    "seoTitle": "Επαναλήπτης Κειμένου Online – Επανάληψη Κειμένου & Emoji 10.000 Φορές Δωρεάν",
+    "seoDesc": "Επαναλάβετε οποιοδήποτε κείμενο ή emoji έως και 10.000 φορές άμεσα. 100% δωρεάν και ασφαλές στο πρόγραμμα περιήγησης. Αντιγραφή με ένα κλικ.",
+    "keywords": [
+      "επαναλήπτης κειμένου",
+      "επανάληψη κειμένου online",
+      "πολλαπλασιαστής λέξεων",
+      "επανάληψη emoji",
+      "αντιγραφή κειμένου πολλές φορές"
+    ],
+    "heading": "Επαναλήπτης Κειμένου Online",
+    "subheading": "Πολλαπλασιάστε κείμενο, λέξεις ή emoji έως και 10.000 φορές σε κλάσματα δευτερολέπτου με πλήρη ιδιωτικότητα.",
+    "badge": "100% Δωρεάν · Επεξεργασία στο Πρόγραμμα Περιήγησης · Χωρίς Μεταφόρτωση",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "Εισαγωγή Κειμένου ή Emoji",
+        "desc": "Πληκτρολογήστε ή επικολλήστε το κείμενο ή τα emoji που θέλετε να επαναλάβετε."
+      },
+      {
+        "step": 2,
+        "title": "Ορισμός Επαναλήψεων",
+        "desc": "Επιλέξτε πλήθος από 1 έως 10.000 επαναλήψεις."
+      },
+      {
+        "step": 3,
+        "title": "Επιλογή Διαχωριστικού",
+        "desc": "Επιλέξτε νέα γραμμή, κενό, κόμμα, προσαρμοσμένο σύμβολο ή αρίθμηση γραμμών."
+      },
+      {
+        "step": 4,
+        "title": "Αντιγραφή ή Κοινοποίηση",
+        "desc": "Πατήστε 'Αντιγραφή', κοινοποιήστε στο WhatsApp ή κατεβάστε αρχείο .txt."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Πόσες φορές μπορώ να επαναλάβω το κείμενο;",
+        "a": "Μπορείτε να επαναλάβετε κείμενο έως και 10.000 φορές άμεσα στη μνήμη του προγράμματος περιήγησης."
+      },
+      {
+        "q": "Αποθηκεύονται τα δεδομένα μου σε διακομιστή;",
+        "a": "Όχι. Όλες οι λειτουργίες εκτελούνται 100% τοπικά στη συσκευή σας χωρίς καμία εξωτερική μετάδοση."
+      },
+      {
+        "q": "Μπορώ να αριθμήσω τις γραμμές;",
+        "a": "Ναι, επιλέξτε τη ρύθμιση 'Αρίθμηση γραμμών' για να παραχθεί ταξινομημένη λίστα (1, 2, 3...)."
+      },
+      {
+        "q": "Πώς κοινοποιώ στο WhatsApp;",
+        "a": "Πατήστε το κουμπί του WhatsApp για να ανοίξει άμεσα η εφαρμογή με έτοιμο το μήνυμα."
+      }
+    ],
+    "features": [
+      {
+        "title": "100% Προστασία Απορρήτου",
+        "desc": "Τα δεδομένα σας μένουν αποκλειστικά στη συσκευή σας και δεν αποστέλλονται ποτέ στο δίκτυο."
+      },
+      {
+        "title": "Ακαριαία Ταχύτητα",
+        "desc": "Χωρίς ουρές αναμονής: ο τοπικός επεξεργαστής παράγει 10.000 γραμμές σε χιλιοστά του δευτερολέπτου."
+      },
+      {
+        "title": "Δωρεάν για Πάντα",
+        "desc": "Χωρίς συνδρομές, χωρίς δημιουργία λογαριασμού και χωρίς κανένα περιορισμό."
+      }
+    ],
+    "ui": {
+      "inputLabel": "Κείμενο ή Emoji προς Επανάληψη",
+      "inputPlaceholder": "Πληκτρολογήστε το μήνυμα ή τις λέξεις σας...",
+      "quickFill": "Γρήγορη Επιλογή:",
+      "repetitionLabel": "Αριθμός Επαναλήψεων",
+      "separatorLabel": "Διαχωριστικό Επαναλήψεων",
+      "separators": {
+        "newline": "Νέα Γραμμή (Enter)",
+        "space": "Κενό (\" \")",
+        "comma": "Κόμμα (\", \")",
+        "period": "Τελεία (\". \")",
+        "none": "Χωρίς Διαχωριστικό",
+        "custom": "Προσαρμοσμένο"
+      },
+      "customSeparatorPlaceholder": "Εισαγωγή διαχωριστικού...",
+      "lineNumbers": "Προσθήκη αρίθμησης γραμμών (1, 2, 3...)",
+      "outputLabel": "Προεπισκόπηση Αποτελέσματος",
+      "outputPlaceholder": "Το επαναλαμβανόμενο κείμενο θα εμφανιστεί εδώ...",
+      "copyButton": "Αντιγραφή",
+      "copiedToast": "Αντιγράφηκε!",
+      "downloadButton": "Λήψη",
+      "clearButton": "Καθαρισμός",
+      "backToAll": "Κατάλογος Όλων των Εργαλείων",
+      "quickStart": "Οδηγός Γρήγορης Εκκίνησης",
+      "howToUseTitle": "Πώς να Χρησιμοποιήσετε το {tool}",
+      "faqBadge": "Ερωτήσεις & Απαντήσεις",
+      "faqTitle": "Συχνές Ερωτήσεις"
+    }
+  },
+  "hi": {
+    "name": "टेक्स्ट रिपीटर",
+    "seoTitle": "टेक्स्ट रिपीटर ऑनलाइन – टेक्स्ट और इमोजी 10,000 बार रिपीट करें फ्री",
+    "seoDesc": "किसी भी टेक्स्ट, मैसेज या इमोजी को तुरंत 10,000 बार तक रिपीट करें। 100% फ्री, सुरक्षित और प्राइवेट। बिना सर्वर अपलोड के एक क्लिक में कॉपी और शेयर करें।",
+    "keywords": [
+      "टेक्स्ट रिपीटर",
+      "text repeater",
+      "मैसेज रिपीट करने वाला ऐप",
+      "शब्दों को बार बार दोहराएं",
+      "व्हाट्सएप टेक्स्ट रिपीटर",
+      "टेक्स्ट रिपीटर ऑनलाइन"
+    ],
+    "heading": "ऑनलाइन टेक्स्ट रिपीटर",
+    "subheading": "अपने टेक्स्ट, शायरी, संदेश या इमोजी को सेकंडों में 10,000 बार तक रिपीट करें। बिना किसी लैग के सीधे आपके ब्राउज़र में सुपरफास्ट काम करता है।",
+    "badge": "100% फ्री · ब्राउज़र में प्रोसेसिंग · नो डेटा अपलोड",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "टेक्स्ट या इमोजी दर्ज करें",
+        "desc": "वह शब्द, शायरी, संदेश या इमोजी टाइप करें जिसे आप बार-बार दोहराना चाहते हैं।"
+      },
+      {
+        "step": 2,
+        "title": "रिपीट संख्या चुनें",
+        "desc": "स्लाइडर या इनपुट बॉक्स से 1 से लेकर 10,000 तक जितनी बार चाहें रिपीट सेट करें।"
+      },
+      {
+        "step": 3,
+        "title": "सेपरेटर (विभाजक) चुनें",
+        "desc": "नई लाइन (New Line), स्पेस, कॉमा या कोई भी पसंदीदा कस्टम सेपरेटर चुनें।"
+      },
+      {
+        "step": 4,
+        "title": "कॉपी या शेयर करें",
+        "desc": "'कॉपी' बटन दबाएं, सीधा व्हाट्सएप पर भेजें या .txt फ़ाइल डाउनलोड करें।"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "मैं एक बार में कितनी बार टेक्स्ट रिपीट कर सकता हूँ?",
+        "a": "आप एक बार में 1 से लेकर 10,000 बार तक कोई भी टेक्स्ट या इमोजी तुरंत रिपीट कर सकते हैं। यह आपके डिवाइस में बिना किसी देरी के चलता है।"
+      },
+      {
+        "q": "क्या मेरा टेक्स्ट किसी सर्वर पर सुरक्षित रूप से अपलोड होता है?",
+        "a": "नहीं, AnyOnlineTools पर कोई भी डेटा किसी सर्वर पर नहीं भेजा जाता। सब कुछ 100% आपके मोबाइल या कंप्यूटर के ब्राउज़र में ही प्रोसेस होता है।"
+      },
+      {
+        "q": "क्या मैं हर लाइन के आगे नंबर (1, 2, 3...) जोड़ सकता हूँ?",
+        "a": "हाँ, बस 'लाइन नंबर जोड़ें' विकल्प पर टिक करें और आपका टेक्स्ट क्रमबद्ध नंबरों के साथ तैयार हो जाएगा।"
+      },
+      {
+        "q": "व्हाट्सएप पर यह टेक्स्ट कैसे भेजें?",
+        "a": "टेक्स्ट जनरेट होने के बाद बस 'व्हाट्सएप पर शेयर करें' बटन दबाएं, व्हाट्सएप अपने आप खुल जाएगा और मैसेज तैयार मिलेगा।"
+      }
+    ],
+    "features": [
+      {
+        "title": "100% सुरक्षित और प्राइवेट",
+        "desc": "आपका डेटा कभी भी इंटरनेट पर नहीं जाता। सभी प्रोसेसिंग आपके ब्राउज़र की रैम में सुरक्षित होती है।"
+      },
+      {
+        "title": "सुपरफास्ट स्पीड",
+        "desc": "सर्वर का कोई इंतज़ार नहीं। आपका फ़ोन या लैपटॉप 10,000 रिपीट 2 मिलीसेकंड में तैयार कर देता है।"
+      },
+      {
+        "title": "हमेशा के लिए 100% फ्री",
+        "desc": "कोई सब्सक्रिप्शन नहीं, कोई अकाउंट बनाने की जरूरत नहीं और कोई लिमिट नहीं। जब चाहें तब इस्तेमाल करें।"
+      }
+    ],
+    "ui": {
+      "inputLabel": "रिपीट करने के लिए टेक्स्ट या इमोजी",
+      "inputPlaceholder": "अपना संदेश, शब्द या इमोजी यहाँ लिखें...",
+      "quickFill": "तुरंत भरें:",
+      "repetitionLabel": "रिपीट करने की संख्या",
+      "separatorLabel": "शब्दों के बीच सेपरेटर (विभाजक)",
+      "separators": {
+        "newline": "नई लाइन (Enter)",
+        "space": "खाली जगह / स्पेस (\" \")",
+        "comma": "कॉमा (\", \")",
+        "period": "पूर्ण विराम (\". \")",
+        "none": "बिना किसी सेपरेटर के",
+        "custom": "कस्टम सेपरेटर"
+      },
+      "customSeparatorPlaceholder": "अपना सेपरेटर दर्ज करें...",
+      "lineNumbers": "लाइन नंबर जोड़ें (1, 2, 3...)",
+      "outputLabel": "रिपीट किया गया रिजल्ट",
+      "outputPlaceholder": "आपका रिपीट किया गया टेक्स्ट यहाँ दिखेगा...",
+      "copyButton": "कॉपी करें",
+      "copiedToast": "कॉपी हो गया!",
+      "downloadButton": "डाउनलोड करें",
+      "clearButton": "साफ़ करें",
+      "backToAll": "सभी टूल्स की डायरेक्टरी",
+      "quickStart": "क्विक स्टार्ट गाइड",
+      "howToUseTitle": "{tool} का उपयोग कैसे करें",
+      "faqBadge": "सवाल और जवाब",
+      "faqTitle": "अक्सर पूछे जाने वाले सवाल"
+    }
+  },
+  "ms": {
+    "name": "Pengulang Teks",
+    "seoTitle": "Pengulang Teks Online – Ulang Teks & Emoji Sehingga 10,000 Kali Percuma",
+    "seoDesc": "Ulang sebarang teks, perkataan atau emoji sehingga 10,000 kali dalam beberapa saat. 100% percuma, privasi terjaga tanpa muat naik ke pelayan.",
+    "keywords": [
+      "pengulang teks",
+      "ulang teks online",
+      "pengganda perkataan",
+      "teks repeater percuma",
+      "ulang mesej whatsapp"
+    ],
+    "heading": "Pengulang Teks Online",
+    "subheading": "Gandakan teks, perkataan atau emoji sehingga 10,000 kali sekelip mata. Sepenuhnya peribadi dan pantas di pelayar anda.",
+    "badge": "100% Percuma · Pemprosesan Pelayar · Tiada Muat Naik",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "Masukkan Teks atau Emoji",
+        "desc": "Taip atau tampal mesej, perkataan atau emoji yang ingin diulang."
+      },
+      {
+        "step": 2,
+        "title": "Tetapkan Bilangan Ulang",
+        "desc": "Pilih bilangan ulangan antara 1 hingga 10,000 kali."
+      },
+      {
+        "step": 3,
+        "title": "Pilih Pemisah",
+        "desc": "Pilih baris baru, ruang, koma, aksara tersuai atau nombor baris."
+      },
+      {
+        "step": 4,
+        "title": "Salin atau Kongsi",
+        "desc": "Klik 'Salin', kongsi terus ke WhatsApp atau muat turun fail .txt."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Berapa kali saya boleh mengulang teks?",
+        "a": "Anda boleh mengulang teks dari 1 hingga 10,000 kali dalam satu masa tanpa sebarang kelambatan."
+      },
+      {
+        "q": "Adakah data saya disimpan pada pelayan?",
+        "a": "Tidak. AnyOnlineTools berfungsi 100% di dalam pelayar peranti anda tanpa sebarang muat naik."
+      },
+      {
+        "q": "Bolehkah saya menambah nombor baris?",
+        "a": "Boleh, tandakan sahaja pilihan nombor baris untuk menghasilkan senarai tersusun (1, 2, 3...)."
+      },
+      {
+        "q": "Bagaimanakah cara berkongsi ke WhatsApp?",
+        "a": "Tekan butang 'Kongsi ke WhatsApp' dan aplikasi akan dibuka dengan mesej sedia dihantar."
+      }
+    ],
+    "features": [
+      {
+        "title": "Privasi 100% Terjamin",
+        "desc": "Teks anda tidak pernah meninggalkan peranti anda dan diproses secara setempat."
+      },
+      {
+        "title": "Kelajuan Segera",
+        "desc": "Tiada masa menunggu pelayan: CPU anda memproses 10,000 ulangan dalam beberapa milisaat."
+      },
+      {
+        "title": "Percuma Selamanya",
+        "desc": "Tiada yuran, tiada pendaftaran akaun dan tiada had penggunaan harian."
+      }
+    ],
+    "ui": {
+      "inputLabel": "Teks atau Emoji untuk Diulang",
+      "inputPlaceholder": "Taip mesej, perkataan atau emoji anda...",
+      "quickFill": "Pilihan Pantas:",
+      "repetitionLabel": "Bilangan Ulangan",
+      "separatorLabel": "Pemisah Antara Ulangan",
+      "separators": {
+        "newline": "Baris Baru (Enter)",
+        "space": "Ruang (\" \")",
+        "comma": "Koma (\", \")",
+        "period": "Titik (\". \")",
+        "none": "Tiada Pemisah",
+        "custom": "Pemisah Tersuai"
+      },
+      "customSeparatorPlaceholder": "Masukkan pemisah tersuai...",
+      "lineNumbers": "Tambah nombor baris (1, 2, 3...)",
+      "outputLabel": "Pratonton Hasil",
+      "outputPlaceholder": "Teks yang diulang akan dipaparkan di sini...",
+      "copyButton": "Salin",
+      "copiedToast": "Disalin!",
+      "downloadButton": "Muat Turun",
+      "clearButton": "Kosongkan",
+      "backToAll": "Direktori Semua Alat",
+      "quickStart": "Panduan Pantas",
+      "howToUseTitle": "Cara Menggunakan {tool}",
+      "faqBadge": "Soal & Jawab",
+      "faqTitle": "Soalan Lazim"
+    }
+  },
+  "uk": {
+    "name": "Повторювач Тексту",
+    "seoTitle": "Повторювач Тексту Онлайн – Повторити Текст та Емодзі до 10 000 Разів Безкоштовно",
+    "seoDesc": "Повторюйте будь-який текст, повідомлення чи емодзі до 10 000 разів миттєво. 100% безкоштовно, конфіденційно та без завантаження на сервер.",
+    "keywords": [
+      "повторювач тексту",
+      "повторити текст онлайн",
+      "розмножувач тексту",
+      "повторення тексту для вайбер",
+      "генератор тексту"
+    ],
+    "heading": "Онлайн Повторювач Тексту",
+    "subheading": "Миттєво розмножуйте слова, повідомлення та емодзі до 10 000 разів. Працює локально у вашому браузері з нульовою затримкою.",
+    "badge": "100% Безкоштовно · Локальна Обробка · Без Завантажень",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "Введіть Текст або Емодзі",
+        "desc": "Надрукуйте або вставте слова, повідомлення чи смайлики."
+      },
+      {
+        "step": 2,
+        "title": "Вкажіть Кількість Повторень",
+        "desc": "Оберіть кількість від 1 до 10 000 повторів."
+      },
+      {
+        "step": 3,
+        "title": "Виберіть Роздільник",
+        "desc": "Оберіть новий рядок, пробіл, кому, власний символ чи нумерацію."
+      },
+      {
+        "step": 4,
+        "title": "Скопіюйте або Поділіться",
+        "desc": "Натисніть 'Копіювати', надішліть у WhatsApp або завантажте .txt файл."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Скільки разів можна повторити текст?",
+        "a": "Ви можете повторити текст або емодзі до 10 000 разів за один раз миттєво без підвисання браузера."
+      },
+      {
+        "q": "Чи надсилаються мої дані на сервер?",
+        "a": "Ні. AnyOnlineTools функціонує на 100% на стороні клієнта. Ваші дані ніколи не залишають пристрій."
+      },
+      {
+        "q": "Чи можна додати нумерацію рядків?",
+        "a": "Так, увімкніть опцію 'Додати номери рядків' для формування пронумерованого списку (1, 2, 3...)."
+      },
+      {
+        "q": "Як поділитися результатом у WhatsApp?",
+        "a": "Натисніть кнопку 'Поділитися у WhatsApp' і програма відкриється з готовим текстом."
+      }
+    ],
+    "features": [
+      {
+        "title": "100% Конфіденційність",
+        "desc": "Ваші тексти обробляються лише у пам'яті браузера і не передаються в мережу."
+      },
+      {
+        "title": "Миттєва Швидкість",
+        "desc": "Без черг і затримок: процесор вашого пристрою генерує результат за лічені мілісекунди."
+      },
+      {
+        "title": "Безкоштовно Назавжди",
+        "desc": "Без реєстрацій, платних тарифів і будь-яких обмежень на використання."
+      }
+    ],
+    "ui": {
+      "inputLabel": "Текст або емодзі для повторення",
+      "inputPlaceholder": "Введіть повідомлення, слова чи смайлики...",
+      "quickFill": "Швидкий вибір:",
+      "repetitionLabel": "Кількість повторень",
+      "separatorLabel": "Роздільник між повтореннями",
+      "separators": {
+        "newline": "Новий рядок (Enter)",
+        "space": "Пробіл (\" \")",
+        "comma": "Кома (\", \")",
+        "period": "Крапка (\". \")",
+        "none": "Без роздільника",
+        "custom": "Власний роздільник"
+      },
+      "customSeparatorPlaceholder": "Введіть роздільник...",
+      "lineNumbers": "Додати номери рядків (1, 2, 3...)",
+      "outputLabel": "Попередній перегляд результату",
+      "outputPlaceholder": "Повторений текст з'явиться тут...",
+      "copyButton": "Копіювати",
+      "copiedToast": "Скопійовано!",
+      "downloadButton": "Завантажити",
+      "clearButton": "Очистити",
+      "backToAll": "Каталог усіх інструментів",
+      "quickStart": "Короткий посібник",
+      "howToUseTitle": "Як користуватися {tool}",
+      "faqBadge": "Запитання та відповіді",
+      "faqTitle": "Часті запитання"
+    }
+  },
+  "sw": {
+    "name": "Mrudiaji wa Maandishi",
+    "seoTitle": "Mrudiaji wa Maandishi Mkondoni – Rudia Maneno & Emoji Mara 10,000 Bure",
+    "seoDesc": "Rudia maandishi yoyote, maneno, au emoji hadi mara 10,000 papo hapo. 100% bure na salama kwenye kivinjari chako bila kupakia kwenye seva. Nakili kwa kubofya mara moja.",
+    "keywords": [
+      "mrudiaji wa maandishi",
+      "rudia maandishi mtandaoni",
+      "kuzidisha maneno",
+      "rudia ujumbe wa whatsapp",
+      "rudia emoji"
+    ],
+    "heading": "Mrudiaji wa Maandishi Mkondoni",
+    "subheading": "Zidisha maandishi au emoji hadi mara 10,000 ndani ya sekunde chache. Salama kabisa na ya haraka bila kuchelewa.",
+    "badge": "100% Bure · Hufanya Kazi Kwenye Kivinjari · Hakuna Upakiaji",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "Weka Maandishi au Emoji",
+        "desc": "Andika au bandika ujumbe, maneno, au emoji unazotaka kurudia."
+      },
+      {
+        "step": 2,
+        "title": "Chagua Idadi ya Marudio",
+        "desc": "Chagua idadi ya marudio kuanzia mara 1 hadi 10,000."
+      },
+      {
+        "step": 3,
+        "title": "Chagua Kitenganishi",
+        "desc": "Chagua mstari mpya, nafasi, koma, kitenganishi maalum au nambari."
+      },
+      {
+        "step": 4,
+        "title": "Nakili au Shiriki",
+        "desc": "Bofya 'Nakili', shiriki kwenye WhatsApp au pakua faili ya .txt."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Je, ninaweza kurudia maandishi mara ngapi?",
+        "a": "Unaweza kurudia maandishi hadi mara 10,000 kwa wakati mmoja papo hapo bila kifaa chako kukwama."
+      },
+      {
+        "q": "Je, data zangu zinapakiwa kwenye seva yoyote?",
+        "a": "Hapana kabisa. AnyOnlineTools inafanya kazi 100% ndani ya kivinjari chako. Hakuna taarifa inayotoka kwenye kifaa chako."
+      },
+      {
+        "q": "Je, ninaweza kuongeza nambari za mistari?",
+        "a": "Ndiyo, weka alama kwenye 'Ongeza nambari za mistari' ili kupata orodha iliyopangwa vizuri (1, 2, 3...)."
+      },
+      {
+        "q": "Jinsi ya kushiriki kwenye WhatsApp?",
+        "a": "Bofya kitufe cha 'Shiriki kwenye WhatsApp' na programu itafunguka ikiwa na ujumbe tayari kutumwa."
+      }
+    ],
+    "features": [
+      {
+        "title": "Usiri wa 100%",
+        "desc": "Maandishi yako hayahifadhiwi wala kusafirishwa kwenye mtandao. Yote yanafanyika kwenye kifaa chako."
+      },
+      {
+        "title": "Kasi ya Papo Hapo",
+        "desc": "Hakuna foleni ya seva. Kifaa chako kinazalisha marudio 10,000 ndani ya milisekunde."
+      },
+      {
+        "title": "Bure Milele",
+        "desc": "Hakuna ada, hakuna usajili na hakuna vikwazo vya matumizi ya kila siku."
+      }
+    ],
+    "ui": {
+      "inputLabel": "Maandishi au Emoji za Kurudiwa",
+      "inputPlaceholder": "Andika ujumbe, maneno, au emoji hapa...",
+      "quickFill": "Chaguo za Haraka:",
+      "repetitionLabel": "Idadi ya Marudio",
+      "separatorLabel": "Kitenganishi cha Marudio",
+      "separators": {
+        "newline": "Mstari Mpya (Enter)",
+        "space": "Nafasi (\" \")",
+        "comma": "Koma (\", \")",
+        "period": "Nukta (\". \")",
+        "none": "Bila Kitenganishi",
+        "custom": "Kitenganishi Maalum"
+      },
+      "customSeparatorPlaceholder": "Weka kitenganishi...",
+      "lineNumbers": "Weka nambari za mistari (1, 2, 3...)",
+      "outputLabel": "Hakikisho la Matokeo",
+      "outputPlaceholder": "Maandishi yaliyorudiwa yataonekana hapa...",
+      "copyButton": "Nakili",
+      "copiedToast": "Imenakiliwa!",
+      "downloadButton": "Pakua",
+      "clearButton": "Futa",
+      "backToAll": "Orodha ya Zana Zote",
+      "quickStart": "Mwongozo wa Haraka",
+      "howToUseTitle": "Jinsi ya Kutumia {tool}",
+      "faqBadge": "Maswali & Majibu",
+      "faqTitle": "Maswali Yanayoulizwa Mara kwa Mara"
+    }
+  }
+}

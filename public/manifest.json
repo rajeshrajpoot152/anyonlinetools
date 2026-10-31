@@ -1,0 +1,63 @@
+{
+  "name": "AnyOnlineTools - Free Fast & Private Online Utilities",
+  "short_name": "AnyOnlineTools",
+  "description": "A modern suite of free, private, client-side web utilities for developers, writers, and digital professionals.",
+  "start_url": "/",
+  "display": "minimal-ui",
+  "background_color": "#0B1120",
+  "theme_color": "#2563EB",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/maskable-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["utilities", "productivity", "developer tools"],
+  "shortcuts": [
+    {
+      "name": "Text Repeater",
+      "short_name": "Repeater",
+      "description": "Repeat any text, message, or emoji up to 10,000 times instantly",
+      "url": "/text-repeater/",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "All Tools Directory",
+      "short_name": "All Tools",
+      "description": "Browse our full directory of 100% private in-browser utilities",
+      "url": "/all-tools/",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
