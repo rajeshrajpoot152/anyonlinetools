@@ -146,6 +146,15 @@ To maintain world-class Google search rankings, instantaneous loading speeds, an
     - The Progressive Web App manifest (`public/manifest.json`) defines native `shortcuts` with verified 192x192 icons and clean URLs.
     - When users long-press the installed AnyOnlineTools icon on Android/iOS/Windows home screens, the operating system renders direct 1-tap jump shortcuts (e.g. "Text Repeater", "All Tools Directory") without having to launch and navigate from the root page.
 
+26. **Multi-Machine Sovereignty & Mandatory Zero-Defect Push Invariant (मल्टी-लोकेशन सुरक्षा व अनिवार्य ऑटो-पुश नियम):**
+    - The user operates dynamically across multiple computers, laptops, and remote locations, and frequently deletes the local repository folder without prior notice.
+    - **Non-Negotiable Operating Rule:** At the completion of EVERY task, tool addition, bug fix, or architectural change, the system MUST:
+      1. Run full end-to-end verification gates (`npx tsc --noEmit`, `npm run ai:check`, `npm run seo:check`).
+      2. Verify that 100% of source files, session plans, and blueprints reside within the repository (committed to `docs/`, `tool-intel/`, etc.).
+      3. Commit all changes and push immediately to GitHub (`origin main`).
+      4. Confirm that `git status` reports `working tree clean` and branch is up to date with `origin/main`.
+    - **100% Fresh-Clone Fidelity:** Running `git clone https://github.com/rajeshrajpoot152/anyonlinetools.git` and `npm install` on any new computer must run instantly with 0 missing files or manual setup steps.
+
 ---
 
 ## 2. MULTI-LANGUAGE (26-LOCALE) PARITY & FULL-PAGE INTENT LOCALIZATION STANDARD
