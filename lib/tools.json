@@ -135,5 +135,144 @@
         }
       ]
     }
+  },
+  {
+    "slug": "blur-text",
+    "name": "Blur Text",
+    "category": "text",
+    "categoryLabel": "Text Utilities",
+    "shortDesc": "Blur text, generate CSS spoilers, and redact sensitive screenshots online free.",
+    "description": "Free, private in-browser tool to blur text, generate CSS blur filters, and redact sensitive information in screenshots, photos, and documents with zero uploads.",
+    "href": "/blur-text/",
+    "icon": "EyeOff",
+    "badge": "Trending",
+    "seoTitle": "Blurred Text Generator & Screenshot Text Redactor – Free Online Tool",
+    "seoDesc": "Blur text, create spoiler blocks, and redact sensitive details in screenshots online. 100% private in-browser canvas with 1-click CSS copy and PNG export.",
+    "keywords": [
+      "blur text",
+      "blur text in image",
+      "blurred text generator",
+      "how to blur text",
+      "blur writing",
+      "blur out words",
+      "css blur text",
+      "spoiler text generator"
+    ],
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "Choose Mode or Paste Image",
+        "desc": "Select Text Blur Studio to create blurred typography, or press Ctrl+V / upload an image to redact sensitive areas."
+      },
+      {
+        "step": 2,
+        "title": "Select Obfuscation Style",
+        "desc": "Choose between Gaussian Blur, 8-bit Pixelate Mosaic, Solid Black Censor Box, or Spoiler Click-to-Reveal."
+      },
+      {
+        "step": 3,
+        "title": "Adjust Blur & Intensity",
+        "desc": "Fine-tune blur radius, brush width, progressive direction (left/right), or toggle Spotlight focus mode."
+      },
+      {
+        "step": 4,
+        "title": "Copy Code or Download",
+        "desc": "1-click copy pure CSS, Discord/Reddit spoilers, or download clean, metadata-stripped PNG images instantly."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can blurred text in a screenshot be unblurred or read?",
+        "a": "It depends on the method used. If text is blurred with client-side CSS or HTML filters on a website, anyone can inspect element and remove the filter. If text in a flattened image is subjected to a light Gaussian blur (radius < 6px), machine learning font-matching algorithms can sometimes reconstruct probable letters. However, with solid black box redaction, the original pixel values are permanently overwritten and destroyed, making unblurring mathematically impossible."
+      },
+      {
+        "q": "What is the difference between Gaussian blur and solid censor blocks?",
+        "a": "Gaussian blur averages adjacent pixel color values, creating a soft, out-of-focus aesthetic ideal for teasers, non-sensitive social media posts, and design mockups. Solid black censor blocks completely replace underlying pixels with opaque color blocks, ensuring true cryptographic destruction for passwords, credit card numbers, OTPs, and government IDs."
+      },
+      {
+        "q": "How do I blur text in an image without Photoshop?",
+        "a": "Simply open AnyOnlineTools Blur Text in any desktop or mobile browser. Press Ctrl+V to paste your screenshot directly from your clipboard (or tap Upload Image), drag a rectangle over the words you want to conceal, select Blur, Pixelate, or Solid Box, and tap Download to save your clean redacted image in seconds."
+      },
+      {
+        "q": "Are my uploaded screenshots and sensitive documents saved on your servers?",
+        "a": "Never. AnyOnlineTools processes 100% of image rendering, pixelation, and text blurring locally in your device's browser memory using HTML5 Canvas. Your images are never transmitted over the internet, never saved to any database, and leave zero traces when you close your browser tab."
+      },
+      {
+        "q": "Does this tool strip GPS location and camera EXIF metadata from photos?",
+        "a": "Yes. When you download a redacted screenshot or photo, the HTML5 Canvas exporter reconstructs the pixel bitmap from scratch and automatically strips all hidden camera EXIF tags, GPS latitude/longitude coordinates, and device timestamps, preventing accidental location leaks before you share photos online."
+      },
+      {
+        "q": "Why is drawing black highlighter on iPhone photos unsafe for redaction?",
+        "a": "The default iOS Markup highlighter pen operates with approximately 80% opacity rather than 100% solid opacity. Anyone who saves your highlighted photo can simply increase the exposure and brightness settings in photo editing apps to easily read the text beneath the mark. Our Solid Censor mode guarantees 100% opaque, impenetrable pixel destruction."
+      },
+      {
+        "q": "How can web developers blur text using CSS?",
+        "a": "You can blur HTML text elements by applying 'filter: blur(5px); user-select: none;'. To ensure cross-browser compatibility across older mobile engines, you can also use Chris Coyier's classic CSS-Tricks fallback: 'color: transparent; text-shadow: 0 0 8px rgba(0,0,0,0.7);'. Both snippets are available with 1-click copy inside our Developer Drawer."
+      },
+      {
+        "q": "Does blurring text reduce the overall resolution or quality of my screenshot?",
+        "a": "No. AnyOnlineTools operates on your image at 100% native resolution. Only the exact pixel boundaries of the rectangular or circular mask you draw are modified, while all surrounding text, headers, and UI elements maintain their original crystal-clear clarity."
+      }
+    ],
+    "useCases": [
+      {
+        "tag": "QA & SaaS Support",
+        "title": "Bug Reports & Dashboard Screenshots",
+        "desc": "Conceal customer emails, internal session tokens, API keys, and order amounts before attaching dashboard screenshots to Jira, GitHub, or Slack."
+      },
+      {
+        "tag": "Chat & Messaging",
+        "title": "WhatsApp & Telegram Chat Redaction",
+        "desc": "Hide sender avatars, phone numbers, and sensitive chat bubbles in conversation screenshots before sharing funny or viral moments on Reddit and Twitter."
+      },
+      {
+        "tag": "E-Commerce & Logistics",
+        "title": "Shipping Labels & Courier Box Unboxing",
+        "desc": "Block out full home delivery street addresses, contact phone numbers, and barcode tracking numbers on parcel packages before posting unboxing photos."
+      },
+      {
+        "tag": "Web Development",
+        "title": "CSS Filters & Spoiler Generator",
+        "desc": "Generate customizable CSS blur snippets, React Native textShadow styles, and Discord / Reddit spoiler tags with 1-click copy."
+      }
+    ],
+    "comparisonTable": {
+      "title": "Text Redaction & Privacy Architecture Comparison",
+      "subtitle": "Why AnyOnlineTools delivers superior privacy, zero cloud exposure, and instant execution compared to traditional server editors.",
+      "ourLabel": "AnyOnlineTools (Client-Side)",
+      "traditionalLabel": "Traditional Online Editors (Cloud-Based)",
+      "rows": [
+        {
+          "feature": "Document & Image Privacy",
+          "us": "100% Local Browser Memory (Zero Uploads)",
+          "traditional": "Files uploaded and stored on remote cloud servers"
+        },
+        {
+          "feature": "EXIF & GPS Location Stripping",
+          "us": "Automatic on export (Zero location leaks)",
+          "traditional": "Often leaves hidden metadata embedded in files"
+        },
+        {
+          "feature": "Direct Clipboard Paste (Ctrl+V)",
+          "us": "Instant 1-tap paste anywhere on canvas",
+          "traditional": "Requires saving files to desktop and browsing"
+        },
+        {
+          "feature": "Direct Screen Capture",
+          "us": "Native getDisplayMedia API built-in",
+          "traditional": "Requires downloading separate desktop software"
+        },
+        {
+          "feature": "Redaction Styles",
+          "us": "Gaussian Blur, 8-Bit Pixelate, Solid Censor & Spotlight",
+          "traditional": "Often limited to generic blur or paid Pro tiers"
+        },
+        {
+          "feature": "Pricing & Account Walls",
+          "us": "100% Free Forever with Zero Sign-Up Required",
+          "traditional": "Forces account registration, daily credits, or paywalls"
+        }
+      ]
+    }
   }
 ]

@@ -12,6 +12,9 @@ export const TOOL_REGISTRY: Record<string, React.ComponentType<any>> = {
   'text-repeater': dynamic(() => import('./TextRepeater'), {
     ssr: true,
   }),
+  'blur-text': dynamic(() => import('./BlurText'), {
+    ssr: true,
+  }),
   // New tools register here:
   // 'word-counter': dynamic(() => import('./WordCounter'), { ssr: true }),
 };

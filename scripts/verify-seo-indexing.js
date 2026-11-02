@@ -63,12 +63,28 @@ if (allHtmlFiles.length === 0) {
   process.exit(1);
 }
 
-// Parse sitemap
+// Parse sitemap (Supports both flat urlset and master sitemapindex)
+function extractAllSitemapUrls(xmlFilePath) {
+  if (!fs.existsSync(xmlFilePath)) return [];
+  const xml = fs.readFileSync(xmlFilePath, 'utf8');
+  if (xml.includes('<sitemapindex')) {
+    const subSitemaps = (xml.match(/<loc>([^<]+)<\/loc>/g) || []).map(t => t.replace(/<\/?loc>/g, '').trim());
+    let allUrls = [];
+    for (const subUrl of subSitemaps) {
+      const filename = path.basename(new URL(subUrl).pathname);
+      const subFilePath = path.join(path.dirname(xmlFilePath), filename);
+      allUrls = allUrls.concat(extractAllSitemapUrls(subFilePath));
+    }
+    return allUrls;
+  } else {
+    return (xml.match(/<loc>([^<]+)<\/loc>/g) || []).map(t => t.replace(/<\/?loc>/g, '').trim());
+  }
+}
+
 if (!fs.existsSync(sitemapPath)) {
   fail('Sitemap Exists', 'public/sitemap.xml not found');
 }
-const sitemapXml = fs.readFileSync(sitemapPath, 'utf8');
-const sitemapUrls = (sitemapXml.match(/<loc>([^<]+)<\/loc>/g) || []).map(t => t.replace(/<\/?loc>/g, '').trim());
+const sitemapUrls = extractAllSitemapUrls(sitemapPath);
 
 // Load tools catalog
 const toolsCatalog = fs.existsSync(toolsCatalogPath) ? JSON.parse(fs.readFileSync(toolsCatalogPath, 'utf8')) : [];

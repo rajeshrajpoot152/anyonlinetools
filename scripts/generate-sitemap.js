@@ -40,8 +40,9 @@ function isToolTranslated(slug, locale) {
 }
 
 const generateSitemap = () => {
-  let urlEntries = '';
   const now = new Date().toISOString();
+  const publicDir = path.join(__dirname, '..', 'public');
+  const outDir = path.join(__dirname, '..', 'out');
 
   // Root Homepage & Localized Homepages Hreflang Block
   let rootHreflang = `
@@ -52,8 +53,10 @@ const generateSitemap = () => {
     <xhtml:link rel="alternate" hreflang="${altLocale}" href="${DOMAIN}/${altLocale}/" />`;
   }
 
-  // 1. Primary English Root Homepage
-  urlEntries += `
+  // -------------------------------------------------------------
+  // 1. SITEMAP-MAIN.XML (Core Homepage & Legal Utility Pages)
+  // -------------------------------------------------------------
+  let mainEntries = `
   <url>
     <loc>${DOMAIN}/</loc>
     <lastmod>${now}</lastmod>
@@ -61,18 +64,26 @@ const generateSitemap = () => {
     <priority>1.0</priority>${rootHreflang}
   </url>`;
 
-  // 2. Localized Homepages (25 non-English locales)
-  for (const locale of nonEnLocales) {
-    urlEntries += `
+  for (const page of LEGAL_PAGES) {
+    mainEntries += `
   <url>
-    <loc>${DOMAIN}/${locale}/</loc>
+    <loc>${DOMAIN}${page}/</loc>
     <lastmod>${now}</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>${rootHreflang}
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>`;
   }
 
-  // 3. Dedicated Tool Pages (Only canonical, indexable URLs)
+  const sitemapMainXml = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+${mainEntries.trim()}
+</urlset>`;
+
+  // -------------------------------------------------------------
+  // 2. SITEMAP-TOOLS.XML (Primary Canonical English Tool Pages)
+  // -------------------------------------------------------------
+  let toolsEntries = '';
   for (const tool of catalog) {
     const slug = tool.slug;
     const activeToolLocales = nonEnLocales.filter(l => isToolTranslated(slug, l));
@@ -85,18 +96,52 @@ const generateSitemap = () => {
     <xhtml:link rel="alternate" hreflang="${altLocale}" href="${DOMAIN}/${altLocale}/${slug}/" />`;
     }
 
-    // Primary English Tool URL (Canonical)
-    urlEntries += `
+    toolsEntries += `
   <url>
     <loc>${DOMAIN}/${slug}/</loc>
     <lastmod>${now}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>${toolHreflang}
   </url>`;
+  }
 
-    // Localized Tool URLs (Only those with verified, genuine translations)
+  const sitemapToolsXml = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+${toolsEntries.trim()}
+</urlset>`;
+
+  // -------------------------------------------------------------
+  // 3. SITEMAP-LOCALES.XML (Localized Homepages & Localized Tools)
+  // -------------------------------------------------------------
+  let localesEntries = '';
+
+  // Localized Homepages (25 non-English locales)
+  for (const locale of nonEnLocales) {
+    localesEntries += `
+  <url>
+    <loc>${DOMAIN}/${locale}/</loc>
+    <lastmod>${now}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>${rootHreflang}
+  </url>`;
+  }
+
+  // Localized Tool URLs (Only verified, genuine translations)
+  for (const tool of catalog) {
+    const slug = tool.slug;
+    const activeToolLocales = nonEnLocales.filter(l => isToolTranslated(slug, l));
+
+    let toolHreflang = `
+    <xhtml:link rel="alternate" hreflang="en" href="${DOMAIN}/${slug}/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="${DOMAIN}/${slug}/" />`;
+    for (const altLocale of activeToolLocales) {
+      toolHreflang += `
+    <xhtml:link rel="alternate" hreflang="${altLocale}" href="${DOMAIN}/${altLocale}/${slug}/" />`;
+    }
+
     for (const locale of activeToolLocales) {
-      urlEntries += `
+      localesEntries += `
   <url>
     <loc>${DOMAIN}/${locale}/${slug}/</loc>
     <lastmod>${now}</lastmod>
@@ -106,29 +151,60 @@ const generateSitemap = () => {
     }
   }
 
-  // 4. Legal & Static Utility Pages (All canonical with trailing slashes)
-  for (const page of LEGAL_PAGES) {
-    urlEntries += `
-  <url>
-    <loc>${DOMAIN}${page}/</loc>
-    <lastmod>${now}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>`;
-  }
-
-  const sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
+  const sitemapLocalesXml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
-${urlEntries.trim()}
+${localesEntries.trim()}
 </urlset>`;
 
-  const publicSitemapPath = path.join(__dirname, '..', 'public', 'sitemap.xml');
-  fs.writeFileSync(publicSitemapPath, sitemapXml.trim(), 'utf8');
+  // -------------------------------------------------------------
+  // 4. SITEMAP.XML (Google Search Console Master <sitemapindex>)
+  // -------------------------------------------------------------
+  const sitemapIndexXml = `<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>${DOMAIN}/sitemap-main.xml</loc>
+    <lastmod>${now}</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>${DOMAIN}/sitemap-tools.xml</loc>
+    <lastmod>${now}</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>${DOMAIN}/sitemap-locales.xml</loc>
+    <lastmod>${now}</lastmod>
+  </sitemap>
+</sitemapindex>`;
 
-  // Count total URLs
-  const urlCount = (sitemapXml.match(/<loc>/g) || []).length;
-  console.log(`✅ [SITEMAP] Generated clean sitemap with ${urlCount} primary canonical URLs at ${publicSitemapPath}`);
+  // Ensure public directory exists
+  if (!fs.existsSync(publicDir)) {
+    fs.mkdirSync(publicDir, { recursive: true });
+  }
+
+  // Write all sub-sitemaps and master sitemap index to public/
+  fs.writeFileSync(path.join(publicDir, 'sitemap-main.xml'), sitemapMainXml.trim(), 'utf8');
+  fs.writeFileSync(path.join(publicDir, 'sitemap-tools.xml'), sitemapToolsXml.trim(), 'utf8');
+  fs.writeFileSync(path.join(publicDir, 'sitemap-locales.xml'), sitemapLocalesXml.trim(), 'utf8');
+  fs.writeFileSync(path.join(publicDir, 'sitemap.xml'), sitemapIndexXml.trim(), 'utf8');
+
+  // If out/ directory exists, synchronize all of them to out/ as well
+  if (fs.existsSync(outDir)) {
+    fs.writeFileSync(path.join(outDir, 'sitemap-main.xml'), sitemapMainXml.trim(), 'utf8');
+    fs.writeFileSync(path.join(outDir, 'sitemap-tools.xml'), sitemapToolsXml.trim(), 'utf8');
+    fs.writeFileSync(path.join(outDir, 'sitemap-locales.xml'), sitemapLocalesXml.trim(), 'utf8');
+    fs.writeFileSync(path.join(outDir, 'sitemap.xml'), sitemapIndexXml.trim(), 'utf8');
+  }
+
+  const mainCount = (sitemapMainXml.match(/<loc>/g) || []).length;
+  const toolsCount = (sitemapToolsXml.match(/<loc>/g) || []).length;
+  const localesCount = (sitemapLocalesXml.match(/<loc>/g) || []).length;
+  const totalUrls = mainCount + toolsCount + localesCount;
+
+  console.log(`✅ [SITEMAP] Generated Master Sitemap Index (<sitemapindex>) at public/sitemap.xml`);
+  console.log(`   📁 sitemap-main.xml:    ${mainCount} URLs (Homepage & Legal)`);
+  console.log(`   📁 sitemap-tools.xml:   ${toolsCount} URLs (Canonical English Tools)`);
+  console.log(`   📁 sitemap-locales.xml: ${localesCount} URLs (Localized Homepages & Tools)`);
+  console.log(`   🎯 Total Indexable URLs Managed: ${totalUrls} across 3 sub-sitemaps (Scalable to 50,000+ URLs)`);
 };
 
 // Execute on load and export

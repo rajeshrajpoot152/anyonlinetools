@@ -2,9 +2,11 @@ import { getToolBySlug, ToolInfo } from './tools-data';
 
 // Statically import tool translations
 import textRepeaterTranslations from './translations/text-repeater.json';
+import blurTextTranslations from './translations/blur-text.json';
 
 const TRANSLATION_REGISTRY: Record<string, Record<string, any>> = {
   'text-repeater': textRepeaterTranslations,
+  'blur-text': blurTextTranslations,
 };
 
 export interface LocalizedHowToStep {
