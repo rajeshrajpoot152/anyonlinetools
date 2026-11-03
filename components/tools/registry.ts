@@ -15,6 +15,9 @@ export const TOOL_REGISTRY: Record<string, React.ComponentType<any>> = {
   'blur-text': dynamic(() => import('./BlurText'), {
     ssr: true,
   }),
+  'stylish-text-generator': dynamic(() => import('./StylishTextGenerator'), {
+    ssr: true,
+  }),
   // New tools register here:
   // 'word-counter': dynamic(() => import('./WordCounter'), { ssr: true }),
 };

@@ -215,8 +215,8 @@ export default function Footer({ currentLang = 'en' }: { currentLang?: string })
                 </Link>
               </li>
               <li>
-                <Link href="/pricing" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors font-semibold text-amber-600 dark:text-amber-400">
-                  💎 Pricing ($0 Free)
+                <Link href="/pricing" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors font-semibold text-emerald-600 dark:text-emerald-400">
+                  💎 100% Free Forever ($0)
                 </Link>
               </li>
               <li>

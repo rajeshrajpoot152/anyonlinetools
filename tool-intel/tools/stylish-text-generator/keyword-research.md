@@ -136,6 +136,51 @@ The **"Stylish Text Generator"** / **"Fancy Font Generator"** keyword cluster is
 | **18** | **OneTooly**<br>`onetooly.in` | `Fancy Text Generator — Copy & Paste Stylish Fonts` | 35.8% low bounce rate, developer-focused, 100% client-side offline privacy FAQ framework. |
 | **19** | **DNSChecker**<br>`dnschecker.org/small-text-generator` | `Small Text Generator (small font)` | Authoritative network domain ranking with dedicated Small Text / Superscript / Small Caps tool. |
 
+### Deep Visual Teardown of the 4 Competitor Screenshots (Uploaded Intel)
+
+#### 1. TextGeneratorGuru.com (`media_1793697646009_043fa20e.png`)
+* **Core Hook & Claim:** Prominently advertises *"Text Generator [Easy 30,750 fonts] fancy text"* with interactive red input field and instant generation cards.
+* **Red Keyword Ribbon Cloud:** Programmatic SEO header ribbon featuring: `Fancy Text Generator | Fancy Text | Stylish Text Generator | Font Changer | Font Generator | Text Generator | Cool Fonts`.
+* **28-Subtool Programmatic Directory:** Systematically targets 28 dedicated niches on a single page:
+  - *Styles:* Small, Bold, Italic, Glitch, Cursive, Mirror, Upside Down, Wavy, Aesthetic, Vaporwave, Gothic, Bubble, Tattoo, Graffiti, Handwriting, Strikethrough, Underline.
+  - *Holy Trinity Cross-Link:* Explicitly links to **Invisible Text Generator / Blank Text** (validating our upcoming `blank-text` tool!).
+  - *Platform Hubs:* Discord, Instagram, Twitter, Facebook, Free Fire, PUBG, TikTok.
+* **Mobile App Monetization:** Drives desktop and mobile web users to Android Google Play and iOS App Store downloads.
+
+#### 2. StylishTextGenerator.com (`media_1793697674532_f8fe791c.png`)
+* **Gaming Nickname Hero Section:** Targets Free Fire, PUBG, BGMI, and Call of Duty with gaming controller branding:
+  - `꧁༺₦Ї₦ℑ₳༻꧂` (Ninja Free Fire Name)
+  - `★彡[ᴅᴇᴀᴅ ᴋɪʟʟᴇʀ]彡★` (Dead Killer Clan Name)
+  - `亗 ᏦᏆNᏩ 亗` (Boss Crown King)
+  - `⚡T E A M⚡` (Esports Squad)
+  - `⚔️B O S S⚔️` (Swords Boss)
+* **Real-World Profile Social Proof:**
+  - *Instagram Bio Mockup:* Visual diagram showing "Stylish BIO" placement.
+  - *Facebook VIP Bio Mockup:* Demonstrates the viral Kumar Saurav profile featuring `█║▌│█│║▌ VIP Account Verified █║▌│█│║▌`, `★ Welcome to My Profile ★`, and `♚ Attitude Boy ♚`.
+
+#### 3. FancyTextGenerator.pro (`media_1793697715841_5f3d3e87.png`)
+* **12 Category Pill Filter Bar:** Seamless pill navigation: `All`, `Fancy`, `Cool`, `Cute`, `Gothic`, `Cursive`, `Aesthetic`, `Gaming`, `Symbols`, `Glitch`, `Love`, `Border`.
+* **2-Column Responsive Card Grid:** Every card includes a bold style label, live rendered preview, and a prominent 1-click **Copy** button.
+* **Special Decorators Showcase:** Dedicated quick-insert clusters for:
+  - Sparkles & Stars: `✧･ﾟ: *✧ text ✧*:･ﾟ✧`
+  - Music notes: `🎵 text 🎶`
+  - Hearts: `♡ text ♡`, `♥ text ♥`
+  - Asian Brackets: `【 text 】`, `『 text 』`
+  - Dragon Wings: `꧁༺ text ༻꧂`, `★彡 text 彡★`
+  - Emoticons / Kaomoji: `(◕‿◕) text (◕‿◕)`, `(づ｡◕‿‿◕｡)づ`
+* **Explanatory SEO Architecture:** High-retention sections covering "About", "How to Use", "Where to Use", and "FAQ".
+
+#### 4. FancyTextPro.com (`media_1793697754202_a7051765.png`)
+* **12 Quick-Action Toolbar Buttons:** Visual icon buttons for instant filtering: `Heart`, `Fancy`, `Cool`, `Decoration`, `Aesthetic`, `Glitch`, `Kaomoji`, `Emojis`, `Bold`, `Small`, `Underline`, `More`.
+* **Green Discovery Notification Bar:** Reassures users of direct compatibility with WhatsApp, Instagram, Facebook, and Battle Royale gaming nicknames.
+* **"Most Unique Fancy Font Generator" Multi-Symbol Presets:**
+  - `🌸 🎀 𝒯𝑒𝓍𝓉 🎀 🌸`
+  - `✧･ﾟ: *✧ 𝒯𝑒𝓍𝓉 ✧*:･ﾟ✧`
+  - `꧁ 𝒯𝑒𝓍𝓉 ꧂`
+  - `•.¸♡ 𝒯𝑒𝓍𝓉 ♡¸.•`
+* **High Pages-Per-Visit Architecture (4.20 PV Record):** Achieved through segmented tabs, "Recently Added" feeds, and high-impact visual banners (*"Be CREATIVE BE YOURSELF"*).
+* **10-Point Technical FAQ Accordion:** Comprehensive answers addressing mobile copy-paste handling, Free Fire character limits, and Unicode standard compatibility.
+
 ---
 
 ## 5. Comprehensive Similarweb Traffic & Revenue Benchmarks

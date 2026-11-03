@@ -122,3 +122,26 @@ npm run seo:check
 # 4. Production Build & Static Export (All pages generated in out/)
 npm run build
 ```
+
+---
+
+## 5. Universal Research & Documentation Uniformity Standard
+
+To maintain 100% architectural integrity, prevent file proliferation, and eliminate data mismatch across tools, every tool directory in `tool-intel/tools/<tool-slug>/` MUST adhere to the following strict layout:
+
+### Allowed File Structure (The Strict 2-File Invariant):
+```
+tool-intel/tools/<tool-slug>/
+├── keyword-research.md   # Single Consolidated Master Research & Competitive Intel Database
+└── spec.md               # Single Consolidated Master Technical & Architecture Specification
+```
+
+### Strict Documentation Rules:
+1. **Zero Fragmented Snippet Files:**
+   - NEVER create individual files per screenshot, per competitor, or per research session (e.g., `competitor-1.md`, `serp-rankings.md`, `temp-notes.md`).
+   - All incoming keyword data, CPCs, search volumes, Similarweb metrics, SERP rankings, visual teardowns, Unicode catalogs, and FAQ schemas MUST be merged directly into `keyword-research.md`.
+2. **Master `spec.md` Requirement:**
+   - Every tool must have a matching `spec.md` defining its client-side privacy architecture, 26-language localization matrix, React component state model, and verification of the 10 Golden Rules.
+3. **Data Mismatch Prohibition:**
+   - Target keywords, volume estimates, CPCs, and feature sets in `keyword-research.md` must align 100% with the technical implementation targets in `spec.md`. No contradictory claims across files.
+

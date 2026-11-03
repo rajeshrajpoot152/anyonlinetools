@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useMemo, useCallback } from 'react';
+import Link from 'next/link';
 import {
   Sparkles,
   Copy,
@@ -23,7 +24,7 @@ export interface TextRepeaterProps {
   ui?: Record<string, any>;
 }
 
-export default function TextRepeater({ ui }: TextRepeaterProps) {
+export default function TextRepeater({ locale, ui }: TextRepeaterProps) {
   const [text, setText] = useState<string>('Love you ❤️');
   const [repetitions, setRepetitions] = useState<number>(100);
   const [separatorType, setSeparatorType] = useState<string>('newline');
@@ -156,6 +157,26 @@ export default function TextRepeater({ ui }: TextRepeaterProps) {
 
   return (
     <div className="w-full">
+      {/* Category Silo Cross-Link Recommendation */}
+      <div className="mb-4 rounded-2xl bg-gradient-to-r from-blue-500/10 via-purple-500/10 to-indigo-500/10 border border-blue-200/60 dark:border-blue-900/40 p-3 flex flex-wrap items-center justify-between gap-2.5 text-xs">
+        <div className="flex items-center space-x-2 text-slate-700 dark:text-slate-200">
+          <span className="flex h-5 w-5 items-center justify-center rounded-full bg-blue-600 text-white font-bold text-[10px]">
+            ✨
+          </span>
+          <span className="font-semibold">Make It Fancy:</span>
+          <span className="text-slate-600 dark:text-slate-400">
+            Convert your repeated words into 100+ creative fonts & cursive styles.
+          </span>
+        </div>
+        <Link
+          href={`/${locale && locale !== 'en' ? `${locale}/` : ''}stylish-text-generator/`}
+          className="inline-flex items-center space-x-1 font-bold text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 transition-colors"
+        >
+          <span>Open Stylish Text</span>
+          <ArrowRight className="w-3.5 h-3.5" />
+        </Link>
+      </div>
+
       {/* Responsive Master Workspace: 2-Column Desktop (Above-the-Fold) & 1-Column Native Mobile App */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-5 lg:gap-6 items-stretch">
         
