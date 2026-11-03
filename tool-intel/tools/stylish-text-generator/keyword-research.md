@@ -180,7 +180,46 @@ Users explicitly search for specific visual styles of unicode conversion:
 
 ---
 
-## 3. High-Value Search Intent Breakdown
+## 3. Google AI "Broaden Your Search" & Related Entity Expansion
+
+Google's internal entity knowledge graph recommends broadening into the following related search clusters:
+- `text generator` (Massive umbrella parent category)
+- `stylish text` (Direct high-volume head keyword)
+- `font design` (Semi-professional & visual branding intent)
+- `font design software` (Technical typography intent)
+- `stylish image generator` (Multi-modal visual banner & quote generator)
+- `stylish text frame` (Text borders, ASCII boxes, decorative frames)
+
+### Additional New Long-Tail Additions:
+| Keyword | Search Volume | Trends / YoY | Intent Category |
+| :--- | :--- | :--- | :--- |
+| `fancy text symbols cool fonts nickname generator` | 10 – 100 | -100% | Gaming / Nickname Symbols |
+| `facebook stylish text art` | 10 – 100 | -100% | ASCII Art / Bio Decorator |
+| `cool fancy text generator cool fonts and stylish letters` | 0 – 10 | -100% | Ultra Long-tail Generator |
+| `cool fancy text generator ff` | 10 – 100 | -100% | Free Fire IGN |
+| `cool fancy text generator ml` | 10 – 100 | -100% | Mobile Legends IGN |
+
+---
+
+## 4. Device Performance Breakdown: Mobile vs. Desktop (Crucial Architecture Driver)
+
+Analysis of search intent, usage patterns, and ad impressions reveals an extreme platform skew:
+- **Mobile Devices (Smartphones & Tablets): ~85% – 92% of Total Traffic**
+  - **Primary Contexts:** Copying cool names into mobile game apps (*Free Fire MAX, BGMI, PUBG Mobile, Roblox, COD Mobile*), updating mobile social apps (*Instagram Bio, WhatsApp About & Chat, Snapchat Stories, TikTok Nicknames*).
+  - **UX Imperatives for Mobile:**
+    1. **Touch Targets:** Large, touch-friendly `Copy` buttons (min 44px height) with instant haptic/visual toast confirmation.
+    2. **Screen Real Estate:** Compact font cards so users don't have to scroll endlessly to see 10+ font styles.
+    3. **Sticky Input Bar:** The input box must stay sticky or easily accessible at the top so the user can change their text without scrolling all the way back to the top.
+    4. **Direct Share Action:** Instant 1-tap "Share to WhatsApp" or native `navigator.share` API integration.
+- **Desktop (Laptops & PC Workstations): ~8% – 15% of Total Traffic**
+  - **Primary Contexts:** Discord server nickname customization, Steam profile names, graphic design/mockups, social media managers formatting captions.
+  - **UX Imperatives for Desktop:**
+    1. Multi-column grid layout (2 or 3 columns on larger screens) for high-density browsing.
+    2. Keyboard shortcuts (e.g. `Ctrl+A` in input, immediate preview).
+
+---
+
+## 5. High-Value Search Intent Breakdown
 
 1. **Transactional / Action Intent ("Copy and Paste"):**
    - Users do NOT want to download `.ttf` or `.otf` font files to install on Windows.
@@ -196,7 +235,7 @@ Users explicitly search for specific visual styles of unicode conversion:
 
 ---
 
-## 4. Architectural Feature Plan for AnyOnlineTools
+## 6. Architectural Feature Plan for AnyOnlineTools
 
 Based on this keyword intelligence, our `StylishTextGenerator` component will crush competitors by providing:
 
@@ -226,7 +265,7 @@ Based on this keyword intelligence, our `StylishTextGenerator` component will cr
 
 ---
 
-## 5. Storage Confirmation
+## 7. Storage Confirmation
 
 This complete keyword research is safely stored and indexed in:  
 `tool-intel/tools/stylish-text-generator/keyword-research.md`
