@@ -1,3 +1,4 @@
+import BlankText from './BlankText';
 import React from 'react';
 import dynamic from 'next/dynamic';
 
@@ -9,6 +10,7 @@ import dynamic from 'next/dynamic';
  * 10,000 individual page folders in Next.js App Router!
  */
 export const TOOL_REGISTRY: Record<string, React.ComponentType<any>> = {
+  'blank-text': BlankText,
   'text-repeater': dynamic(() => import('./TextRepeater'), {
     ssr: true,
   }),
