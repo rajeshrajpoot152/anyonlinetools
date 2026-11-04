@@ -1,7 +1,8 @@
 // AnyOnlineTools PWA Service Worker - Offline-First Performance & Safe Next.js Cache
-const CACHE_NAME = 'anyonlinetools-v2';
+const CACHE_NAME = 'anyonlinetools-v3';
 const STATIC_ASSETS = [
   '/manifest.json',
+  '/offline.html',
   '/icon.svg',
   '/favicon.ico',
   '/logo.png',
@@ -52,7 +53,7 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // For HTML navigations, use Network-First so updates reflect instantly
+  // For HTML navigations, use Network-First so updates reflect instantly, fallback to offline.html
   if (event.request.mode === 'navigate') {
     event.respondWith(
       fetch(event.request)
@@ -60,7 +61,7 @@ self.addEventListener('fetch', (event) => {
           return response;
         })
         .catch(() => {
-          return caches.match(event.request).then((cached) => cached || caches.match('/'));
+          return caches.match(event.request).then((cached) => cached || caches.match('/offline.html') || caches.match('/'));
         })
     );
     return;

@@ -1065,6 +1065,20 @@ export default function BlurText({ ui }: BlurTextProps) {
 
             </div>
 
+            {/* Obfuscated Text Output Action Bar (Copy & Share) */}
+            <div className="pt-2">
+              <ActionPanel
+                content={generatedCSS}
+                stats={[
+                  { label: 'Style', value: textMode.toUpperCase() },
+                  { label: 'Radius', value: `${blurRadius}px` },
+                  { label: 'Length', value: `${inputText.length} chars` }
+                ]}
+                showWhatsAppShare={true}
+                downloadFileName="blurred-text-css.txt"
+              />
+            </div>
+
             {/* Trust Footer */}
             <div className="pt-4 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between text-[11px] text-slate-400">
               <span>⚡ Zero CPU latency · Instant Generation</span>

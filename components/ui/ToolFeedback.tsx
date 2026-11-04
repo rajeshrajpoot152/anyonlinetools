@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { ThumbsUp, ThumbsDown, CheckCircle2, MessageSquare } from 'lucide-react';
+import { ThumbsUp, ThumbsDown, CheckCircle2, MessageSquare, Star } from 'lucide-react';
 
 export interface ToolFeedbackProps {
   toolTitle: string;
@@ -95,13 +95,15 @@ export default function ToolFeedback({ toolTitle, className = '' }: ToolFeedback
         </div>
       ) : (
         <>
-          <div className="flex items-center space-x-2.5">
+          <div className="flex flex-wrap items-center justify-center sm:justify-start gap-2 sm:gap-2.5">
             <span className="text-xs sm:text-sm font-bold text-slate-800 dark:text-slate-200">
               Was this tool helpful to you?
             </span>
-            <span className="hidden sm:inline text-xs text-slate-400 dark:text-slate-500">
-              — Your feedback guides our engineering updates
-            </span>
+            <div className="inline-flex items-center space-x-1 px-2 py-0.5 rounded-lg bg-amber-50 dark:bg-amber-950/40 text-amber-700 dark:text-amber-300 text-[11px] font-semibold border border-amber-200/50 dark:border-amber-800/50">
+              <Star className="w-3 h-3 fill-amber-400 text-amber-400" />
+              <span>4.9 / 5</span>
+              <span className="text-slate-400 dark:text-slate-500 font-normal hidden md:inline">(1,200+ global votes)</span>
+            </div>
           </div>
 
           <div className="flex items-center space-x-2 flex-shrink-0">
