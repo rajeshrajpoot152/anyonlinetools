@@ -1261,3 +1261,25 @@ Analysis of the comprehensive Hindi gaming web portal screenshot (media_17938730
 
 ### 3. Hindi Search Intent Targeting for AnyOnlineTools:
 - Our Hindi locale (`/hi/free-fire-nickname-style/`) directly targets these exact long-tail Hindi search queries, capturing millions of regional gamers searching on Google in Hindi and Hinglish!
+
+
+---
+
+## 56. Competitor Intelligence: Live SERP Audit Targeting Invisible Names & YouTube Channels
+
+From the newly uploaded Google SERP audit screenshot (media_1793873364305):
+
+### Fresh Ranking Competitors & Niche Angle Mapped:
+1. **textinvisible.io**: `Free Fire Invisible Space Name Generator (ㅤ) — Blank Names`
+   - Dedicated micro-tool entirely focused on the **Hangul Filler `U+3164`** blank name trick.
+   - *Confirmation:* Our tool features a dedicated tab and callout card for `U+3164` with 1-click copy, out-ranking standalone micro-tools!
+2. **spized.com**: `Funny gamer names: 170 funny ideas for your gaming profile`
+   - Highlights demand for troll, meme, and noob joke names (e.g., `NoobMaster69`, `Bot Killer`, `FreeKill`).
+3. **Smartprix.com**: `300+ Best Cool & Unique Free Fire ID names for Boys & Girls`
+   - Big tech review authority ranking on news/blog keywords for Free Fire ID styles.
+4. **Captions**: `100+ YouTube Channel Name Ideas to Help You Stand Out`
+   - Crossover intent where Free Fire content creators look for gaming channel branding.
+
+### Deduplication Confirmation:
+- Repeated SERP sidebar queries (`free fire attitude name style`, `free fire name style top 100`) have been cross-checked and skipped without duplicating rows.
+- Only the unique angles (**Invisible Name micro-tool demand** and **Funny/Meme gamer names**) have been saved.
