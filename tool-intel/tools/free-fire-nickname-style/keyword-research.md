@@ -1084,3 +1084,27 @@ Full-page analysis of the live layout from the uploaded screenshot of **freefire
 
 ### 4. Direct Implementation Confirmation:
 - Our tool on AnyOnlineTools already integrates all of these cross-linking queries, character limits, V-badge generator, and clean copy triggers without any third-party ads!
+
+
+---
+
+## 48. Fresh Google SERP Audit: Unique New Domains & Query Intent Extraction
+
+From the newly uploaded Google SERP audit (media_1793871152668):
+
+### Filtered Fresh Ranking Domains (Non-Duplicate Only):
+1. **nickfinder.cool**: `NickFinder - Free Fire Nickname Generator (2026)` (Targeting *cool symbols easily, 100% free and mobile-friendly*).
+2. **freefirenamestyles.in**: `Free Fire Stylish Name Generator 2026 | FreeFireNameStyles.in` (Targeting *hundreds of stylish name variations in real time*).
+3. **freefirenamestyle.com/symbols**: `Symbols - Free Fire Name Style [2026] ➔ Stylish Names ff` (Dedicated symbols subpage claiming *700+ unique symbols for your nickname*).
+4. **stylishname.org**: `Stylish Name ➔ R O Y A L 👑 Nickname ...` (Targeting *Royal nicknames for gamer friends*).
+5. **ffnamestyle.org**: `FF Name Style - Free Fire Stylish Name Generator | Cool ...`
+6. **openl.translate**: `Fancy Text Generator (copy and paste)` (Language translation crossover).
+7. **Canva Logo Templates Ranking**: `"Create free and customizable name logo templates"` — indicates gamers searching for name styles also look to make guild/team logos!
+
+### Filtered New Query Intent:
+- `free fire attitude name style Boy` (Capitalized Boy search cluster).
+- Dedicated search query for **"700+ symbols"** and **"Symbols for Free Fire Name Style"**.
+
+### Anti-Duplication Action:
+- All repeated keywords (`free fire nickname style 2026`, `free fire nickname space`, etc.) were identified and matched against Sections 1-47 without creating duplicate database rows.
+- The new domains (`nickfinder.cool`, `freefirenamestyles.in`, `stylishname.org`) have been logged for competitor tracking.
