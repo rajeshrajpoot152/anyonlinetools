@@ -20,6 +20,9 @@ export const TOOL_REGISTRY: Record<string, React.ComponentType<any>> = {
   'stylish-text-generator': dynamic(() => import('./StylishTextGenerator'), {
     ssr: true,
   }),
+  'free-fire-nickname-style': dynamic(() => import('./FreeFireNicknameStyle'), {
+    ssr: true,
+  }),
   // New tools register here:
   // 'word-counter': dynamic(() => import('./WordCounter'), { ssr: true }),
 };

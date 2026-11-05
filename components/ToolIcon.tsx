@@ -26,6 +26,7 @@ import {
   ShieldCheck,
   Calculator,
   HelpCircle,
+  Gamepad2,
   LucideProps
 } from 'lucide-react';
 
@@ -55,7 +56,8 @@ const iconMap: Record<string, React.ComponentType<LucideProps>> = {
   Code,
   ShieldCheck,
   Calculator,
-  HelpCircle
+  HelpCircle,
+  Gamepad2
 };
 
 interface ToolIconProps extends LucideProps {

@@ -5,12 +5,14 @@ import textRepeaterTranslations from './translations/text-repeater.json';
 import blurTextTranslations from './translations/blur-text.json';
 import stylishTextGeneratorTranslations from './translations/stylish-text-generator.json';
 import blankTextTranslations from './translations/blank-text.json';
+import freeFireNicknameStyleTranslations from './translations/free-fire-nickname-style.json';
 
 const TRANSLATION_REGISTRY: Record<string, Record<string, any>> = {
   'text-repeater': textRepeaterTranslations,
   'blur-text': blurTextTranslations,
   'stylish-text-generator': stylishTextGeneratorTranslations,
   'blank-text': blankTextTranslations,
+  'free-fire-nickname-style': freeFireNicknameStyleTranslations,
 };
 
 export interface LocalizedHowToStep {
