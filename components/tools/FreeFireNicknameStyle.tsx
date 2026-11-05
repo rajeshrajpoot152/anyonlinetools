@@ -59,9 +59,10 @@ const STYLES_MAP = {
 };
 
 const GAME_MODES = [
-  { id: 'FREE_FIRE', name: 'Free Fire (Player)', limit: 12, desc: '12-Character strict limit to prevent wasting 390 Diamonds or a Name Change Card.' },
-  { id: 'BGMI', name: 'BGMI / PUBG', limit: 14, desc: '14-Character clan roster limit for BGMI and PUBG Mobile.' },
-  { id: 'PET', name: 'FF Pet / Companion', limit: 8, desc: '8-Character strict limit for Beaston, Falco, Mr. Waggor, Robo.' },
+  { id: 'FREE_FIRE', name: 'Free Fire (Player)', min: 3, limit: 12, desc: '3 to 12 Characters strict limit. Going above 12 will waste 390 Diamonds.' },
+  { id: 'GUILD', name: 'FF Guild / Clan', min: 3, limit: 12, desc: 'Guild tag/name allows up to 12 visible characters.' },
+  { id: 'BGMI', name: 'BGMI / PUBG', min: 4, limit: 14, desc: '14-Character clan roster limit for BGMI and PUBG Mobile.' },
+  { id: 'PET', name: 'FF Pet', min: 2, limit: 12, desc: 'Allows up to 12 characters for Beaston, Falco, Mr. Waggor, Robo.' },
 ];
 
 // Clickable Symbol Keyboard Palette (like Font-Generator.com)
