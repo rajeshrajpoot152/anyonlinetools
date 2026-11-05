@@ -1283,3 +1283,23 @@ From the newly uploaded Google SERP audit screenshot (media_1793873364305):
 ### Deduplication Confirmation:
 - Repeated SERP sidebar queries (`free fire attitude name style`, `free fire name style top 100`) have been cross-checked and skipped without duplicating rows.
 - Only the unique angles (**Invisible Name micro-tool demand** and **Funny/Meme gamer names**) have been saved.
+
+
+---
+
+## 57. Content Teardown: bigsmall.in Viral Article on Couple & Relationship Nicknames
+
+Deep-dive into the ranking article: *"Unique Nicknames for Lover: Boyfriend, Girlfriend, and Couple"* (media_1793872808876):
+
+### Filtered Key Relationship Categories Mapped:
+1. **Romantic Pet Names for Gamers / Couples:**
+   - Classic: `Bae`, `Honey`, `Sweetheart`, `Sunshine`, `Cupcake`.
+   - Matching Gamer Pairs: `Her King 👑` / `His Queen 👑`, `Romeo 💘` / `Juliet 💘`, `Soul` / `Mate`.
+2. **Cute & Food-Themed Nicknames:**
+   - `Peanut`, `Muffin`, `Brownie`, `Cookie`, `Pudding`.
+3. **Flirty & Fierce Nicknames:**
+   - `Troublemaker`, `Bad Boy`, `Rebel`, `Wildfire`, `Sparky`.
+
+### Anti-Dummy Action:
+- E-commerce cart buttons, gift recommendations, and shop banners from the page have been completely filtered out.
+- The romantic/duo name structures have been verified against our existing **"❤️ Duo & Matching"** preset category to ensure full user satisfaction for couples playing Free Fire and BGMI together.
