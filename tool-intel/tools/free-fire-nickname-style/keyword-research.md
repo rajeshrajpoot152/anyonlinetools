@@ -418,3 +418,48 @@ From the uploaded comprehensive competitor screenshot analysis:
    - WhatsApp, Telegram, Facebook, Discord, Twitter share buttons.
 5. **Cross-Platform Gaming Links:**
    - BGMI Names, PUBG Mobile Names, COD Mobile Names, Free Fire MAX.
+
+
+---
+
+## 20. Competitor Master Teardown: Hindi/English Viral Gaming Portals (FF Name Style 2026/2030)
+
+Analysis of long-form ranking blog posts and tool portals from the screenshots:
+
+### High-Traffic Article Titles & Targets:
+1. **"Free Fire Name Style 2026 / 2030 (100+ Stylish Nicknames for Boys & Girls)"**
+2. **"Free Fire Me Name Kaise Change Kare (How to change name using 390 Diamonds or Name Change Card)"**
+3. **"Free Fire Space Name Trick (Hangul Filler U+3164 Invisible Name)"**
+4. **"Top 10 Attitude Names for Free Fire Boys"**
+5. **"Free Fire Bio Me Color Code Kaise Lagaye (Signature Hex Code Trick)"**
+
+### Viral Curated Names Found in Screenshots:
+- **Attitude / Bad Boy:**
+  - `꧁༺₦Ї₦ℑ₳༻꧂`
+  - `亗 ᏦᎥᏁᎶ 亗`
+  - `×͜×ㅤB A D B O Y 亗`
+  - `★ 𝚁 𝙾 𝙻 𝙴 𝚇 ★`
+  - `『sʜʀᴋ』• B O S Sツ`
+  - `⚡︎ ᴮᴼˢˢ ⚡︎`
+  - `☠︎ T O X I C ☠︎`
+  - `ヘッドショット • 😈` (Headshot Demon)
+- **VIP & Wings:**
+  - `꧁༒☬RAISTAR☬༒꧂`
+  - `Ⓥ ꧁༺NINJA༻꧂`
+  - `⚔️ ༒ K I L L E R ༒ ⚔️`
+  - `༄ᶦᶰᵈ᭄✿G O D࿐`
+- **Couple / Duo:**
+  - `꧁༺ ᎻᎬᏒ ᏦᎥᏁᎶ ༻꧂` & `꧁༺ ᎻᎥᏕ ᎤᏌᎬᎬᏁ ༻꧂`
+  - `❤️ S O U L M A T E ❤️`
+- **Clan / Guild Tags:**
+  - `[GLD]ㅤRASTAR`
+  - `RRQ • B O S S 亗`
+  - `EVOS ϟ N I N J A`
+
+### Competitor Monetization & Layout Pattern:
+- Heavy banner ads inside the content (Google AdSense display & in-article ads).
+- 1-click copy buttons for each name block.
+- FAQ sections targeting search queries like:
+  - *Free fire me nickname kitne character ka hota hai?* (Answer: 3 se 12 characters).
+  - *Free fire me invisible space kaise dale?* (Answer: U+3164 copy paste karke).
+  - *Name change karne me kitne diamond lagte hain?* (Answer: 390 Diamonds ya 1 Name Change Card 39 Diamonds + 200 Guild Tokens).
