@@ -841,3 +841,36 @@ Similarweb Keyword Analytics (Sep 2026) for niche generator domain **ffnick.com*
 ### Takeaways:
 - Even smaller niche domains targeting combinations of `ff`, `nickname`, and `stylish name` capture valuable targeted gamer traffic.
 - By integrating all these high-intent keyword variations into AnyOnlineTools' metadata, headings, and FAQ schema, we capture traffic across all variations (`free fire nickname`, `ff nickname`, `nickname free fire`, `free fire stylish name`).
+
+
+---
+
+## 37. Competitor Intelligence: freefirenamestyle.org Full-Page Teardown & Layout Blueprints
+
+Analysis of the live ranking portal screenshot of **freefirenamestyle.org**:
+
+### 1. Hero & Header Structure:
+- **Title:** "Free Fire Name Style Generator"
+- **Gradient Background:** Clean violet/blue gradient hero section.
+- **Top Pill Filter Chips:**
+  - `All Styles`
+  - `Pro`
+  - `Attitude`
+  - `Love`
+  - `King`
+  - `Girls`
+  - `Boys`
+  - `Cute`
+- **Bottom Fixed Input Bar (Mobile sticky design):**
+  - Uses a fixed bottom input bar `[Enter your name here... | Paste]` on mobile screens to ensure the player can type without scrolling all the way back to top.
+  - *Note:* AnyOnlineTools already features [MobileStickyActionBar.tsx](file:///d:/new-learning/Pizza/anyonlinetools/components/ui/MobileStickyActionBar.tsx) which provides 1-tap copy and live character counts on mobile!
+
+### 2. Card Grid Layout:
+- 5-Column wide grid showing compact mini cards with blue "Copy" buttons.
+- "Load More Stylish Names" button at the base of the preview grid.
+
+### 3. Step-by-Step Educational Cards (High Google Rich Snippet Value):
+- **Step 1: Use Our Free Fire Name Style Generator** (Type your nickname in the box).
+- **Step 2: Copy Your Favorite Free Fire Name Style** (One-click clipboard copy).
+- **Step 3: Open Your Free Fire Profile** (Navigate to profile settings / edit icon).
+- **Step 4: Paste Your Free Fire Stylish Name** (Confirm with 390 Diamonds or Name Change Card).
