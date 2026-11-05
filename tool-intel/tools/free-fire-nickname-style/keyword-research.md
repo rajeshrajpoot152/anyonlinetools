@@ -1467,3 +1467,19 @@ Similarweb Web Intelligence (Sep 2026) for exact gaming niche domain **nicknamef
 ### Strategic Takeaways:
 - **Demolishing Competitor Flaw:** Nicknameff has a terrible average session duration (**8 seconds!**) and a **52.5% bounce rate** because users get overwhelmed by intrusive ads or broken interfaces.
 - **AnyOnlineTools Advantage:** With zero layout shifting ads, instant interactive typing, and live 3-12 character validation, our average dwell time easily exceeds 2 to 3 minutes, giving us much higher algorithmic authority in Google rankings!
+
+
+---
+
+## 66. Competitor Intelligence: spized.com (504K Monthly Visits / Sports & Gaming Team Jersey Intent Screening)
+
+Analysis of Similarweb Web Intelligence (Sep 2026) for custom team wear portal **spized.com**:
+
+### Relevance & Intent Screening (Anti-Dummy Data Protocol):
+- **Core Business:** Custom sports & esports jersey maker (`jersey design`, `jersey maker`, `sports jersey 3d model maker`).
+- **Why It Appeared in Google SERP for Gamer Names:**
+  - Ranked for `"Funny gamer names: 170 funny ideas for your gaming profile"` (Section 56).
+  - Esports squads creating customized team jerseys look for funny or unique clan nicknames to print on the back of their uniforms.
+- **Filtered Action for AnyOnlineTools:**
+  - All sportswear, soccer uniform, and 3D jersey design queries have been safely discarded as non-relevant e-commerce noise.
+  - The gamer intent—that **esports guild leaders and squads look for cohesive team tags to display across both their digital profiles and clan merchandise**—reinforces the importance of our dedicated **"🛡️ Clan & Guild"** generator mode (`[ABC]ㅤRASTAR`, `RRQ • BOSS 亗`, `EVOS ϟ NINJA`).
