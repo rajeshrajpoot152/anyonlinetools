@@ -631,3 +631,103 @@ From the live Google Desktop SERP screenshot for query **`free fire nickname sty
 - Our page title and metadata on AnyOnlineTools already leverage:
   `Free Fire Nickname Style Generator (3-12 Chars Safe) | V-Badge & Invisible Space`
   which matches both search queries and gamer conversion intent better than all of them!
+
+
+---
+
+## 28. Competitor Intelligence: Google SERP Page 2 & Long-Tail Niche Portals Audit
+
+From the second Google SERP ranking page analysis for `free fire nickname style`:
+
+### Additional Ranking Competitors Identified:
+1. **GamesRoid.com**: `Free Fire MAX Name Style: 1000+ Unique Names (2026)` (Targeting the Free Fire MAX specific audience).
+2. **Government / Educational portal subpages**: `Free Fire Nickname Style App` (Govt education sub-domains ranking due to massive organic search demand for gaming names).
+3. **YouTube Video Rankings**:
+   - `Free Fire Stylish Name Change` (Prajapati Tricks)
+   - `Free Fire New Stylish Name Design Tutorial` (BSK Gamers - 28K+ views - *"Nickname me Space lagane ka tarika"*).
+4. **ffnickname.net**: `Free Fire Nickname Generator: 150+ Copy Styles 2026 | FFNick`
+5. **Reddit (r/gamesroid)**: `Some Stylish Free Fire Names You Can Use : r/gamesroid`
+6. **namestylish.online**: `Stylish Name Generator #1 ⚡️ ⒸⓄⓅⓎ & ⓅⒶⓈⓉⒺ ❤️`
+7. **namestyles.net**: `💥 Stylish Name Generator - 1000+ Free Name Styles for ...` (Cross-indexing Free Fire, BGMI, IMO, Instagram).
+8. **Pinterest**: `Free Fire Nickname Style for Girls` (Strong visual traffic for female gamer names like Angel, Queen, Princess, Devil Girl).
+9. **stylish-names.net**: `#1 Stylish Name Generator ⚡️ ⒸⓄⓅⓎ & ⓅⒶⓈⓉⒺ ❤️`
+
+### Core Long-Tail SEO Keyword Clusters to Target:
+- `free fire max name style 2026`
+- `free fire stylish name change tutorial`
+- `free fire nickname style for girls` (Aesthetic pink/heart/butterfly symbols)
+- `free fire name space lagane ka tarika` (Hangul Filler U+3164)
+- `free fire guild nickname ff styles`
+
+
+---
+
+## 29. Competitor Intelligence: namestylish.online (316.8K Monthly Visits)
+
+Similarweb Web Intelligence (Sep 2026) for rising direct search competitor **namestylish.online**:
+
+| Metric | Competitor Stat | Opportunity for AnyOnlineTools |
+| :--- | :--- | :--- |
+| **Monthly Traffic** | **316,800 Visits/mo (316.8K)** | Tier 1 Massive organic scale |
+| **Pages per Visit** | **4.67 Pages** | Deep page browsing & high engagement |
+| **Average Visit Duration**| **00:02:10** | Exceptional dwell time |
+| **Bounce Rate** | **37.75%** | Very low bounce rate |
+| **Search Organic Share**| **73.59%** | Nearly 3/4ths of traffic is free organic Google search! |
+| **Direct Retention** | **21.61%** | Repeat gamer visits |
+
+### Country Distribution:
+- **India:** 31.88%
+- **Pakistan:** 18.16%
+- **United States:** **7.96%** (High AdSense RPM traffic)
+- **Bangladesh:** 7.82%
+- **Philippines:** 4.45%
+
+### Top High-Volume Search Keywords:
+1. **`stylish name`**: **50.4K traffic** | **$0.30 CPC**
+2. **`name style`**: 7.0K traffic | **$0.24 CPC**
+3. **`stylish name generator`**: 5.0K traffic | **$0.15 CPC**
+4. **`nickname`**: 3.8K traffic | **$0.30 CPC**
+5. **`nickname generator`**: 3.2K traffic | **$0.69 CPC**
+
+---
+
+## 30. Competitor Intelligence: stylish-names.net (73.4K Monthly Visits)
+
+Similarweb Web Intelligence (Sep 2026) for **stylish-names.net**:
+
+| Metric | Competitor Stat | Opportunity for AnyOnlineTools |
+| :--- | :--- | :--- |
+| **Monthly Traffic** | **73,400 Visits/mo** | Established secondary player |
+| **Pages per Visit** | **5.07 Pages** | Extremely high pages viewed per session |
+| **Average Visit Duration**| **00:00:59** | 1 minute session |
+| **Bounce Rate** | **37.09%** | Very low bounce |
+| **Direct Traffic** | **43.81%** | High repeat brand loyalty |
+| **Search Organic Share**| **42.72%** | Balanced traffic mix |
+
+### Top Search Queries & CPC:
+1. **`stylish name`**: 4.2K traffic | **$0.30 CPC**
+2. **`name style`**: 1.7K traffic | **$0.24 CPC**
+3. **`nickname generator`**: 480 traffic | **$0.69 CPC**
+4. **`ff name style`**: 550 traffic | **$0.12 CPC**
+5. **`name design`**: 670 traffic | **$0.18 CPC**
+
+---
+
+## 31. Competitor Intelligence: gamesroid.com (45.8K Visits / 100% ChatGPT Referral)
+
+Similarweb Web Intelligence (Sep 2026) for **gamesroid.com**:
+- **Monthly Traffic:** 45,800 Visits/mo
+- **AI Referral:** **ChatGPT.com refers 100% of their GenAI traffic**
+- **Traffic Geographic Mix:** India 11.29%, United States 9.96%, France 7.63%, Russia 7.24%, Germany 6.02%.
+- **Ranking Game Keywords:** `free fire name`, `free fire names`, `astroneer codes`.
+
+---
+
+## 32. Competitor Intelligence: ffnickname.net & Free Fire Girls Nicknames (Pinterest Viral)
+
+From the Pinterest viral boards and ffnickname.net analysis:
+- **Massive Female Gamer Search Volume:**
+  - `Free Fire nickname style for girls`
+  - Cute, stylish, fierce aesthetic names (Kelly, Moco, Caroline, Laura)
+  - Couple matching nicknames (e.g. `Moochie 🌸` & `Matcha 🍃`, `Her King 👑` & `His Queen 🎀`, `Angel Girl 👼`, `Devil Princess 😈`)
+  - Aesthetic symbols popular with girls: `🌸`, `✿`, `🎀`, `✨`, `🦋`, `♡`, `♥`, `🐾`, `☁️`.
