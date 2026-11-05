@@ -420,6 +420,33 @@ flowchart LR
 
 ---
 
+### 6.1.1 Anti-Dummy Clean Data Filtration Protocol (कचरा व डमी डेटा निष्कासन नियम)
+
+To prevent dummy, irrelevant, or dangerous junk data from polluting our codebase, documentation, or SEO matrices, every analysis must strictly apply this **3-Filter Quality Funnel**:
+
+1. **Filter 1: Irrelevant & Unrelated Niche Scrubbing (असंबंधित डेटा निष्कासन)**
+   - Competitor analytics often display unrelated articles from the same domain (e.g. cheats for unrelated games, student cheat sheets, handwriting generators).
+   - **Rule:** Discard any keyword or metric that does not directly serve the core tool's purpose. Never log non-relevant queries into the tool's keyword database.
+
+2. **Filter 2: Black-Hat / Scam / Ban Keyword Purge (AdSense व Google Policy सुरक्षा)**
+   - Disreputable sites rank for illegal terms (e.g. "Free Diamonds Hack", "Unlimited Diamonds Mod APK", "Aimbot Cheats").
+   - **Strict Non-Negotiable Rule:** Zero tolerance. Never include "Hack", "Free Currency Generator", "Mod APK", or "Crack" in copy, metadata, URLs, FAQs, or code. These trigger instant Google AdSense rejections or permanent domain bans.
+
+3. **Filter 3: Outdated Historical Queries Elimination**
+   - Filter out stale queries referencing deprecated years (e.g. 2020, 2021, 2022). Target strictly current and evergreen forward-looking clusters (e.g. 2026, 2030).
+
+### 6.1.2 Cross-Tool Interconnected Data & Synergy Mapping (आपसी टूल कनेक्टिविटी मानक)
+
+When analyzing competitor ecosystems, map and note how tools naturally cross-link and reinforce each other:
+- **Gaming & Font Ecosystem:** `free-fire-nickname-style` naturally connects with `text-repeater` (spam/clan chat), `fancy-font-generator`, `morse-code-translator`, and `invisible-character-generator`.
+- **Text & Word Processing Ecosystem:** `word-counter` connects with `case-converter`, `lorem-ipsum-generator`, and `slug-generator`.
+- **Design & Image Ecosystem:** `image-to-webp` connects with `svg-optimizer` and `favicon-generator`.
+
+**Implementation Rule:**
+Every tool must identify its **Top 3 Companion Tools** and cross-reference them seamlessly in the FAQ, Related Tools widget, or UI tabs, creating an unbreakable internal linking graph that drives high dwell times and maximizes organic crawl depth.
+
+---
+
 ### 6.2 Managing 500+ .md Files Without Folder Chaos
 
 - **Eliminating Flat File Sprawl:** Loose `.md` files in a single root folder become unmanageable. With `tool-intel/tools/[slug]/`, every tool has exactly one home.
