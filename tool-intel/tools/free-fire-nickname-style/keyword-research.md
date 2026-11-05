@@ -1391,3 +1391,33 @@ From the full-page layout screenshot of **freefirenamestyles.in** (media_1793873
   3. *Why Free Fire Rejects Keyboard Spaces?*
   4. *How to Insert V-Badge in Bio?*
 - **Aesthetic Section:** Dedicated "Aesthetic Nicknames" section with clean Japanese Kaomoji and wings styles.
+
+
+---
+
+## 63. Competitor Intelligence: Japanese & Asian Free Fire Naming Guide Teardown
+
+Analysis of the comprehensive Asian/Japanese Free Fire gaming article screenshot (media_1793877343648):
+
+### 1. In-Game Screenshot Verification of Free Fire Mechanics:
+- **Profile Edit Screen Verified:**
+  - Displays the exact in-game modal for changing player nickname.
+  - Confirms the **390 Diamonds** button and **Name Change Card** icon in the official client UI.
+  - Shows how stylish names render in the character lobby beside weapons and pets.
+
+### 2. High-Intent Asian & Katakana Naming Formats Mapped:
+- **Japanese Aesthetic Clan Styles:**
+  - `ヘッドショット` (Headshot God)
+  - `サムライ` (Samurai)
+  - `忍者` (Ninja)
+  - `死神` (Grim Reaper)
+  - `神威` (Kamui / Divine Power)
+- **Symbol Borders Popular in Asian Gaming Servers:**
+  - `⚡︎ ᴮᴼˢˢ ⚡︎`
+  - `『sʜʀᴋ』`
+  - `✿ ᴍ ᴏ ᴄ ʜ ɪ ✿`
+  - `꧁༒☬鬼☬༒꧂`
+
+### 3. Anti-Duplication Action:
+- The standard instructions for 390 diamonds have been cross-checked and merged with Section 55 without duplicating text.
+- Only the unique Japanese Katakana/Kanji aesthetic styles (`サムライ`, `死神`, `神威`) have been added to our naming presets.
