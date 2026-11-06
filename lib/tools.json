@@ -623,6 +623,22 @@
       {
         "q": "How much does it cost to change a nickname in Free Fire?",
         "a": "Changing your nickname in Free Fire costs 390 Diamonds or 1 Name Change Card. Our character safety checker ensures you don't waste currency on truncated names."
+      },
+      {
+        "q": "Will using stylish symbols or invisible space ban my Free Fire account?",
+        "a": "No. All symbols, wings, and invisible space characters (U+3164, U+2800) generated here are standard Unicode characters supported natively by the UTF-8 text rendering engine of Garena Free Fire. They do not modify game files, memory, or APK code, making them 100% compliant with Garena community rules."
+      },
+      {
+        "q": "How do I paste a stylish nickname on Android and iPhone (iOS)?",
+        "a": "Copy your chosen nickname with one click on AnyOnlineTools. Open Free Fire, tap your profile banner in the top-left corner, select the yellow Edit pencil icon next to your current name, tap the nickname field, press and hold to select 'Paste', and confirm using 390 Diamonds or a Name Change Card."
+      },
+      {
+        "q": "How do invisible spaces and V-Badge colors appear in Free Fire MAX?",
+        "a": "Invisible spaces render as clean clan gaps across both Free Fire and Free Fire MAX. Golden V-Badge hex codes ([b][c][FFFF00]Ⓥ) display with bold yellow styling in your public profile signature and bio section on all servers."
+      },
+      {
+        "q": "What are the character limits for Free Fire Guild clan tags and Pet names?",
+        "a": "Player nicknames support up to 12 characters. Free Fire Guild names and clan tags support up to 12 characters, while Pet nicknames support a strict maximum of 8 characters. Our live character counters prevent accidental truncation before spending name change resources."
       }
     ],
     "useCases": [
