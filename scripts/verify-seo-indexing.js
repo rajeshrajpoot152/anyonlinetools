@@ -91,10 +91,10 @@ const toolsCatalog = fs.existsSync(toolsCatalogPath) ? JSON.parse(fs.readFileSyn
 
 // ----------------------------------------------------------------------
 // CHECK 1: Duplicate without user-selected canonical
-// Every HTML page must declare a valid user-selected canonical tag (except 404 error pages).
+// Every HTML page must declare a valid user-selected canonical tag (except 404 error pages and offline fallback).
 // ----------------------------------------------------------------------
 let missingCanonicals = 0;
-const indexableHtmlFiles = allHtmlFiles.filter(f => !f.includes('404'));
+const indexableHtmlFiles = allHtmlFiles.filter(f => !f.includes('404') && !f.includes('offline'));
 for (const file of indexableHtmlFiles) {
   const content = fs.readFileSync(file, 'utf8');
   if (!content.includes('rel="canonical"')) {
