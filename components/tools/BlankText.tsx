@@ -375,7 +375,7 @@ export default function BlankText({ locale = 'en', ui }: BlankTextProps) {
               </button>
             </div>
 
-            {/* Name Already Taken Hack Card */}
+            {/* Name Already Taken Method Card */}
             <div
               onClick={() => setSelectedMode('halfwidth_hangul')}
               className={`cursor-pointer p-4 rounded-3xl border transition-all ${
@@ -392,8 +392,8 @@ export default function BlankText({ locale = 'en', ui }: BlankTextProps) {
                   U+FFA0
                 </span>
               </div>
-              <h3 className="font-bold text-slate-900 dark:text-slate-100 text-sm">Duplicate Name Hack</h3>
-              <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">Bypass when invisible name is taken</p>
+              <h3 className="font-bold text-slate-900 dark:text-slate-100 text-sm">Duplicate Name Method</h3>
+              <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">Alternative character when invisible name is taken</p>
               <button
                 type="button"
                 onClick={(e) => {
