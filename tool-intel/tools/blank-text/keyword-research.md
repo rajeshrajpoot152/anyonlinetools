@@ -84,7 +84,7 @@ From live Google autocomplete testing on the seed query `"Blank Text"`:
 | **`onlinewordpad.com`** | **#6** | **136.5K** | 59.67% | 00:00:39 | **$3.61 CPC on `empty space` (All-time high)**; 3-Method stack; visual step-by-step diagram. |
 | **`codeshack.io`** | **#7** | **592.8K** | 51.69% | 00:01:36 | **Perplexity 10.07% AI referral**; 4-persona hero cards (Gaming, Zero Width, Social, Documents); developer code snippets in JS/HTML/Python. |
 | **`blanktextcopypaste.com`** | **#8** | **2.4K** | 44.27% | 00:00:15 | Exact Match Domain (EMD); 21-row Unicode table; `[ Select All ]` button for manual copy. |
-| **`font-generator.com`** | **Page 1/2** | **High** | — | — | **Gamer Name Space Swapper** (swaps normal spaces for `U+3164` in gamer nicknames); **"Name Already Taken" hack using `U+FFA0`**; platform tabs for Discord/TikTok/Fortnite/Roblox. |
+| **`font-generator.com`** | **Page 1/2** | **High** | — | — | **Gamer Name Space Swapper** (swaps normal spaces for `U+3164` in gamer nicknames); **"Name Already Taken" Method using `U+FFA0`**; platform tabs for Discord/TikTok/Fortnite/Roblox. |
 | **`blanktexts.com`** | **Page 2** | — | — | — | **1-Tap Telegram Share (`[ ✈️ Send to Telegram ]`)** alongside WhatsApp; Bi-directional marks `U+200E`/`U+200F`. |
 | **`capitalizemytitle.com`** | **Page 2** | **2.5M** | 58.32% | 00:00:58 | **ChatGPT 100% AI referral**; $4.05 CPC; Exotic scripts (`U+034F`, `U+061C`, `U+180E`, `U+00AD`); iMessage chat screenshot. |
 | **`caseconverter.tools`** | **Page 2** | — | — | — | Dual-pane text box; **"Best For" tactical application column** in table; Small/Medium/Large presets; stealth text watermark. |
@@ -105,7 +105,7 @@ From live Google autocomplete testing on the seed query `"Blank Text"`:
 | :---: | :---: | :--- | :---: | :---: | :---: | :---: | :--- |
 | **`U+2800`** | `⠀` | **Braille Pattern Blank** | `So` | `&#10240;` | `0x2800` | `Alt+10240` | **WhatsApp, Instagram, TikTok** (Never trimmed by `trim()`, sends empty bubble) |
 | **`U+3164`** | `ㅤ` | **Hangul Filler** | `Lo` | `&#12644;` | `0x3164` | `Alt+12644` | **Free Fire, PUBG, Discord, Roblox** (Treated as valid Korean letter, 100% anti-ban) |
-| **`U+FFA0`** | `ﾠ` | **Halfwidth Hangul Filler**| `Lo` | `&#65440;` | `0xFFA0` | `Alt+65440` | **"Name Already Taken" Hack** (Different code point when `U+3164` is claimed) |
+| **`U+FFA0`** | `ﾠ` | **Halfwidth Hangul Filler**| `Lo` | `&#65440;` | `0xFFA0` | `Alt+65440` | **"Name Already Taken" Method** (Different code point when `U+3164` is claimed) |
 | **`U+1160`** | `ᅠ` | **Hangul Jungseong Filler**| `Lo` | `&#4448;` | `0x1160` | `Alt+4448` | Gaming backup vowel filler |
 | **`U+200B`** | `​` | **Zero Width Space (ZWSP)**| `Cf` | `&#8203;` | `0x200B` | `Alt+8203` | **Stealth separation & watermarking** (Consumes 0px width) |
 | **`U+00A0`** | ` ` | **No-Break Space (NBSP)** | `Zs` | `&#160;&nbsp;`| `0x00A0` | `Alt+0160` | Web typography, prevents line breaks |
@@ -145,7 +145,7 @@ AnyOnlineTools combines the best features of all 30 competitors into a single un
 1. **1-Click Quick Presets:** `[ 1 Space ]`, `[ 3 Spaces ]`, `[ 5 Spaces ]` + Stepper `[ - ] [ 1 ] [ + ]`.
 2. **4 Persona Hero Cards:** Gaming (`U+3164`), WhatsApp (`U+2800`), Zero Width (`U+200B`), Typography (`U+00A0`).
 3. **Gamer Name Space Swapper:** Replaces normal spaces in gamer names with `U+3164` (e.g. `Night Owl` -> `NightㅤOwl`).
-4. **"Name Already Taken" Hack:** Highlighting `U+FFA0` for duplicate name bypass.
+4. **"Name Already Taken" Method:** Highlighting `U+FFA0` for duplicate nickname styling.
 5. **Dual Messaging 1-Tap Share:** Direct `[ 💬 Send to WhatsApp ]` and `[ ✈️ Send to Telegram ]` buttons.
 6. **2D Generator Matrix:** Custom Spaces per Line × Number of Lines for giant scrolling WhatsApp blank bubbles.
 7. **Manual Copy Bracket Fallback:** With `[ Select All ]` and `[ Clear ]` buttons for restricted browsers.
