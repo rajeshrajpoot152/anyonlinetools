@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { 
   Wrench, 
@@ -51,7 +52,15 @@ export default function Footer({ currentLang = 'en' }: { currentLang?: string })
           {/* Brand Info & Mission */}
           <div className="lg:col-span-2">
             <Link href={homeHref} className="inline-flex items-center space-x-2.5 mb-3 group">
-              <Wrench className="w-6 h-6 text-blue-600 dark:text-blue-400 group-hover:scale-105 transition-transform flex-shrink-0" />
+              <span className="relative w-8 h-8 flex-shrink-0 group-hover:scale-105 transition-transform inline-block">
+                <Image
+                  src="/logo.png"
+                  alt="AnyOnlineTools Logo"
+                  width={32}
+                  height={32}
+                  className="w-full h-full object-contain rounded-xl"
+                />
+              </span>
               <span className="text-xl font-black tracking-tight text-slate-900 dark:text-white">
                 AnyOnline<span className="text-blue-600 dark:text-blue-400">Tools</span>
               </span>

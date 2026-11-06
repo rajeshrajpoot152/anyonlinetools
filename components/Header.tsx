@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import Image from 'next/image';
 import { 
   Menu, 
   X, 
@@ -117,7 +118,16 @@ export default function Header({ currentLang = 'en' }: { currentLang?: string })
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         {/* Brand Logo */}
         <Link href={homeHref} className="flex items-center space-x-2.5 group">
-          <Wrench className="w-7 h-7 text-blue-600 dark:text-blue-400 group-hover:scale-105 transition-transform flex-shrink-0" />
+          <span className="relative w-8 h-8 sm:w-9 sm:h-9 flex-shrink-0 group-hover:scale-105 transition-transform inline-block">
+            <Image
+              src="/logo.png"
+              alt="AnyOnlineTools Logo"
+              width={36}
+              height={36}
+              priority
+              className="w-full h-full object-contain rounded-xl"
+            />
+          </span>
           <span className="flex flex-col">
             <span className="text-lg sm:text-xl font-black tracking-tight text-slate-900 dark:text-white leading-none">
               AnyOnline<span className="text-blue-600 dark:text-blue-400">Tools</span>
