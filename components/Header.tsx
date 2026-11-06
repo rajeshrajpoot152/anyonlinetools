@@ -128,13 +128,8 @@ export default function Header({ currentLang = 'en' }: { currentLang?: string })
               className="w-full h-full object-contain rounded-xl"
             />
           </span>
-          <span className="flex flex-col">
-            <span className="text-lg sm:text-xl font-black tracking-tight text-slate-900 dark:text-white leading-none">
-              AnyOnline<span className="text-blue-600 dark:text-blue-400">Tools</span>
-            </span>
-            <span className="text-[10px] text-slate-500 dark:text-slate-400 font-semibold tracking-wide">
-              100% Free · Client-Side Private
-            </span>
+          <span className="text-lg sm:text-xl font-black tracking-tight text-slate-900 dark:text-white">
+            AnyOnline<span className="text-blue-600 dark:text-blue-400">Tools</span>
           </span>
         </Link>
 

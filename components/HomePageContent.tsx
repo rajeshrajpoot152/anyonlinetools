@@ -228,7 +228,7 @@ export default function HomePageContent({ lang = 'en' }: { lang?: string }) {
             Engineered for Privacy, Speed & Simplicity
           </h2>
           <p className="mt-2 text-xs sm:text-sm text-slate-600 dark:text-slate-400">
-            Why millions of developers and writers prefer client-side utility platforms.
+            Why developers, writers, and digital professionals choose private client-side utilities.
           </p>
         </div>
 

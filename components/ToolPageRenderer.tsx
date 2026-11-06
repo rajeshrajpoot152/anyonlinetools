@@ -44,7 +44,7 @@ export default function ToolPageRenderer({
     notFound();
   }
 
-  // Dual Schema: SoftwareApplication + FAQPage with localized content
+  // Schema: SoftwareApplication + FAQPage with localized content (Clean, compliant without synthetic review counts)
   const softwareSchema = {
     '@context': 'https://schema.org',
     '@type': 'SoftwareApplication',
@@ -55,13 +55,6 @@ export default function ToolPageRenderer({
       '@type': 'Offer',
       price: '0',
       priceCurrency: 'USD'
-    },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      bestRating: '5',
-      worstRating: '1',
-      ratingCount: '1248'
     },
     description: tool.subheading || tool.seoDesc
   };

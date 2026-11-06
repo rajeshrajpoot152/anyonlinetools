@@ -228,12 +228,12 @@ export default function ToolLayout({
         <div className="pt-2.5 flex flex-wrap items-center gap-x-3 gap-y-1 text-[11px] text-slate-500 dark:text-slate-400 font-medium">
           <span className="inline-flex items-center space-x-1 text-emerald-600 dark:text-emerald-400 font-semibold">
             <CheckCircle2 className="w-3.5 h-3.5 flex-shrink-0" />
-            <span>Verified for Chrome, Safari & Android</span>
+            <span>Tested on Chromium 129+, WebKit 18+ & Firefox</span>
           </span>
           <span className="text-slate-300 dark:text-slate-700">·</span>
-          <span>Privacy: 100% In-Memory RAM Execution</span>
+          <span>In-Memory Execution</span>
           <span className="text-slate-300 dark:text-slate-700">·</span>
-          <span>Updated: October 2026</span>
+          <span>Zero Server Uploads</span>
         </div>
       </div>
 
