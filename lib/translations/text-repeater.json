@@ -226,6 +226,22 @@
       {
         "q": "¿Cómo comparto el texto repetido en WhatsApp?",
         "a": "Solo haz clic en el botón 'Compartir en WhatsApp' y se abrirá la aplicación con tu mensaje listo para enviar."
+      },
+      {
+        "q": "Is my confidential text or data saved, logged, or uploaded to any server?",
+        "a": "Never. Unlike traditional online tools that transmit your input to remote cloud servers for processing, AnyOnlineTools runs 100% locally in your device's browser memory. Zero bytes are uploaded to remote servers, zero logs are created, and your inputs are completely cleared when you refresh or close the page."
+      },
+      {
+        "q": "How do custom separators and sequential line numbers work?",
+        "a": "You can select pre-configured separators (newline, single space, comma, period, or none) or enter your own custom separator string (such as pipes, dashes, or decorative emojis). Enabling the 'Add line numbers' toggle prefixes each repetition with sequential numbering (e.g., 1., 2., 3...), ideal for generating ordered testing lists."
+      },
+      {
+        "q": "What should I do if the repeated text is too large to copy to the clipboard?",
+        "a": "Certain mobile browsers and operating systems impose clipboard buffer limits (typically between 1 MB and 4 MB). If your repeated output exceeds clipboard thresholds, click the 'Download' button to instantly save your complete generated text as an offline UTF-8 .txt file onto your device with zero data loss."
+      },
+      {
+        "q": "Can I use this Text Repeater offline without an active internet connection?",
+        "a": "Yes. Because AnyOnlineTools is architected as an offline-first Progressive Web Application (PWA), after your first visit all core JavaScript assets are cached locally by your browser. You can bookmark the tool or add it to your mobile Home Screen and generate repeated text anywhere with zero data connection."
       }
     ],
     "features": [
@@ -269,6 +285,66 @@
       "howToUseTitle": "Cómo Usar {tool}",
       "faqBadge": "Preguntas y Respuestas",
       "faqTitle": "Preguntas Frecuentes"
+    },
+    "useCases": [
+      {
+        "tag": "QA & Engineering",
+        "title": "Software QA & Stress Testing",
+        "desc": "Test database field boundaries, chat app input limits, API payload sizes, and mobile UI text wrapping under heavy stress with long strings."
+      },
+      {
+        "tag": "Social Media",
+        "title": "Social Messaging & Viral Fun",
+        "desc": "Create engaging WhatsApp greetings, playful multi-line spam messages for friends, repetitive birthday wishes, and custom Instagram captions."
+      },
+      {
+        "tag": "Design & UI/UX",
+        "title": "Layout Dummy Text & Placeholders",
+        "desc": "Generate custom repetitive dummy text and length-variable placeholder strings to stress-test layout overflow, card wrapping, and typography."
+      },
+      {
+        "tag": "Data & Productivity",
+        "title": "Data Preparation & Numbered Lists",
+        "desc": "Produce sequential numbered items, bulk mock CSV test data, ordered checklists, and repetitive string fixtures for spreadsheet formulas."
+      }
+    ],
+    "comparisonTable": {
+      "title": "Performance & Architecture Comparison",
+      "subtitle": "Why AnyOnlineTools delivers superior speed, privacy, and reliability compared to traditional server-based repeaters.",
+      "ourLabel": "AnyOnlineTools (Client-Side)",
+      "traditionalLabel": "Traditional Repeaters (Server-Based)",
+      "rows": [
+        {
+          "feature": "Data Privacy & Confidentiality",
+          "us": "100% In-Memory RAM (0 Bytes Uploaded)",
+          "traditional": "Transmitted to remote server, logged in access files"
+        },
+        {
+          "feature": "Execution Latency",
+          "us": "Instant 0ms (Local device CPU acceleration)",
+          "traditional": "500ms - 3000ms (Server network roundtrip lag)"
+        },
+        {
+          "feature": "Offline & PWA Capability",
+          "us": "Full offline support via PWA caching",
+          "traditional": "Requires constant internet; fails offline"
+        },
+        {
+          "feature": "Repetition Capacity",
+          "us": "Up to 10,000 repeats per batch free",
+          "traditional": "Often capped at 100-500 repeats or paywalled"
+        },
+        {
+          "feature": "Intrusive Popups & Ads",
+          "us": "Zero full-screen popups, zero redirect spam",
+          "traditional": "Aggressive popup ads, video overlays & redirects"
+        },
+        {
+          "feature": "Mobile Touch Optimization",
+          "us": "Native Web Share, Haptic feedback & 1-tap download",
+          "traditional": "Clunky desktop-only layouts with broken mobile inputs"
+        }
+      ]
     }
   },
   "pt": {
@@ -323,6 +399,22 @@
       {
         "q": "Como compartilho no WhatsApp?",
         "a": "Clique no botão 'WhatsApp' após gerar o texto e ele abrirá o app com a mensagem pronta para envio."
+      },
+      {
+        "q": "Is my confidential text or data saved, logged, or uploaded to any server?",
+        "a": "Never. Unlike traditional online tools that transmit your input to remote cloud servers for processing, AnyOnlineTools runs 100% locally in your device's browser memory. Zero bytes are uploaded to remote servers, zero logs are created, and your inputs are completely cleared when you refresh or close the page."
+      },
+      {
+        "q": "How do custom separators and sequential line numbers work?",
+        "a": "You can select pre-configured separators (newline, single space, comma, period, or none) or enter your own custom separator string (such as pipes, dashes, or decorative emojis). Enabling the 'Add line numbers' toggle prefixes each repetition with sequential numbering (e.g., 1., 2., 3...), ideal for generating ordered testing lists."
+      },
+      {
+        "q": "What should I do if the repeated text is too large to copy to the clipboard?",
+        "a": "Certain mobile browsers and operating systems impose clipboard buffer limits (typically between 1 MB and 4 MB). If your repeated output exceeds clipboard thresholds, click the 'Download' button to instantly save your complete generated text as an offline UTF-8 .txt file onto your device with zero data loss."
+      },
+      {
+        "q": "Can I use this Text Repeater offline without an active internet connection?",
+        "a": "Yes. Because AnyOnlineTools is architected as an offline-first Progressive Web Application (PWA), after your first visit all core JavaScript assets are cached locally by your browser. You can bookmark the tool or add it to your mobile Home Screen and generate repeated text anywhere with zero data connection."
       }
     ],
     "features": [
@@ -366,6 +458,66 @@
       "howToUseTitle": "Como Usar o {tool}",
       "faqBadge": "Perguntas & Respostas",
       "faqTitle": "Perguntas Frequentes"
+    },
+    "useCases": [
+      {
+        "tag": "QA & Engineering",
+        "title": "Software QA & Stress Testing",
+        "desc": "Test database field boundaries, chat app input limits, API payload sizes, and mobile UI text wrapping under heavy stress with long strings."
+      },
+      {
+        "tag": "Social Media",
+        "title": "Social Messaging & Viral Fun",
+        "desc": "Create engaging WhatsApp greetings, playful multi-line spam messages for friends, repetitive birthday wishes, and custom Instagram captions."
+      },
+      {
+        "tag": "Design & UI/UX",
+        "title": "Layout Dummy Text & Placeholders",
+        "desc": "Generate custom repetitive dummy text and length-variable placeholder strings to stress-test layout overflow, card wrapping, and typography."
+      },
+      {
+        "tag": "Data & Productivity",
+        "title": "Data Preparation & Numbered Lists",
+        "desc": "Produce sequential numbered items, bulk mock CSV test data, ordered checklists, and repetitive string fixtures for spreadsheet formulas."
+      }
+    ],
+    "comparisonTable": {
+      "title": "Performance & Architecture Comparison",
+      "subtitle": "Why AnyOnlineTools delivers superior speed, privacy, and reliability compared to traditional server-based repeaters.",
+      "ourLabel": "AnyOnlineTools (Client-Side)",
+      "traditionalLabel": "Traditional Repeaters (Server-Based)",
+      "rows": [
+        {
+          "feature": "Data Privacy & Confidentiality",
+          "us": "100% In-Memory RAM (0 Bytes Uploaded)",
+          "traditional": "Transmitted to remote server, logged in access files"
+        },
+        {
+          "feature": "Execution Latency",
+          "us": "Instant 0ms (Local device CPU acceleration)",
+          "traditional": "500ms - 3000ms (Server network roundtrip lag)"
+        },
+        {
+          "feature": "Offline & PWA Capability",
+          "us": "Full offline support via PWA caching",
+          "traditional": "Requires constant internet; fails offline"
+        },
+        {
+          "feature": "Repetition Capacity",
+          "us": "Up to 10,000 repeats per batch free",
+          "traditional": "Often capped at 100-500 repeats or paywalled"
+        },
+        {
+          "feature": "Intrusive Popups & Ads",
+          "us": "Zero full-screen popups, zero redirect spam",
+          "traditional": "Aggressive popup ads, video overlays & redirects"
+        },
+        {
+          "feature": "Mobile Touch Optimization",
+          "us": "Native Web Share, Haptic feedback & 1-tap download",
+          "traditional": "Clunky desktop-only layouts with broken mobile inputs"
+        }
+      ]
     }
   },
   "id": {
@@ -420,6 +572,22 @@
       {
         "q": "Bagaimana cara membagikan ke WhatsApp?",
         "a": "Klik tombol 'WhatsApp' dan aplikasi WhatsApp akan terbuka otomatis dengan teks yang sudah siap dikirim."
+      },
+      {
+        "q": "Is my confidential text or data saved, logged, or uploaded to any server?",
+        "a": "Never. Unlike traditional online tools that transmit your input to remote cloud servers for processing, AnyOnlineTools runs 100% locally in your device's browser memory. Zero bytes are uploaded to remote servers, zero logs are created, and your inputs are completely cleared when you refresh or close the page."
+      },
+      {
+        "q": "How do custom separators and sequential line numbers work?",
+        "a": "You can select pre-configured separators (newline, single space, comma, period, or none) or enter your own custom separator string (such as pipes, dashes, or decorative emojis). Enabling the 'Add line numbers' toggle prefixes each repetition with sequential numbering (e.g., 1., 2., 3...), ideal for generating ordered testing lists."
+      },
+      {
+        "q": "What should I do if the repeated text is too large to copy to the clipboard?",
+        "a": "Certain mobile browsers and operating systems impose clipboard buffer limits (typically between 1 MB and 4 MB). If your repeated output exceeds clipboard thresholds, click the 'Download' button to instantly save your complete generated text as an offline UTF-8 .txt file onto your device with zero data loss."
+      },
+      {
+        "q": "Can I use this Text Repeater offline without an active internet connection?",
+        "a": "Yes. Because AnyOnlineTools is architected as an offline-first Progressive Web Application (PWA), after your first visit all core JavaScript assets are cached locally by your browser. You can bookmark the tool or add it to your mobile Home Screen and generate repeated text anywhere with zero data connection."
       }
     ],
     "features": [
@@ -463,6 +631,66 @@
       "howToUseTitle": "Cara Menggunakan {tool}",
       "faqBadge": "Tanya Jawab",
       "faqTitle": "Pertanyaan yang Sering Diajukan"
+    },
+    "useCases": [
+      {
+        "tag": "QA & Engineering",
+        "title": "Software QA & Stress Testing",
+        "desc": "Test database field boundaries, chat app input limits, API payload sizes, and mobile UI text wrapping under heavy stress with long strings."
+      },
+      {
+        "tag": "Social Media",
+        "title": "Social Messaging & Viral Fun",
+        "desc": "Create engaging WhatsApp greetings, playful multi-line spam messages for friends, repetitive birthday wishes, and custom Instagram captions."
+      },
+      {
+        "tag": "Design & UI/UX",
+        "title": "Layout Dummy Text & Placeholders",
+        "desc": "Generate custom repetitive dummy text and length-variable placeholder strings to stress-test layout overflow, card wrapping, and typography."
+      },
+      {
+        "tag": "Data & Productivity",
+        "title": "Data Preparation & Numbered Lists",
+        "desc": "Produce sequential numbered items, bulk mock CSV test data, ordered checklists, and repetitive string fixtures for spreadsheet formulas."
+      }
+    ],
+    "comparisonTable": {
+      "title": "Performance & Architecture Comparison",
+      "subtitle": "Why AnyOnlineTools delivers superior speed, privacy, and reliability compared to traditional server-based repeaters.",
+      "ourLabel": "AnyOnlineTools (Client-Side)",
+      "traditionalLabel": "Traditional Repeaters (Server-Based)",
+      "rows": [
+        {
+          "feature": "Data Privacy & Confidentiality",
+          "us": "100% In-Memory RAM (0 Bytes Uploaded)",
+          "traditional": "Transmitted to remote server, logged in access files"
+        },
+        {
+          "feature": "Execution Latency",
+          "us": "Instant 0ms (Local device CPU acceleration)",
+          "traditional": "500ms - 3000ms (Server network roundtrip lag)"
+        },
+        {
+          "feature": "Offline & PWA Capability",
+          "us": "Full offline support via PWA caching",
+          "traditional": "Requires constant internet; fails offline"
+        },
+        {
+          "feature": "Repetition Capacity",
+          "us": "Up to 10,000 repeats per batch free",
+          "traditional": "Often capped at 100-500 repeats or paywalled"
+        },
+        {
+          "feature": "Intrusive Popups & Ads",
+          "us": "Zero full-screen popups, zero redirect spam",
+          "traditional": "Aggressive popup ads, video overlays & redirects"
+        },
+        {
+          "feature": "Mobile Touch Optimization",
+          "us": "Native Web Share, Haptic feedback & 1-tap download",
+          "traditional": "Clunky desktop-only layouts with broken mobile inputs"
+        }
+      ]
     }
   },
   "ar": {
@@ -517,6 +745,22 @@
       {
         "q": "كيف يمكنني مشاركة النص على واتساب؟",
         "a": "ببساطة اضغط على زر 'مشاركة عبر واتساب' وسيتم فتح التطبيق مع النص جاهزاً للإرسال."
+      },
+      {
+        "q": "Is my confidential text or data saved, logged, or uploaded to any server?",
+        "a": "Never. Unlike traditional online tools that transmit your input to remote cloud servers for processing, AnyOnlineTools runs 100% locally in your device's browser memory. Zero bytes are uploaded to remote servers, zero logs are created, and your inputs are completely cleared when you refresh or close the page."
+      },
+      {
+        "q": "How do custom separators and sequential line numbers work?",
+        "a": "You can select pre-configured separators (newline, single space, comma, period, or none) or enter your own custom separator string (such as pipes, dashes, or decorative emojis). Enabling the 'Add line numbers' toggle prefixes each repetition with sequential numbering (e.g., 1., 2., 3...), ideal for generating ordered testing lists."
+      },
+      {
+        "q": "What should I do if the repeated text is too large to copy to the clipboard?",
+        "a": "Certain mobile browsers and operating systems impose clipboard buffer limits (typically between 1 MB and 4 MB). If your repeated output exceeds clipboard thresholds, click the 'Download' button to instantly save your complete generated text as an offline UTF-8 .txt file onto your device with zero data loss."
+      },
+      {
+        "q": "Can I use this Text Repeater offline without an active internet connection?",
+        "a": "Yes. Because AnyOnlineTools is architected as an offline-first Progressive Web Application (PWA), after your first visit all core JavaScript assets are cached locally by your browser. You can bookmark the tool or add it to your mobile Home Screen and generate repeated text anywhere with zero data connection."
       }
     ],
     "features": [
@@ -560,6 +804,66 @@
       "howToUseTitle": "كيفية استخدام {tool}",
       "faqBadge": "الأسئلة الشائعة",
       "faqTitle": "الأسئلة الأكثر تكراراً"
+    },
+    "useCases": [
+      {
+        "tag": "QA & Engineering",
+        "title": "Software QA & Stress Testing",
+        "desc": "Test database field boundaries, chat app input limits, API payload sizes, and mobile UI text wrapping under heavy stress with long strings."
+      },
+      {
+        "tag": "Social Media",
+        "title": "Social Messaging & Viral Fun",
+        "desc": "Create engaging WhatsApp greetings, playful multi-line spam messages for friends, repetitive birthday wishes, and custom Instagram captions."
+      },
+      {
+        "tag": "Design & UI/UX",
+        "title": "Layout Dummy Text & Placeholders",
+        "desc": "Generate custom repetitive dummy text and length-variable placeholder strings to stress-test layout overflow, card wrapping, and typography."
+      },
+      {
+        "tag": "Data & Productivity",
+        "title": "Data Preparation & Numbered Lists",
+        "desc": "Produce sequential numbered items, bulk mock CSV test data, ordered checklists, and repetitive string fixtures for spreadsheet formulas."
+      }
+    ],
+    "comparisonTable": {
+      "title": "Performance & Architecture Comparison",
+      "subtitle": "Why AnyOnlineTools delivers superior speed, privacy, and reliability compared to traditional server-based repeaters.",
+      "ourLabel": "AnyOnlineTools (Client-Side)",
+      "traditionalLabel": "Traditional Repeaters (Server-Based)",
+      "rows": [
+        {
+          "feature": "Data Privacy & Confidentiality",
+          "us": "100% In-Memory RAM (0 Bytes Uploaded)",
+          "traditional": "Transmitted to remote server, logged in access files"
+        },
+        {
+          "feature": "Execution Latency",
+          "us": "Instant 0ms (Local device CPU acceleration)",
+          "traditional": "500ms - 3000ms (Server network roundtrip lag)"
+        },
+        {
+          "feature": "Offline & PWA Capability",
+          "us": "Full offline support via PWA caching",
+          "traditional": "Requires constant internet; fails offline"
+        },
+        {
+          "feature": "Repetition Capacity",
+          "us": "Up to 10,000 repeats per batch free",
+          "traditional": "Often capped at 100-500 repeats or paywalled"
+        },
+        {
+          "feature": "Intrusive Popups & Ads",
+          "us": "Zero full-screen popups, zero redirect spam",
+          "traditional": "Aggressive popup ads, video overlays & redirects"
+        },
+        {
+          "feature": "Mobile Touch Optimization",
+          "us": "Native Web Share, Haptic feedback & 1-tap download",
+          "traditional": "Clunky desktop-only layouts with broken mobile inputs"
+        }
+      ]
     }
   },
   "fr": {
@@ -614,6 +918,22 @@
       {
         "q": "Comment envoyer le texte sur WhatsApp ?",
         "a": "Cliquez sur 'Partager sur WhatsApp' et l'application s'ouvrira directement avec votre message pré-rempli."
+      },
+      {
+        "q": "Is my confidential text or data saved, logged, or uploaded to any server?",
+        "a": "Never. Unlike traditional online tools that transmit your input to remote cloud servers for processing, AnyOnlineTools runs 100% locally in your device's browser memory. Zero bytes are uploaded to remote servers, zero logs are created, and your inputs are completely cleared when you refresh or close the page."
+      },
+      {
+        "q": "How do custom separators and sequential line numbers work?",
+        "a": "You can select pre-configured separators (newline, single space, comma, period, or none) or enter your own custom separator string (such as pipes, dashes, or decorative emojis). Enabling the 'Add line numbers' toggle prefixes each repetition with sequential numbering (e.g., 1., 2., 3...), ideal for generating ordered testing lists."
+      },
+      {
+        "q": "What should I do if the repeated text is too large to copy to the clipboard?",
+        "a": "Certain mobile browsers and operating systems impose clipboard buffer limits (typically between 1 MB and 4 MB). If your repeated output exceeds clipboard thresholds, click the 'Download' button to instantly save your complete generated text as an offline UTF-8 .txt file onto your device with zero data loss."
+      },
+      {
+        "q": "Can I use this Text Repeater offline without an active internet connection?",
+        "a": "Yes. Because AnyOnlineTools is architected as an offline-first Progressive Web Application (PWA), after your first visit all core JavaScript assets are cached locally by your browser. You can bookmark the tool or add it to your mobile Home Screen and generate repeated text anywhere with zero data connection."
       }
     ],
     "features": [
@@ -657,6 +977,66 @@
       "howToUseTitle": "Comment Utiliser {tool}",
       "faqBadge": "Questions & Réponses",
       "faqTitle": "Foire Aux Questions"
+    },
+    "useCases": [
+      {
+        "tag": "QA & Engineering",
+        "title": "Software QA & Stress Testing",
+        "desc": "Test database field boundaries, chat app input limits, API payload sizes, and mobile UI text wrapping under heavy stress with long strings."
+      },
+      {
+        "tag": "Social Media",
+        "title": "Social Messaging & Viral Fun",
+        "desc": "Create engaging WhatsApp greetings, playful multi-line spam messages for friends, repetitive birthday wishes, and custom Instagram captions."
+      },
+      {
+        "tag": "Design & UI/UX",
+        "title": "Layout Dummy Text & Placeholders",
+        "desc": "Generate custom repetitive dummy text and length-variable placeholder strings to stress-test layout overflow, card wrapping, and typography."
+      },
+      {
+        "tag": "Data & Productivity",
+        "title": "Data Preparation & Numbered Lists",
+        "desc": "Produce sequential numbered items, bulk mock CSV test data, ordered checklists, and repetitive string fixtures for spreadsheet formulas."
+      }
+    ],
+    "comparisonTable": {
+      "title": "Performance & Architecture Comparison",
+      "subtitle": "Why AnyOnlineTools delivers superior speed, privacy, and reliability compared to traditional server-based repeaters.",
+      "ourLabel": "AnyOnlineTools (Client-Side)",
+      "traditionalLabel": "Traditional Repeaters (Server-Based)",
+      "rows": [
+        {
+          "feature": "Data Privacy & Confidentiality",
+          "us": "100% In-Memory RAM (0 Bytes Uploaded)",
+          "traditional": "Transmitted to remote server, logged in access files"
+        },
+        {
+          "feature": "Execution Latency",
+          "us": "Instant 0ms (Local device CPU acceleration)",
+          "traditional": "500ms - 3000ms (Server network roundtrip lag)"
+        },
+        {
+          "feature": "Offline & PWA Capability",
+          "us": "Full offline support via PWA caching",
+          "traditional": "Requires constant internet; fails offline"
+        },
+        {
+          "feature": "Repetition Capacity",
+          "us": "Up to 10,000 repeats per batch free",
+          "traditional": "Often capped at 100-500 repeats or paywalled"
+        },
+        {
+          "feature": "Intrusive Popups & Ads",
+          "us": "Zero full-screen popups, zero redirect spam",
+          "traditional": "Aggressive popup ads, video overlays & redirects"
+        },
+        {
+          "feature": "Mobile Touch Optimization",
+          "us": "Native Web Share, Haptic feedback & 1-tap download",
+          "traditional": "Clunky desktop-only layouts with broken mobile inputs"
+        }
+      ]
     }
   },
   "de": {
@@ -711,6 +1091,22 @@
       {
         "q": "Wie teile ich den Text auf WhatsApp?",
         "a": "Klicke nach der Generierung auf den WhatsApp-Button, um die Nachricht direkt in WhatsApp einzufügen."
+      },
+      {
+        "q": "Is my confidential text or data saved, logged, or uploaded to any server?",
+        "a": "Never. Unlike traditional online tools that transmit your input to remote cloud servers for processing, AnyOnlineTools runs 100% locally in your device's browser memory. Zero bytes are uploaded to remote servers, zero logs are created, and your inputs are completely cleared when you refresh or close the page."
+      },
+      {
+        "q": "How do custom separators and sequential line numbers work?",
+        "a": "You can select pre-configured separators (newline, single space, comma, period, or none) or enter your own custom separator string (such as pipes, dashes, or decorative emojis). Enabling the 'Add line numbers' toggle prefixes each repetition with sequential numbering (e.g., 1., 2., 3...), ideal for generating ordered testing lists."
+      },
+      {
+        "q": "What should I do if the repeated text is too large to copy to the clipboard?",
+        "a": "Certain mobile browsers and operating systems impose clipboard buffer limits (typically between 1 MB and 4 MB). If your repeated output exceeds clipboard thresholds, click the 'Download' button to instantly save your complete generated text as an offline UTF-8 .txt file onto your device with zero data loss."
+      },
+      {
+        "q": "Can I use this Text Repeater offline without an active internet connection?",
+        "a": "Yes. Because AnyOnlineTools is architected as an offline-first Progressive Web Application (PWA), after your first visit all core JavaScript assets are cached locally by your browser. You can bookmark the tool or add it to your mobile Home Screen and generate repeated text anywhere with zero data connection."
       }
     ],
     "features": [
@@ -754,6 +1150,66 @@
       "howToUseTitle": "So verwendest du {tool}",
       "faqBadge": "Fragen & Antworten",
       "faqTitle": "Häufig gestellte Fragen"
+    },
+    "useCases": [
+      {
+        "tag": "QA & Engineering",
+        "title": "Software QA & Stress Testing",
+        "desc": "Test database field boundaries, chat app input limits, API payload sizes, and mobile UI text wrapping under heavy stress with long strings."
+      },
+      {
+        "tag": "Social Media",
+        "title": "Social Messaging & Viral Fun",
+        "desc": "Create engaging WhatsApp greetings, playful multi-line spam messages for friends, repetitive birthday wishes, and custom Instagram captions."
+      },
+      {
+        "tag": "Design & UI/UX",
+        "title": "Layout Dummy Text & Placeholders",
+        "desc": "Generate custom repetitive dummy text and length-variable placeholder strings to stress-test layout overflow, card wrapping, and typography."
+      },
+      {
+        "tag": "Data & Productivity",
+        "title": "Data Preparation & Numbered Lists",
+        "desc": "Produce sequential numbered items, bulk mock CSV test data, ordered checklists, and repetitive string fixtures for spreadsheet formulas."
+      }
+    ],
+    "comparisonTable": {
+      "title": "Performance & Architecture Comparison",
+      "subtitle": "Why AnyOnlineTools delivers superior speed, privacy, and reliability compared to traditional server-based repeaters.",
+      "ourLabel": "AnyOnlineTools (Client-Side)",
+      "traditionalLabel": "Traditional Repeaters (Server-Based)",
+      "rows": [
+        {
+          "feature": "Data Privacy & Confidentiality",
+          "us": "100% In-Memory RAM (0 Bytes Uploaded)",
+          "traditional": "Transmitted to remote server, logged in access files"
+        },
+        {
+          "feature": "Execution Latency",
+          "us": "Instant 0ms (Local device CPU acceleration)",
+          "traditional": "500ms - 3000ms (Server network roundtrip lag)"
+        },
+        {
+          "feature": "Offline & PWA Capability",
+          "us": "Full offline support via PWA caching",
+          "traditional": "Requires constant internet; fails offline"
+        },
+        {
+          "feature": "Repetition Capacity",
+          "us": "Up to 10,000 repeats per batch free",
+          "traditional": "Often capped at 100-500 repeats or paywalled"
+        },
+        {
+          "feature": "Intrusive Popups & Ads",
+          "us": "Zero full-screen popups, zero redirect spam",
+          "traditional": "Aggressive popup ads, video overlays & redirects"
+        },
+        {
+          "feature": "Mobile Touch Optimization",
+          "us": "Native Web Share, Haptic feedback & 1-tap download",
+          "traditional": "Clunky desktop-only layouts with broken mobile inputs"
+        }
+      ]
     }
   },
   "ja": {
@@ -808,6 +1264,22 @@
       {
         "q": "LINEやSNSですぐに使えますか？",
         "a": "はい、コピーボタンでコピーした後、LINE、X（旧Twitter）、Discordなどにそのまま貼り付けできます。"
+      },
+      {
+        "q": "Is my confidential text or data saved, logged, or uploaded to any server?",
+        "a": "Never. Unlike traditional online tools that transmit your input to remote cloud servers for processing, AnyOnlineTools runs 100% locally in your device's browser memory. Zero bytes are uploaded to remote servers, zero logs are created, and your inputs are completely cleared when you refresh or close the page."
+      },
+      {
+        "q": "How do custom separators and sequential line numbers work?",
+        "a": "You can select pre-configured separators (newline, single space, comma, period, or none) or enter your own custom separator string (such as pipes, dashes, or decorative emojis). Enabling the 'Add line numbers' toggle prefixes each repetition with sequential numbering (e.g., 1., 2., 3...), ideal for generating ordered testing lists."
+      },
+      {
+        "q": "What should I do if the repeated text is too large to copy to the clipboard?",
+        "a": "Certain mobile browsers and operating systems impose clipboard buffer limits (typically between 1 MB and 4 MB). If your repeated output exceeds clipboard thresholds, click the 'Download' button to instantly save your complete generated text as an offline UTF-8 .txt file onto your device with zero data loss."
+      },
+      {
+        "q": "Can I use this Text Repeater offline without an active internet connection?",
+        "a": "Yes. Because AnyOnlineTools is architected as an offline-first Progressive Web Application (PWA), after your first visit all core JavaScript assets are cached locally by your browser. You can bookmark the tool or add it to your mobile Home Screen and generate repeated text anywhere with zero data connection."
       }
     ],
     "features": [
@@ -851,6 +1323,66 @@
       "howToUseTitle": "{tool} の使い方",
       "faqBadge": "よくあるご質問",
       "faqTitle": "FAQ"
+    },
+    "useCases": [
+      {
+        "tag": "QA & Engineering",
+        "title": "Software QA & Stress Testing",
+        "desc": "Test database field boundaries, chat app input limits, API payload sizes, and mobile UI text wrapping under heavy stress with long strings."
+      },
+      {
+        "tag": "Social Media",
+        "title": "Social Messaging & Viral Fun",
+        "desc": "Create engaging WhatsApp greetings, playful multi-line spam messages for friends, repetitive birthday wishes, and custom Instagram captions."
+      },
+      {
+        "tag": "Design & UI/UX",
+        "title": "Layout Dummy Text & Placeholders",
+        "desc": "Generate custom repetitive dummy text and length-variable placeholder strings to stress-test layout overflow, card wrapping, and typography."
+      },
+      {
+        "tag": "Data & Productivity",
+        "title": "Data Preparation & Numbered Lists",
+        "desc": "Produce sequential numbered items, bulk mock CSV test data, ordered checklists, and repetitive string fixtures for spreadsheet formulas."
+      }
+    ],
+    "comparisonTable": {
+      "title": "Performance & Architecture Comparison",
+      "subtitle": "Why AnyOnlineTools delivers superior speed, privacy, and reliability compared to traditional server-based repeaters.",
+      "ourLabel": "AnyOnlineTools (Client-Side)",
+      "traditionalLabel": "Traditional Repeaters (Server-Based)",
+      "rows": [
+        {
+          "feature": "Data Privacy & Confidentiality",
+          "us": "100% In-Memory RAM (0 Bytes Uploaded)",
+          "traditional": "Transmitted to remote server, logged in access files"
+        },
+        {
+          "feature": "Execution Latency",
+          "us": "Instant 0ms (Local device CPU acceleration)",
+          "traditional": "500ms - 3000ms (Server network roundtrip lag)"
+        },
+        {
+          "feature": "Offline & PWA Capability",
+          "us": "Full offline support via PWA caching",
+          "traditional": "Requires constant internet; fails offline"
+        },
+        {
+          "feature": "Repetition Capacity",
+          "us": "Up to 10,000 repeats per batch free",
+          "traditional": "Often capped at 100-500 repeats or paywalled"
+        },
+        {
+          "feature": "Intrusive Popups & Ads",
+          "us": "Zero full-screen popups, zero redirect spam",
+          "traditional": "Aggressive popup ads, video overlays & redirects"
+        },
+        {
+          "feature": "Mobile Touch Optimization",
+          "us": "Native Web Share, Haptic feedback & 1-tap download",
+          "traditional": "Clunky desktop-only layouts with broken mobile inputs"
+        }
+      ]
     }
   },
   "ru": {
@@ -905,6 +1437,22 @@
       {
         "q": "Как отправить текст в WhatsApp?",
         "a": "Нажмите кнопку 'Поделиться в WhatsApp', и приложение откроется с готовым сообщением."
+      },
+      {
+        "q": "Is my confidential text or data saved, logged, or uploaded to any server?",
+        "a": "Never. Unlike traditional online tools that transmit your input to remote cloud servers for processing, AnyOnlineTools runs 100% locally in your device's browser memory. Zero bytes are uploaded to remote servers, zero logs are created, and your inputs are completely cleared when you refresh or close the page."
+      },
+      {
+        "q": "How do custom separators and sequential line numbers work?",
+        "a": "You can select pre-configured separators (newline, single space, comma, period, or none) or enter your own custom separator string (such as pipes, dashes, or decorative emojis). Enabling the 'Add line numbers' toggle prefixes each repetition with sequential numbering (e.g., 1., 2., 3...), ideal for generating ordered testing lists."
+      },
+      {
+        "q": "What should I do if the repeated text is too large to copy to the clipboard?",
+        "a": "Certain mobile browsers and operating systems impose clipboard buffer limits (typically between 1 MB and 4 MB). If your repeated output exceeds clipboard thresholds, click the 'Download' button to instantly save your complete generated text as an offline UTF-8 .txt file onto your device with zero data loss."
+      },
+      {
+        "q": "Can I use this Text Repeater offline without an active internet connection?",
+        "a": "Yes. Because AnyOnlineTools is architected as an offline-first Progressive Web Application (PWA), after your first visit all core JavaScript assets are cached locally by your browser. You can bookmark the tool or add it to your mobile Home Screen and generate repeated text anywhere with zero data connection."
       }
     ],
     "features": [
@@ -948,6 +1496,66 @@
       "howToUseTitle": "Как использовать {tool}",
       "faqBadge": "Вопросы и ответы",
       "faqTitle": "Часто задаваемые вопросы"
+    },
+    "useCases": [
+      {
+        "tag": "QA & Engineering",
+        "title": "Software QA & Stress Testing",
+        "desc": "Test database field boundaries, chat app input limits, API payload sizes, and mobile UI text wrapping under heavy stress with long strings."
+      },
+      {
+        "tag": "Social Media",
+        "title": "Social Messaging & Viral Fun",
+        "desc": "Create engaging WhatsApp greetings, playful multi-line spam messages for friends, repetitive birthday wishes, and custom Instagram captions."
+      },
+      {
+        "tag": "Design & UI/UX",
+        "title": "Layout Dummy Text & Placeholders",
+        "desc": "Generate custom repetitive dummy text and length-variable placeholder strings to stress-test layout overflow, card wrapping, and typography."
+      },
+      {
+        "tag": "Data & Productivity",
+        "title": "Data Preparation & Numbered Lists",
+        "desc": "Produce sequential numbered items, bulk mock CSV test data, ordered checklists, and repetitive string fixtures for spreadsheet formulas."
+      }
+    ],
+    "comparisonTable": {
+      "title": "Performance & Architecture Comparison",
+      "subtitle": "Why AnyOnlineTools delivers superior speed, privacy, and reliability compared to traditional server-based repeaters.",
+      "ourLabel": "AnyOnlineTools (Client-Side)",
+      "traditionalLabel": "Traditional Repeaters (Server-Based)",
+      "rows": [
+        {
+          "feature": "Data Privacy & Confidentiality",
+          "us": "100% In-Memory RAM (0 Bytes Uploaded)",
+          "traditional": "Transmitted to remote server, logged in access files"
+        },
+        {
+          "feature": "Execution Latency",
+          "us": "Instant 0ms (Local device CPU acceleration)",
+          "traditional": "500ms - 3000ms (Server network roundtrip lag)"
+        },
+        {
+          "feature": "Offline & PWA Capability",
+          "us": "Full offline support via PWA caching",
+          "traditional": "Requires constant internet; fails offline"
+        },
+        {
+          "feature": "Repetition Capacity",
+          "us": "Up to 10,000 repeats per batch free",
+          "traditional": "Often capped at 100-500 repeats or paywalled"
+        },
+        {
+          "feature": "Intrusive Popups & Ads",
+          "us": "Zero full-screen popups, zero redirect spam",
+          "traditional": "Aggressive popup ads, video overlays & redirects"
+        },
+        {
+          "feature": "Mobile Touch Optimization",
+          "us": "Native Web Share, Haptic feedback & 1-tap download",
+          "traditional": "Clunky desktop-only layouts with broken mobile inputs"
+        }
+      ]
     }
   },
   "tr": {
@@ -1002,6 +1610,22 @@
       {
         "q": "WhatsApp'ta nasıl paylaşırım?",
         "a": "Tek tıkla 'WhatsApp'ta Paylaş' butonuna basarak metni doğrudan uygulamaya aktarabilirsiniz."
+      },
+      {
+        "q": "Is my confidential text or data saved, logged, or uploaded to any server?",
+        "a": "Never. Unlike traditional online tools that transmit your input to remote cloud servers for processing, AnyOnlineTools runs 100% locally in your device's browser memory. Zero bytes are uploaded to remote servers, zero logs are created, and your inputs are completely cleared when you refresh or close the page."
+      },
+      {
+        "q": "How do custom separators and sequential line numbers work?",
+        "a": "You can select pre-configured separators (newline, single space, comma, period, or none) or enter your own custom separator string (such as pipes, dashes, or decorative emojis). Enabling the 'Add line numbers' toggle prefixes each repetition with sequential numbering (e.g., 1., 2., 3...), ideal for generating ordered testing lists."
+      },
+      {
+        "q": "What should I do if the repeated text is too large to copy to the clipboard?",
+        "a": "Certain mobile browsers and operating systems impose clipboard buffer limits (typically between 1 MB and 4 MB). If your repeated output exceeds clipboard thresholds, click the 'Download' button to instantly save your complete generated text as an offline UTF-8 .txt file onto your device with zero data loss."
+      },
+      {
+        "q": "Can I use this Text Repeater offline without an active internet connection?",
+        "a": "Yes. Because AnyOnlineTools is architected as an offline-first Progressive Web Application (PWA), after your first visit all core JavaScript assets are cached locally by your browser. You can bookmark the tool or add it to your mobile Home Screen and generate repeated text anywhere with zero data connection."
       }
     ],
     "features": [
@@ -1045,6 +1669,66 @@
       "howToUseTitle": "{tool} Nasıl Kullanılır?",
       "faqBadge": "Soru & Cevap",
       "faqTitle": "Sıkça Sorulan Sorular"
+    },
+    "useCases": [
+      {
+        "tag": "QA & Engineering",
+        "title": "Software QA & Stress Testing",
+        "desc": "Test database field boundaries, chat app input limits, API payload sizes, and mobile UI text wrapping under heavy stress with long strings."
+      },
+      {
+        "tag": "Social Media",
+        "title": "Social Messaging & Viral Fun",
+        "desc": "Create engaging WhatsApp greetings, playful multi-line spam messages for friends, repetitive birthday wishes, and custom Instagram captions."
+      },
+      {
+        "tag": "Design & UI/UX",
+        "title": "Layout Dummy Text & Placeholders",
+        "desc": "Generate custom repetitive dummy text and length-variable placeholder strings to stress-test layout overflow, card wrapping, and typography."
+      },
+      {
+        "tag": "Data & Productivity",
+        "title": "Data Preparation & Numbered Lists",
+        "desc": "Produce sequential numbered items, bulk mock CSV test data, ordered checklists, and repetitive string fixtures for spreadsheet formulas."
+      }
+    ],
+    "comparisonTable": {
+      "title": "Performance & Architecture Comparison",
+      "subtitle": "Why AnyOnlineTools delivers superior speed, privacy, and reliability compared to traditional server-based repeaters.",
+      "ourLabel": "AnyOnlineTools (Client-Side)",
+      "traditionalLabel": "Traditional Repeaters (Server-Based)",
+      "rows": [
+        {
+          "feature": "Data Privacy & Confidentiality",
+          "us": "100% In-Memory RAM (0 Bytes Uploaded)",
+          "traditional": "Transmitted to remote server, logged in access files"
+        },
+        {
+          "feature": "Execution Latency",
+          "us": "Instant 0ms (Local device CPU acceleration)",
+          "traditional": "500ms - 3000ms (Server network roundtrip lag)"
+        },
+        {
+          "feature": "Offline & PWA Capability",
+          "us": "Full offline support via PWA caching",
+          "traditional": "Requires constant internet; fails offline"
+        },
+        {
+          "feature": "Repetition Capacity",
+          "us": "Up to 10,000 repeats per batch free",
+          "traditional": "Often capped at 100-500 repeats or paywalled"
+        },
+        {
+          "feature": "Intrusive Popups & Ads",
+          "us": "Zero full-screen popups, zero redirect spam",
+          "traditional": "Aggressive popup ads, video overlays & redirects"
+        },
+        {
+          "feature": "Mobile Touch Optimization",
+          "us": "Native Web Share, Haptic feedback & 1-tap download",
+          "traditional": "Clunky desktop-only layouts with broken mobile inputs"
+        }
+      ]
     }
   },
   "vi": {
@@ -1099,6 +1783,22 @@
       {
         "q": "Làm thế nào để gửi sang WhatsApp?",
         "a": "Nhấp vào nút 'Chia sẻ qua WhatsApp' để mở ứng dụng với nội dung có sẵn."
+      },
+      {
+        "q": "Is my confidential text or data saved, logged, or uploaded to any server?",
+        "a": "Never. Unlike traditional online tools that transmit your input to remote cloud servers for processing, AnyOnlineTools runs 100% locally in your device's browser memory. Zero bytes are uploaded to remote servers, zero logs are created, and your inputs are completely cleared when you refresh or close the page."
+      },
+      {
+        "q": "How do custom separators and sequential line numbers work?",
+        "a": "You can select pre-configured separators (newline, single space, comma, period, or none) or enter your own custom separator string (such as pipes, dashes, or decorative emojis). Enabling the 'Add line numbers' toggle prefixes each repetition with sequential numbering (e.g., 1., 2., 3...), ideal for generating ordered testing lists."
+      },
+      {
+        "q": "What should I do if the repeated text is too large to copy to the clipboard?",
+        "a": "Certain mobile browsers and operating systems impose clipboard buffer limits (typically between 1 MB and 4 MB). If your repeated output exceeds clipboard thresholds, click the 'Download' button to instantly save your complete generated text as an offline UTF-8 .txt file onto your device with zero data loss."
+      },
+      {
+        "q": "Can I use this Text Repeater offline without an active internet connection?",
+        "a": "Yes. Because AnyOnlineTools is architected as an offline-first Progressive Web Application (PWA), after your first visit all core JavaScript assets are cached locally by your browser. You can bookmark the tool or add it to your mobile Home Screen and generate repeated text anywhere with zero data connection."
       }
     ],
     "features": [
@@ -1142,6 +1842,66 @@
       "howToUseTitle": "Cách Sử Dụng {tool}",
       "faqBadge": "Hỏi & Đáp",
       "faqTitle": "Câu Hỏi Thường Gặp"
+    },
+    "useCases": [
+      {
+        "tag": "QA & Engineering",
+        "title": "Software QA & Stress Testing",
+        "desc": "Test database field boundaries, chat app input limits, API payload sizes, and mobile UI text wrapping under heavy stress with long strings."
+      },
+      {
+        "tag": "Social Media",
+        "title": "Social Messaging & Viral Fun",
+        "desc": "Create engaging WhatsApp greetings, playful multi-line spam messages for friends, repetitive birthday wishes, and custom Instagram captions."
+      },
+      {
+        "tag": "Design & UI/UX",
+        "title": "Layout Dummy Text & Placeholders",
+        "desc": "Generate custom repetitive dummy text and length-variable placeholder strings to stress-test layout overflow, card wrapping, and typography."
+      },
+      {
+        "tag": "Data & Productivity",
+        "title": "Data Preparation & Numbered Lists",
+        "desc": "Produce sequential numbered items, bulk mock CSV test data, ordered checklists, and repetitive string fixtures for spreadsheet formulas."
+      }
+    ],
+    "comparisonTable": {
+      "title": "Performance & Architecture Comparison",
+      "subtitle": "Why AnyOnlineTools delivers superior speed, privacy, and reliability compared to traditional server-based repeaters.",
+      "ourLabel": "AnyOnlineTools (Client-Side)",
+      "traditionalLabel": "Traditional Repeaters (Server-Based)",
+      "rows": [
+        {
+          "feature": "Data Privacy & Confidentiality",
+          "us": "100% In-Memory RAM (0 Bytes Uploaded)",
+          "traditional": "Transmitted to remote server, logged in access files"
+        },
+        {
+          "feature": "Execution Latency",
+          "us": "Instant 0ms (Local device CPU acceleration)",
+          "traditional": "500ms - 3000ms (Server network roundtrip lag)"
+        },
+        {
+          "feature": "Offline & PWA Capability",
+          "us": "Full offline support via PWA caching",
+          "traditional": "Requires constant internet; fails offline"
+        },
+        {
+          "feature": "Repetition Capacity",
+          "us": "Up to 10,000 repeats per batch free",
+          "traditional": "Often capped at 100-500 repeats or paywalled"
+        },
+        {
+          "feature": "Intrusive Popups & Ads",
+          "us": "Zero full-screen popups, zero redirect spam",
+          "traditional": "Aggressive popup ads, video overlays & redirects"
+        },
+        {
+          "feature": "Mobile Touch Optimization",
+          "us": "Native Web Share, Haptic feedback & 1-tap download",
+          "traditional": "Clunky desktop-only layouts with broken mobile inputs"
+        }
+      ]
     }
   },
   "th": {
@@ -1196,6 +1956,22 @@
       {
         "q": "แชร์ไปยัง WhatsApp ได้อย่างไร?",
         "a": "คลิกปุ่ม 'แชร์ไปยัง WhatsApp' เพื่อเปิดแอปพร้อมส่งข้อความได้ทันที"
+      },
+      {
+        "q": "Is my confidential text or data saved, logged, or uploaded to any server?",
+        "a": "Never. Unlike traditional online tools that transmit your input to remote cloud servers for processing, AnyOnlineTools runs 100% locally in your device's browser memory. Zero bytes are uploaded to remote servers, zero logs are created, and your inputs are completely cleared when you refresh or close the page."
+      },
+      {
+        "q": "How do custom separators and sequential line numbers work?",
+        "a": "You can select pre-configured separators (newline, single space, comma, period, or none) or enter your own custom separator string (such as pipes, dashes, or decorative emojis). Enabling the 'Add line numbers' toggle prefixes each repetition with sequential numbering (e.g., 1., 2., 3...), ideal for generating ordered testing lists."
+      },
+      {
+        "q": "What should I do if the repeated text is too large to copy to the clipboard?",
+        "a": "Certain mobile browsers and operating systems impose clipboard buffer limits (typically between 1 MB and 4 MB). If your repeated output exceeds clipboard thresholds, click the 'Download' button to instantly save your complete generated text as an offline UTF-8 .txt file onto your device with zero data loss."
+      },
+      {
+        "q": "Can I use this Text Repeater offline without an active internet connection?",
+        "a": "Yes. Because AnyOnlineTools is architected as an offline-first Progressive Web Application (PWA), after your first visit all core JavaScript assets are cached locally by your browser. You can bookmark the tool or add it to your mobile Home Screen and generate repeated text anywhere with zero data connection."
       }
     ],
     "features": [
@@ -1239,6 +2015,66 @@
       "howToUseTitle": "วิธีใช้งาน {tool}",
       "faqBadge": "คำถามและคำตอบ",
       "faqTitle": "คำถามที่พบบ่อย"
+    },
+    "useCases": [
+      {
+        "tag": "QA & Engineering",
+        "title": "Software QA & Stress Testing",
+        "desc": "Test database field boundaries, chat app input limits, API payload sizes, and mobile UI text wrapping under heavy stress with long strings."
+      },
+      {
+        "tag": "Social Media",
+        "title": "Social Messaging & Viral Fun",
+        "desc": "Create engaging WhatsApp greetings, playful multi-line spam messages for friends, repetitive birthday wishes, and custom Instagram captions."
+      },
+      {
+        "tag": "Design & UI/UX",
+        "title": "Layout Dummy Text & Placeholders",
+        "desc": "Generate custom repetitive dummy text and length-variable placeholder strings to stress-test layout overflow, card wrapping, and typography."
+      },
+      {
+        "tag": "Data & Productivity",
+        "title": "Data Preparation & Numbered Lists",
+        "desc": "Produce sequential numbered items, bulk mock CSV test data, ordered checklists, and repetitive string fixtures for spreadsheet formulas."
+      }
+    ],
+    "comparisonTable": {
+      "title": "Performance & Architecture Comparison",
+      "subtitle": "Why AnyOnlineTools delivers superior speed, privacy, and reliability compared to traditional server-based repeaters.",
+      "ourLabel": "AnyOnlineTools (Client-Side)",
+      "traditionalLabel": "Traditional Repeaters (Server-Based)",
+      "rows": [
+        {
+          "feature": "Data Privacy & Confidentiality",
+          "us": "100% In-Memory RAM (0 Bytes Uploaded)",
+          "traditional": "Transmitted to remote server, logged in access files"
+        },
+        {
+          "feature": "Execution Latency",
+          "us": "Instant 0ms (Local device CPU acceleration)",
+          "traditional": "500ms - 3000ms (Server network roundtrip lag)"
+        },
+        {
+          "feature": "Offline & PWA Capability",
+          "us": "Full offline support via PWA caching",
+          "traditional": "Requires constant internet; fails offline"
+        },
+        {
+          "feature": "Repetition Capacity",
+          "us": "Up to 10,000 repeats per batch free",
+          "traditional": "Often capped at 100-500 repeats or paywalled"
+        },
+        {
+          "feature": "Intrusive Popups & Ads",
+          "us": "Zero full-screen popups, zero redirect spam",
+          "traditional": "Aggressive popup ads, video overlays & redirects"
+        },
+        {
+          "feature": "Mobile Touch Optimization",
+          "us": "Native Web Share, Haptic feedback & 1-tap download",
+          "traditional": "Clunky desktop-only layouts with broken mobile inputs"
+        }
+      ]
     }
   },
   "it": {
@@ -1293,6 +2129,22 @@
       {
         "q": "Come condivido il testo su WhatsApp?",
         "a": "Premi 'Condividi su WhatsApp' e l'app si aprirà con il messaggio già compilato."
+      },
+      {
+        "q": "Is my confidential text or data saved, logged, or uploaded to any server?",
+        "a": "Never. Unlike traditional online tools that transmit your input to remote cloud servers for processing, AnyOnlineTools runs 100% locally in your device's browser memory. Zero bytes are uploaded to remote servers, zero logs are created, and your inputs are completely cleared when you refresh or close the page."
+      },
+      {
+        "q": "How do custom separators and sequential line numbers work?",
+        "a": "You can select pre-configured separators (newline, single space, comma, period, or none) or enter your own custom separator string (such as pipes, dashes, or decorative emojis). Enabling the 'Add line numbers' toggle prefixes each repetition with sequential numbering (e.g., 1., 2., 3...), ideal for generating ordered testing lists."
+      },
+      {
+        "q": "What should I do if the repeated text is too large to copy to the clipboard?",
+        "a": "Certain mobile browsers and operating systems impose clipboard buffer limits (typically between 1 MB and 4 MB). If your repeated output exceeds clipboard thresholds, click the 'Download' button to instantly save your complete generated text as an offline UTF-8 .txt file onto your device with zero data loss."
+      },
+      {
+        "q": "Can I use this Text Repeater offline without an active internet connection?",
+        "a": "Yes. Because AnyOnlineTools is architected as an offline-first Progressive Web Application (PWA), after your first visit all core JavaScript assets are cached locally by your browser. You can bookmark the tool or add it to your mobile Home Screen and generate repeated text anywhere with zero data connection."
       }
     ],
     "features": [
@@ -1336,6 +2188,66 @@
       "howToUseTitle": "Come Usare {tool}",
       "faqBadge": "Domande e Risposte",
       "faqTitle": "Domande Frequenti"
+    },
+    "useCases": [
+      {
+        "tag": "QA & Engineering",
+        "title": "Software QA & Stress Testing",
+        "desc": "Test database field boundaries, chat app input limits, API payload sizes, and mobile UI text wrapping under heavy stress with long strings."
+      },
+      {
+        "tag": "Social Media",
+        "title": "Social Messaging & Viral Fun",
+        "desc": "Create engaging WhatsApp greetings, playful multi-line spam messages for friends, repetitive birthday wishes, and custom Instagram captions."
+      },
+      {
+        "tag": "Design & UI/UX",
+        "title": "Layout Dummy Text & Placeholders",
+        "desc": "Generate custom repetitive dummy text and length-variable placeholder strings to stress-test layout overflow, card wrapping, and typography."
+      },
+      {
+        "tag": "Data & Productivity",
+        "title": "Data Preparation & Numbered Lists",
+        "desc": "Produce sequential numbered items, bulk mock CSV test data, ordered checklists, and repetitive string fixtures for spreadsheet formulas."
+      }
+    ],
+    "comparisonTable": {
+      "title": "Performance & Architecture Comparison",
+      "subtitle": "Why AnyOnlineTools delivers superior speed, privacy, and reliability compared to traditional server-based repeaters.",
+      "ourLabel": "AnyOnlineTools (Client-Side)",
+      "traditionalLabel": "Traditional Repeaters (Server-Based)",
+      "rows": [
+        {
+          "feature": "Data Privacy & Confidentiality",
+          "us": "100% In-Memory RAM (0 Bytes Uploaded)",
+          "traditional": "Transmitted to remote server, logged in access files"
+        },
+        {
+          "feature": "Execution Latency",
+          "us": "Instant 0ms (Local device CPU acceleration)",
+          "traditional": "500ms - 3000ms (Server network roundtrip lag)"
+        },
+        {
+          "feature": "Offline & PWA Capability",
+          "us": "Full offline support via PWA caching",
+          "traditional": "Requires constant internet; fails offline"
+        },
+        {
+          "feature": "Repetition Capacity",
+          "us": "Up to 10,000 repeats per batch free",
+          "traditional": "Often capped at 100-500 repeats or paywalled"
+        },
+        {
+          "feature": "Intrusive Popups & Ads",
+          "us": "Zero full-screen popups, zero redirect spam",
+          "traditional": "Aggressive popup ads, video overlays & redirects"
+        },
+        {
+          "feature": "Mobile Touch Optimization",
+          "us": "Native Web Share, Haptic feedback & 1-tap download",
+          "traditional": "Clunky desktop-only layouts with broken mobile inputs"
+        }
+      ]
     }
   },
   "ko": {
@@ -1390,6 +2302,22 @@
       {
         "q": "카카오톡이나 메신저에 바로 붙여넣을 수 있나요?",
         "a": "네, 생성된 결과는 버튼 하나로 복사하여 카카오톡, 인스타그램, 텔레그램 등에 바로 전송할 수 있습니다."
+      },
+      {
+        "q": "Is my confidential text or data saved, logged, or uploaded to any server?",
+        "a": "Never. Unlike traditional online tools that transmit your input to remote cloud servers for processing, AnyOnlineTools runs 100% locally in your device's browser memory. Zero bytes are uploaded to remote servers, zero logs are created, and your inputs are completely cleared when you refresh or close the page."
+      },
+      {
+        "q": "How do custom separators and sequential line numbers work?",
+        "a": "You can select pre-configured separators (newline, single space, comma, period, or none) or enter your own custom separator string (such as pipes, dashes, or decorative emojis). Enabling the 'Add line numbers' toggle prefixes each repetition with sequential numbering (e.g., 1., 2., 3...), ideal for generating ordered testing lists."
+      },
+      {
+        "q": "What should I do if the repeated text is too large to copy to the clipboard?",
+        "a": "Certain mobile browsers and operating systems impose clipboard buffer limits (typically between 1 MB and 4 MB). If your repeated output exceeds clipboard thresholds, click the 'Download' button to instantly save your complete generated text as an offline UTF-8 .txt file onto your device with zero data loss."
+      },
+      {
+        "q": "Can I use this Text Repeater offline without an active internet connection?",
+        "a": "Yes. Because AnyOnlineTools is architected as an offline-first Progressive Web Application (PWA), after your first visit all core JavaScript assets are cached locally by your browser. You can bookmark the tool or add it to your mobile Home Screen and generate repeated text anywhere with zero data connection."
       }
     ],
     "features": [
@@ -1433,6 +2361,66 @@
       "howToUseTitle": "{tool} 사용법",
       "faqBadge": "질문과 답변",
       "faqTitle": "자주 묻는 질문"
+    },
+    "useCases": [
+      {
+        "tag": "QA & Engineering",
+        "title": "Software QA & Stress Testing",
+        "desc": "Test database field boundaries, chat app input limits, API payload sizes, and mobile UI text wrapping under heavy stress with long strings."
+      },
+      {
+        "tag": "Social Media",
+        "title": "Social Messaging & Viral Fun",
+        "desc": "Create engaging WhatsApp greetings, playful multi-line spam messages for friends, repetitive birthday wishes, and custom Instagram captions."
+      },
+      {
+        "tag": "Design & UI/UX",
+        "title": "Layout Dummy Text & Placeholders",
+        "desc": "Generate custom repetitive dummy text and length-variable placeholder strings to stress-test layout overflow, card wrapping, and typography."
+      },
+      {
+        "tag": "Data & Productivity",
+        "title": "Data Preparation & Numbered Lists",
+        "desc": "Produce sequential numbered items, bulk mock CSV test data, ordered checklists, and repetitive string fixtures for spreadsheet formulas."
+      }
+    ],
+    "comparisonTable": {
+      "title": "Performance & Architecture Comparison",
+      "subtitle": "Why AnyOnlineTools delivers superior speed, privacy, and reliability compared to traditional server-based repeaters.",
+      "ourLabel": "AnyOnlineTools (Client-Side)",
+      "traditionalLabel": "Traditional Repeaters (Server-Based)",
+      "rows": [
+        {
+          "feature": "Data Privacy & Confidentiality",
+          "us": "100% In-Memory RAM (0 Bytes Uploaded)",
+          "traditional": "Transmitted to remote server, logged in access files"
+        },
+        {
+          "feature": "Execution Latency",
+          "us": "Instant 0ms (Local device CPU acceleration)",
+          "traditional": "500ms - 3000ms (Server network roundtrip lag)"
+        },
+        {
+          "feature": "Offline & PWA Capability",
+          "us": "Full offline support via PWA caching",
+          "traditional": "Requires constant internet; fails offline"
+        },
+        {
+          "feature": "Repetition Capacity",
+          "us": "Up to 10,000 repeats per batch free",
+          "traditional": "Often capped at 100-500 repeats or paywalled"
+        },
+        {
+          "feature": "Intrusive Popups & Ads",
+          "us": "Zero full-screen popups, zero redirect spam",
+          "traditional": "Aggressive popup ads, video overlays & redirects"
+        },
+        {
+          "feature": "Mobile Touch Optimization",
+          "us": "Native Web Share, Haptic feedback & 1-tap download",
+          "traditional": "Clunky desktop-only layouts with broken mobile inputs"
+        }
+      ]
     }
   },
   "pl": {
@@ -1487,6 +2475,22 @@
       {
         "q": "Jak wysłać tekst na WhatsApp?",
         "a": "Kliknij przycisk 'Udostępnij na WhatsApp', a aplikacja otworzy się z przygotowanym tekstem."
+      },
+      {
+        "q": "Is my confidential text or data saved, logged, or uploaded to any server?",
+        "a": "Never. Unlike traditional online tools that transmit your input to remote cloud servers for processing, AnyOnlineTools runs 100% locally in your device's browser memory. Zero bytes are uploaded to remote servers, zero logs are created, and your inputs are completely cleared when you refresh or close the page."
+      },
+      {
+        "q": "How do custom separators and sequential line numbers work?",
+        "a": "You can select pre-configured separators (newline, single space, comma, period, or none) or enter your own custom separator string (such as pipes, dashes, or decorative emojis). Enabling the 'Add line numbers' toggle prefixes each repetition with sequential numbering (e.g., 1., 2., 3...), ideal for generating ordered testing lists."
+      },
+      {
+        "q": "What should I do if the repeated text is too large to copy to the clipboard?",
+        "a": "Certain mobile browsers and operating systems impose clipboard buffer limits (typically between 1 MB and 4 MB). If your repeated output exceeds clipboard thresholds, click the 'Download' button to instantly save your complete generated text as an offline UTF-8 .txt file onto your device with zero data loss."
+      },
+      {
+        "q": "Can I use this Text Repeater offline without an active internet connection?",
+        "a": "Yes. Because AnyOnlineTools is architected as an offline-first Progressive Web Application (PWA), after your first visit all core JavaScript assets are cached locally by your browser. You can bookmark the tool or add it to your mobile Home Screen and generate repeated text anywhere with zero data connection."
       }
     ],
     "features": [
@@ -1530,6 +2534,66 @@
       "howToUseTitle": "Jak Używać {tool}",
       "faqBadge": "Pytania i Odpowiedzi",
       "faqTitle": "Często Zadawane Pytania"
+    },
+    "useCases": [
+      {
+        "tag": "QA & Engineering",
+        "title": "Software QA & Stress Testing",
+        "desc": "Test database field boundaries, chat app input limits, API payload sizes, and mobile UI text wrapping under heavy stress with long strings."
+      },
+      {
+        "tag": "Social Media",
+        "title": "Social Messaging & Viral Fun",
+        "desc": "Create engaging WhatsApp greetings, playful multi-line spam messages for friends, repetitive birthday wishes, and custom Instagram captions."
+      },
+      {
+        "tag": "Design & UI/UX",
+        "title": "Layout Dummy Text & Placeholders",
+        "desc": "Generate custom repetitive dummy text and length-variable placeholder strings to stress-test layout overflow, card wrapping, and typography."
+      },
+      {
+        "tag": "Data & Productivity",
+        "title": "Data Preparation & Numbered Lists",
+        "desc": "Produce sequential numbered items, bulk mock CSV test data, ordered checklists, and repetitive string fixtures for spreadsheet formulas."
+      }
+    ],
+    "comparisonTable": {
+      "title": "Performance & Architecture Comparison",
+      "subtitle": "Why AnyOnlineTools delivers superior speed, privacy, and reliability compared to traditional server-based repeaters.",
+      "ourLabel": "AnyOnlineTools (Client-Side)",
+      "traditionalLabel": "Traditional Repeaters (Server-Based)",
+      "rows": [
+        {
+          "feature": "Data Privacy & Confidentiality",
+          "us": "100% In-Memory RAM (0 Bytes Uploaded)",
+          "traditional": "Transmitted to remote server, logged in access files"
+        },
+        {
+          "feature": "Execution Latency",
+          "us": "Instant 0ms (Local device CPU acceleration)",
+          "traditional": "500ms - 3000ms (Server network roundtrip lag)"
+        },
+        {
+          "feature": "Offline & PWA Capability",
+          "us": "Full offline support via PWA caching",
+          "traditional": "Requires constant internet; fails offline"
+        },
+        {
+          "feature": "Repetition Capacity",
+          "us": "Up to 10,000 repeats per batch free",
+          "traditional": "Often capped at 100-500 repeats or paywalled"
+        },
+        {
+          "feature": "Intrusive Popups & Ads",
+          "us": "Zero full-screen popups, zero redirect spam",
+          "traditional": "Aggressive popup ads, video overlays & redirects"
+        },
+        {
+          "feature": "Mobile Touch Optimization",
+          "us": "Native Web Share, Haptic feedback & 1-tap download",
+          "traditional": "Clunky desktop-only layouts with broken mobile inputs"
+        }
+      ]
     }
   },
   "nl": {
@@ -1584,6 +2648,22 @@
       {
         "q": "Hoe deel ik dit op WhatsApp?",
         "a": "Klik op de WhatsApp-knop en het bericht wordt direct geopend in je WhatsApp-applicatie."
+      },
+      {
+        "q": "Is my confidential text or data saved, logged, or uploaded to any server?",
+        "a": "Never. Unlike traditional online tools that transmit your input to remote cloud servers for processing, AnyOnlineTools runs 100% locally in your device's browser memory. Zero bytes are uploaded to remote servers, zero logs are created, and your inputs are completely cleared when you refresh or close the page."
+      },
+      {
+        "q": "How do custom separators and sequential line numbers work?",
+        "a": "You can select pre-configured separators (newline, single space, comma, period, or none) or enter your own custom separator string (such as pipes, dashes, or decorative emojis). Enabling the 'Add line numbers' toggle prefixes each repetition with sequential numbering (e.g., 1., 2., 3...), ideal for generating ordered testing lists."
+      },
+      {
+        "q": "What should I do if the repeated text is too large to copy to the clipboard?",
+        "a": "Certain mobile browsers and operating systems impose clipboard buffer limits (typically between 1 MB and 4 MB). If your repeated output exceeds clipboard thresholds, click the 'Download' button to instantly save your complete generated text as an offline UTF-8 .txt file onto your device with zero data loss."
+      },
+      {
+        "q": "Can I use this Text Repeater offline without an active internet connection?",
+        "a": "Yes. Because AnyOnlineTools is architected as an offline-first Progressive Web Application (PWA), after your first visit all core JavaScript assets are cached locally by your browser. You can bookmark the tool or add it to your mobile Home Screen and generate repeated text anywhere with zero data connection."
       }
     ],
     "features": [
@@ -1627,6 +2707,66 @@
       "howToUseTitle": "Hoe Gebruik Je {tool}",
       "faqBadge": "Vragen & Antwoorden",
       "faqTitle": "Veelgestelde Vragen"
+    },
+    "useCases": [
+      {
+        "tag": "QA & Engineering",
+        "title": "Software QA & Stress Testing",
+        "desc": "Test database field boundaries, chat app input limits, API payload sizes, and mobile UI text wrapping under heavy stress with long strings."
+      },
+      {
+        "tag": "Social Media",
+        "title": "Social Messaging & Viral Fun",
+        "desc": "Create engaging WhatsApp greetings, playful multi-line spam messages for friends, repetitive birthday wishes, and custom Instagram captions."
+      },
+      {
+        "tag": "Design & UI/UX",
+        "title": "Layout Dummy Text & Placeholders",
+        "desc": "Generate custom repetitive dummy text and length-variable placeholder strings to stress-test layout overflow, card wrapping, and typography."
+      },
+      {
+        "tag": "Data & Productivity",
+        "title": "Data Preparation & Numbered Lists",
+        "desc": "Produce sequential numbered items, bulk mock CSV test data, ordered checklists, and repetitive string fixtures for spreadsheet formulas."
+      }
+    ],
+    "comparisonTable": {
+      "title": "Performance & Architecture Comparison",
+      "subtitle": "Why AnyOnlineTools delivers superior speed, privacy, and reliability compared to traditional server-based repeaters.",
+      "ourLabel": "AnyOnlineTools (Client-Side)",
+      "traditionalLabel": "Traditional Repeaters (Server-Based)",
+      "rows": [
+        {
+          "feature": "Data Privacy & Confidentiality",
+          "us": "100% In-Memory RAM (0 Bytes Uploaded)",
+          "traditional": "Transmitted to remote server, logged in access files"
+        },
+        {
+          "feature": "Execution Latency",
+          "us": "Instant 0ms (Local device CPU acceleration)",
+          "traditional": "500ms - 3000ms (Server network roundtrip lag)"
+        },
+        {
+          "feature": "Offline & PWA Capability",
+          "us": "Full offline support via PWA caching",
+          "traditional": "Requires constant internet; fails offline"
+        },
+        {
+          "feature": "Repetition Capacity",
+          "us": "Up to 10,000 repeats per batch free",
+          "traditional": "Often capped at 100-500 repeats or paywalled"
+        },
+        {
+          "feature": "Intrusive Popups & Ads",
+          "us": "Zero full-screen popups, zero redirect spam",
+          "traditional": "Aggressive popup ads, video overlays & redirects"
+        },
+        {
+          "feature": "Mobile Touch Optimization",
+          "us": "Native Web Share, Haptic feedback & 1-tap download",
+          "traditional": "Clunky desktop-only layouts with broken mobile inputs"
+        }
+      ]
     }
   },
   "sv": {
@@ -1681,6 +2821,22 @@
       {
         "q": "Hur delar jag till WhatsApp?",
         "a": "Klicka på WhatsApp-knappen så öppnas appen med texten färdig att skickas."
+      },
+      {
+        "q": "Is my confidential text or data saved, logged, or uploaded to any server?",
+        "a": "Never. Unlike traditional online tools that transmit your input to remote cloud servers for processing, AnyOnlineTools runs 100% locally in your device's browser memory. Zero bytes are uploaded to remote servers, zero logs are created, and your inputs are completely cleared when you refresh or close the page."
+      },
+      {
+        "q": "How do custom separators and sequential line numbers work?",
+        "a": "You can select pre-configured separators (newline, single space, comma, period, or none) or enter your own custom separator string (such as pipes, dashes, or decorative emojis). Enabling the 'Add line numbers' toggle prefixes each repetition with sequential numbering (e.g., 1., 2., 3...), ideal for generating ordered testing lists."
+      },
+      {
+        "q": "What should I do if the repeated text is too large to copy to the clipboard?",
+        "a": "Certain mobile browsers and operating systems impose clipboard buffer limits (typically between 1 MB and 4 MB). If your repeated output exceeds clipboard thresholds, click the 'Download' button to instantly save your complete generated text as an offline UTF-8 .txt file onto your device with zero data loss."
+      },
+      {
+        "q": "Can I use this Text Repeater offline without an active internet connection?",
+        "a": "Yes. Because AnyOnlineTools is architected as an offline-first Progressive Web Application (PWA), after your first visit all core JavaScript assets are cached locally by your browser. You can bookmark the tool or add it to your mobile Home Screen and generate repeated text anywhere with zero data connection."
       }
     ],
     "features": [
@@ -1724,6 +2880,66 @@
       "howToUseTitle": "Hur du Använder {tool}",
       "faqBadge": "Frågor & Svar",
       "faqTitle": "Vanliga Frågor"
+    },
+    "useCases": [
+      {
+        "tag": "QA & Engineering",
+        "title": "Software QA & Stress Testing",
+        "desc": "Test database field boundaries, chat app input limits, API payload sizes, and mobile UI text wrapping under heavy stress with long strings."
+      },
+      {
+        "tag": "Social Media",
+        "title": "Social Messaging & Viral Fun",
+        "desc": "Create engaging WhatsApp greetings, playful multi-line spam messages for friends, repetitive birthday wishes, and custom Instagram captions."
+      },
+      {
+        "tag": "Design & UI/UX",
+        "title": "Layout Dummy Text & Placeholders",
+        "desc": "Generate custom repetitive dummy text and length-variable placeholder strings to stress-test layout overflow, card wrapping, and typography."
+      },
+      {
+        "tag": "Data & Productivity",
+        "title": "Data Preparation & Numbered Lists",
+        "desc": "Produce sequential numbered items, bulk mock CSV test data, ordered checklists, and repetitive string fixtures for spreadsheet formulas."
+      }
+    ],
+    "comparisonTable": {
+      "title": "Performance & Architecture Comparison",
+      "subtitle": "Why AnyOnlineTools delivers superior speed, privacy, and reliability compared to traditional server-based repeaters.",
+      "ourLabel": "AnyOnlineTools (Client-Side)",
+      "traditionalLabel": "Traditional Repeaters (Server-Based)",
+      "rows": [
+        {
+          "feature": "Data Privacy & Confidentiality",
+          "us": "100% In-Memory RAM (0 Bytes Uploaded)",
+          "traditional": "Transmitted to remote server, logged in access files"
+        },
+        {
+          "feature": "Execution Latency",
+          "us": "Instant 0ms (Local device CPU acceleration)",
+          "traditional": "500ms - 3000ms (Server network roundtrip lag)"
+        },
+        {
+          "feature": "Offline & PWA Capability",
+          "us": "Full offline support via PWA caching",
+          "traditional": "Requires constant internet; fails offline"
+        },
+        {
+          "feature": "Repetition Capacity",
+          "us": "Up to 10,000 repeats per batch free",
+          "traditional": "Often capped at 100-500 repeats or paywalled"
+        },
+        {
+          "feature": "Intrusive Popups & Ads",
+          "us": "Zero full-screen popups, zero redirect spam",
+          "traditional": "Aggressive popup ads, video overlays & redirects"
+        },
+        {
+          "feature": "Mobile Touch Optimization",
+          "us": "Native Web Share, Haptic feedback & 1-tap download",
+          "traditional": "Clunky desktop-only layouts with broken mobile inputs"
+        }
+      ]
     }
   },
   "zh-cn": {
@@ -1778,6 +2994,22 @@
       {
         "q": "生成的文本可以直接发送到社交应用吗？",
         "a": "可以，一键复制后可直接粘贴至微信、QQ、WhatsApp、小红书或任意聊天界面。"
+      },
+      {
+        "q": "Is my confidential text or data saved, logged, or uploaded to any server?",
+        "a": "Never. Unlike traditional online tools that transmit your input to remote cloud servers for processing, AnyOnlineTools runs 100% locally in your device's browser memory. Zero bytes are uploaded to remote servers, zero logs are created, and your inputs are completely cleared when you refresh or close the page."
+      },
+      {
+        "q": "How do custom separators and sequential line numbers work?",
+        "a": "You can select pre-configured separators (newline, single space, comma, period, or none) or enter your own custom separator string (such as pipes, dashes, or decorative emojis). Enabling the 'Add line numbers' toggle prefixes each repetition with sequential numbering (e.g., 1., 2., 3...), ideal for generating ordered testing lists."
+      },
+      {
+        "q": "What should I do if the repeated text is too large to copy to the clipboard?",
+        "a": "Certain mobile browsers and operating systems impose clipboard buffer limits (typically between 1 MB and 4 MB). If your repeated output exceeds clipboard thresholds, click the 'Download' button to instantly save your complete generated text as an offline UTF-8 .txt file onto your device with zero data loss."
+      },
+      {
+        "q": "Can I use this Text Repeater offline without an active internet connection?",
+        "a": "Yes. Because AnyOnlineTools is architected as an offline-first Progressive Web Application (PWA), after your first visit all core JavaScript assets are cached locally by your browser. You can bookmark the tool or add it to your mobile Home Screen and generate repeated text anywhere with zero data connection."
       }
     ],
     "features": [
@@ -1821,6 +3053,66 @@
       "howToUseTitle": "如何使用 {tool}",
       "faqBadge": "常见问题答疑",
       "faqTitle": "用户常见问题"
+    },
+    "useCases": [
+      {
+        "tag": "QA & Engineering",
+        "title": "Software QA & Stress Testing",
+        "desc": "Test database field boundaries, chat app input limits, API payload sizes, and mobile UI text wrapping under heavy stress with long strings."
+      },
+      {
+        "tag": "Social Media",
+        "title": "Social Messaging & Viral Fun",
+        "desc": "Create engaging WhatsApp greetings, playful multi-line spam messages for friends, repetitive birthday wishes, and custom Instagram captions."
+      },
+      {
+        "tag": "Design & UI/UX",
+        "title": "Layout Dummy Text & Placeholders",
+        "desc": "Generate custom repetitive dummy text and length-variable placeholder strings to stress-test layout overflow, card wrapping, and typography."
+      },
+      {
+        "tag": "Data & Productivity",
+        "title": "Data Preparation & Numbered Lists",
+        "desc": "Produce sequential numbered items, bulk mock CSV test data, ordered checklists, and repetitive string fixtures for spreadsheet formulas."
+      }
+    ],
+    "comparisonTable": {
+      "title": "Performance & Architecture Comparison",
+      "subtitle": "Why AnyOnlineTools delivers superior speed, privacy, and reliability compared to traditional server-based repeaters.",
+      "ourLabel": "AnyOnlineTools (Client-Side)",
+      "traditionalLabel": "Traditional Repeaters (Server-Based)",
+      "rows": [
+        {
+          "feature": "Data Privacy & Confidentiality",
+          "us": "100% In-Memory RAM (0 Bytes Uploaded)",
+          "traditional": "Transmitted to remote server, logged in access files"
+        },
+        {
+          "feature": "Execution Latency",
+          "us": "Instant 0ms (Local device CPU acceleration)",
+          "traditional": "500ms - 3000ms (Server network roundtrip lag)"
+        },
+        {
+          "feature": "Offline & PWA Capability",
+          "us": "Full offline support via PWA caching",
+          "traditional": "Requires constant internet; fails offline"
+        },
+        {
+          "feature": "Repetition Capacity",
+          "us": "Up to 10,000 repeats per batch free",
+          "traditional": "Often capped at 100-500 repeats or paywalled"
+        },
+        {
+          "feature": "Intrusive Popups & Ads",
+          "us": "Zero full-screen popups, zero redirect spam",
+          "traditional": "Aggressive popup ads, video overlays & redirects"
+        },
+        {
+          "feature": "Mobile Touch Optimization",
+          "us": "Native Web Share, Haptic feedback & 1-tap download",
+          "traditional": "Clunky desktop-only layouts with broken mobile inputs"
+        }
+      ]
     }
   },
   "zh-tw": {
@@ -1875,6 +3167,22 @@
       {
         "q": "可以直接傳送到通訊軟體嗎？",
         "a": "複製後可直接貼到 LINE、Telegram、Instagram 或任何編輯器中。"
+      },
+      {
+        "q": "Is my confidential text or data saved, logged, or uploaded to any server?",
+        "a": "Never. Unlike traditional online tools that transmit your input to remote cloud servers for processing, AnyOnlineTools runs 100% locally in your device's browser memory. Zero bytes are uploaded to remote servers, zero logs are created, and your inputs are completely cleared when you refresh or close the page."
+      },
+      {
+        "q": "How do custom separators and sequential line numbers work?",
+        "a": "You can select pre-configured separators (newline, single space, comma, period, or none) or enter your own custom separator string (such as pipes, dashes, or decorative emojis). Enabling the 'Add line numbers' toggle prefixes each repetition with sequential numbering (e.g., 1., 2., 3...), ideal for generating ordered testing lists."
+      },
+      {
+        "q": "What should I do if the repeated text is too large to copy to the clipboard?",
+        "a": "Certain mobile browsers and operating systems impose clipboard buffer limits (typically between 1 MB and 4 MB). If your repeated output exceeds clipboard thresholds, click the 'Download' button to instantly save your complete generated text as an offline UTF-8 .txt file onto your device with zero data loss."
+      },
+      {
+        "q": "Can I use this Text Repeater offline without an active internet connection?",
+        "a": "Yes. Because AnyOnlineTools is architected as an offline-first Progressive Web Application (PWA), after your first visit all core JavaScript assets are cached locally by your browser. You can bookmark the tool or add it to your mobile Home Screen and generate repeated text anywhere with zero data connection."
       }
     ],
     "features": [
@@ -1918,6 +3226,66 @@
       "howToUseTitle": "如何使用 {tool}",
       "faqBadge": "問與答",
       "faqTitle": "常見問答"
+    },
+    "useCases": [
+      {
+        "tag": "QA & Engineering",
+        "title": "Software QA & Stress Testing",
+        "desc": "Test database field boundaries, chat app input limits, API payload sizes, and mobile UI text wrapping under heavy stress with long strings."
+      },
+      {
+        "tag": "Social Media",
+        "title": "Social Messaging & Viral Fun",
+        "desc": "Create engaging WhatsApp greetings, playful multi-line spam messages for friends, repetitive birthday wishes, and custom Instagram captions."
+      },
+      {
+        "tag": "Design & UI/UX",
+        "title": "Layout Dummy Text & Placeholders",
+        "desc": "Generate custom repetitive dummy text and length-variable placeholder strings to stress-test layout overflow, card wrapping, and typography."
+      },
+      {
+        "tag": "Data & Productivity",
+        "title": "Data Preparation & Numbered Lists",
+        "desc": "Produce sequential numbered items, bulk mock CSV test data, ordered checklists, and repetitive string fixtures for spreadsheet formulas."
+      }
+    ],
+    "comparisonTable": {
+      "title": "Performance & Architecture Comparison",
+      "subtitle": "Why AnyOnlineTools delivers superior speed, privacy, and reliability compared to traditional server-based repeaters.",
+      "ourLabel": "AnyOnlineTools (Client-Side)",
+      "traditionalLabel": "Traditional Repeaters (Server-Based)",
+      "rows": [
+        {
+          "feature": "Data Privacy & Confidentiality",
+          "us": "100% In-Memory RAM (0 Bytes Uploaded)",
+          "traditional": "Transmitted to remote server, logged in access files"
+        },
+        {
+          "feature": "Execution Latency",
+          "us": "Instant 0ms (Local device CPU acceleration)",
+          "traditional": "500ms - 3000ms (Server network roundtrip lag)"
+        },
+        {
+          "feature": "Offline & PWA Capability",
+          "us": "Full offline support via PWA caching",
+          "traditional": "Requires constant internet; fails offline"
+        },
+        {
+          "feature": "Repetition Capacity",
+          "us": "Up to 10,000 repeats per batch free",
+          "traditional": "Often capped at 100-500 repeats or paywalled"
+        },
+        {
+          "feature": "Intrusive Popups & Ads",
+          "us": "Zero full-screen popups, zero redirect spam",
+          "traditional": "Aggressive popup ads, video overlays & redirects"
+        },
+        {
+          "feature": "Mobile Touch Optimization",
+          "us": "Native Web Share, Haptic feedback & 1-tap download",
+          "traditional": "Clunky desktop-only layouts with broken mobile inputs"
+        }
+      ]
     }
   },
   "bg": {
@@ -1972,6 +3340,22 @@
       {
         "q": "Как да изпратя резултата в WhatsApp?",
         "a": "Натиснете бутона 'WhatsApp' и приложението ще се отвори с готовото за изпращане съобщение."
+      },
+      {
+        "q": "Is my confidential text or data saved, logged, or uploaded to any server?",
+        "a": "Never. Unlike traditional online tools that transmit your input to remote cloud servers for processing, AnyOnlineTools runs 100% locally in your device's browser memory. Zero bytes are uploaded to remote servers, zero logs are created, and your inputs are completely cleared when you refresh or close the page."
+      },
+      {
+        "q": "How do custom separators and sequential line numbers work?",
+        "a": "You can select pre-configured separators (newline, single space, comma, period, or none) or enter your own custom separator string (such as pipes, dashes, or decorative emojis). Enabling the 'Add line numbers' toggle prefixes each repetition with sequential numbering (e.g., 1., 2., 3...), ideal for generating ordered testing lists."
+      },
+      {
+        "q": "What should I do if the repeated text is too large to copy to the clipboard?",
+        "a": "Certain mobile browsers and operating systems impose clipboard buffer limits (typically between 1 MB and 4 MB). If your repeated output exceeds clipboard thresholds, click the 'Download' button to instantly save your complete generated text as an offline UTF-8 .txt file onto your device with zero data loss."
+      },
+      {
+        "q": "Can I use this Text Repeater offline without an active internet connection?",
+        "a": "Yes. Because AnyOnlineTools is architected as an offline-first Progressive Web Application (PWA), after your first visit all core JavaScript assets are cached locally by your browser. You can bookmark the tool or add it to your mobile Home Screen and generate repeated text anywhere with zero data connection."
       }
     ],
     "features": [
@@ -2015,6 +3399,66 @@
       "howToUseTitle": "Как се използва {tool}",
       "faqBadge": "Въпроси и отговори",
       "faqTitle": "Често задавани въпроси"
+    },
+    "useCases": [
+      {
+        "tag": "QA & Engineering",
+        "title": "Software QA & Stress Testing",
+        "desc": "Test database field boundaries, chat app input limits, API payload sizes, and mobile UI text wrapping under heavy stress with long strings."
+      },
+      {
+        "tag": "Social Media",
+        "title": "Social Messaging & Viral Fun",
+        "desc": "Create engaging WhatsApp greetings, playful multi-line spam messages for friends, repetitive birthday wishes, and custom Instagram captions."
+      },
+      {
+        "tag": "Design & UI/UX",
+        "title": "Layout Dummy Text & Placeholders",
+        "desc": "Generate custom repetitive dummy text and length-variable placeholder strings to stress-test layout overflow, card wrapping, and typography."
+      },
+      {
+        "tag": "Data & Productivity",
+        "title": "Data Preparation & Numbered Lists",
+        "desc": "Produce sequential numbered items, bulk mock CSV test data, ordered checklists, and repetitive string fixtures for spreadsheet formulas."
+      }
+    ],
+    "comparisonTable": {
+      "title": "Performance & Architecture Comparison",
+      "subtitle": "Why AnyOnlineTools delivers superior speed, privacy, and reliability compared to traditional server-based repeaters.",
+      "ourLabel": "AnyOnlineTools (Client-Side)",
+      "traditionalLabel": "Traditional Repeaters (Server-Based)",
+      "rows": [
+        {
+          "feature": "Data Privacy & Confidentiality",
+          "us": "100% In-Memory RAM (0 Bytes Uploaded)",
+          "traditional": "Transmitted to remote server, logged in access files"
+        },
+        {
+          "feature": "Execution Latency",
+          "us": "Instant 0ms (Local device CPU acceleration)",
+          "traditional": "500ms - 3000ms (Server network roundtrip lag)"
+        },
+        {
+          "feature": "Offline & PWA Capability",
+          "us": "Full offline support via PWA caching",
+          "traditional": "Requires constant internet; fails offline"
+        },
+        {
+          "feature": "Repetition Capacity",
+          "us": "Up to 10,000 repeats per batch free",
+          "traditional": "Often capped at 100-500 repeats or paywalled"
+        },
+        {
+          "feature": "Intrusive Popups & Ads",
+          "us": "Zero full-screen popups, zero redirect spam",
+          "traditional": "Aggressive popup ads, video overlays & redirects"
+        },
+        {
+          "feature": "Mobile Touch Optimization",
+          "us": "Native Web Share, Haptic feedback & 1-tap download",
+          "traditional": "Clunky desktop-only layouts with broken mobile inputs"
+        }
+      ]
     }
   },
   "ca": {
@@ -2069,6 +3513,22 @@
       {
         "q": "Com ho comparteixo a WhatsApp?",
         "a": "Clica el botó de WhatsApp per obrir directament el xat amb el missatge preparat."
+      },
+      {
+        "q": "Is my confidential text or data saved, logged, or uploaded to any server?",
+        "a": "Never. Unlike traditional online tools that transmit your input to remote cloud servers for processing, AnyOnlineTools runs 100% locally in your device's browser memory. Zero bytes are uploaded to remote servers, zero logs are created, and your inputs are completely cleared when you refresh or close the page."
+      },
+      {
+        "q": "How do custom separators and sequential line numbers work?",
+        "a": "You can select pre-configured separators (newline, single space, comma, period, or none) or enter your own custom separator string (such as pipes, dashes, or decorative emojis). Enabling the 'Add line numbers' toggle prefixes each repetition with sequential numbering (e.g., 1., 2., 3...), ideal for generating ordered testing lists."
+      },
+      {
+        "q": "What should I do if the repeated text is too large to copy to the clipboard?",
+        "a": "Certain mobile browsers and operating systems impose clipboard buffer limits (typically between 1 MB and 4 MB). If your repeated output exceeds clipboard thresholds, click the 'Download' button to instantly save your complete generated text as an offline UTF-8 .txt file onto your device with zero data loss."
+      },
+      {
+        "q": "Can I use this Text Repeater offline without an active internet connection?",
+        "a": "Yes. Because AnyOnlineTools is architected as an offline-first Progressive Web Application (PWA), after your first visit all core JavaScript assets are cached locally by your browser. You can bookmark the tool or add it to your mobile Home Screen and generate repeated text anywhere with zero data connection."
       }
     ],
     "features": [
@@ -2112,6 +3572,66 @@
       "howToUseTitle": "Com Utilitzar {tool}",
       "faqBadge": "Preguntes & Respostes",
       "faqTitle": "Preguntes Més Freqüents"
+    },
+    "useCases": [
+      {
+        "tag": "QA & Engineering",
+        "title": "Software QA & Stress Testing",
+        "desc": "Test database field boundaries, chat app input limits, API payload sizes, and mobile UI text wrapping under heavy stress with long strings."
+      },
+      {
+        "tag": "Social Media",
+        "title": "Social Messaging & Viral Fun",
+        "desc": "Create engaging WhatsApp greetings, playful multi-line spam messages for friends, repetitive birthday wishes, and custom Instagram captions."
+      },
+      {
+        "tag": "Design & UI/UX",
+        "title": "Layout Dummy Text & Placeholders",
+        "desc": "Generate custom repetitive dummy text and length-variable placeholder strings to stress-test layout overflow, card wrapping, and typography."
+      },
+      {
+        "tag": "Data & Productivity",
+        "title": "Data Preparation & Numbered Lists",
+        "desc": "Produce sequential numbered items, bulk mock CSV test data, ordered checklists, and repetitive string fixtures for spreadsheet formulas."
+      }
+    ],
+    "comparisonTable": {
+      "title": "Performance & Architecture Comparison",
+      "subtitle": "Why AnyOnlineTools delivers superior speed, privacy, and reliability compared to traditional server-based repeaters.",
+      "ourLabel": "AnyOnlineTools (Client-Side)",
+      "traditionalLabel": "Traditional Repeaters (Server-Based)",
+      "rows": [
+        {
+          "feature": "Data Privacy & Confidentiality",
+          "us": "100% In-Memory RAM (0 Bytes Uploaded)",
+          "traditional": "Transmitted to remote server, logged in access files"
+        },
+        {
+          "feature": "Execution Latency",
+          "us": "Instant 0ms (Local device CPU acceleration)",
+          "traditional": "500ms - 3000ms (Server network roundtrip lag)"
+        },
+        {
+          "feature": "Offline & PWA Capability",
+          "us": "Full offline support via PWA caching",
+          "traditional": "Requires constant internet; fails offline"
+        },
+        {
+          "feature": "Repetition Capacity",
+          "us": "Up to 10,000 repeats per batch free",
+          "traditional": "Often capped at 100-500 repeats or paywalled"
+        },
+        {
+          "feature": "Intrusive Popups & Ads",
+          "us": "Zero full-screen popups, zero redirect spam",
+          "traditional": "Aggressive popup ads, video overlays & redirects"
+        },
+        {
+          "feature": "Mobile Touch Optimization",
+          "us": "Native Web Share, Haptic feedback & 1-tap download",
+          "traditional": "Clunky desktop-only layouts with broken mobile inputs"
+        }
+      ]
     }
   },
   "el": {
@@ -2166,6 +3686,22 @@
       {
         "q": "Πώς κοινοποιώ στο WhatsApp;",
         "a": "Πατήστε το κουμπί του WhatsApp για να ανοίξει άμεσα η εφαρμογή με έτοιμο το μήνυμα."
+      },
+      {
+        "q": "Is my confidential text or data saved, logged, or uploaded to any server?",
+        "a": "Never. Unlike traditional online tools that transmit your input to remote cloud servers for processing, AnyOnlineTools runs 100% locally in your device's browser memory. Zero bytes are uploaded to remote servers, zero logs are created, and your inputs are completely cleared when you refresh or close the page."
+      },
+      {
+        "q": "How do custom separators and sequential line numbers work?",
+        "a": "You can select pre-configured separators (newline, single space, comma, period, or none) or enter your own custom separator string (such as pipes, dashes, or decorative emojis). Enabling the 'Add line numbers' toggle prefixes each repetition with sequential numbering (e.g., 1., 2., 3...), ideal for generating ordered testing lists."
+      },
+      {
+        "q": "What should I do if the repeated text is too large to copy to the clipboard?",
+        "a": "Certain mobile browsers and operating systems impose clipboard buffer limits (typically between 1 MB and 4 MB). If your repeated output exceeds clipboard thresholds, click the 'Download' button to instantly save your complete generated text as an offline UTF-8 .txt file onto your device with zero data loss."
+      },
+      {
+        "q": "Can I use this Text Repeater offline without an active internet connection?",
+        "a": "Yes. Because AnyOnlineTools is architected as an offline-first Progressive Web Application (PWA), after your first visit all core JavaScript assets are cached locally by your browser. You can bookmark the tool or add it to your mobile Home Screen and generate repeated text anywhere with zero data connection."
       }
     ],
     "features": [
@@ -2209,6 +3745,66 @@
       "howToUseTitle": "Πώς να Χρησιμοποιήσετε το {tool}",
       "faqBadge": "Ερωτήσεις & Απαντήσεις",
       "faqTitle": "Συχνές Ερωτήσεις"
+    },
+    "useCases": [
+      {
+        "tag": "QA & Engineering",
+        "title": "Software QA & Stress Testing",
+        "desc": "Test database field boundaries, chat app input limits, API payload sizes, and mobile UI text wrapping under heavy stress with long strings."
+      },
+      {
+        "tag": "Social Media",
+        "title": "Social Messaging & Viral Fun",
+        "desc": "Create engaging WhatsApp greetings, playful multi-line spam messages for friends, repetitive birthday wishes, and custom Instagram captions."
+      },
+      {
+        "tag": "Design & UI/UX",
+        "title": "Layout Dummy Text & Placeholders",
+        "desc": "Generate custom repetitive dummy text and length-variable placeholder strings to stress-test layout overflow, card wrapping, and typography."
+      },
+      {
+        "tag": "Data & Productivity",
+        "title": "Data Preparation & Numbered Lists",
+        "desc": "Produce sequential numbered items, bulk mock CSV test data, ordered checklists, and repetitive string fixtures for spreadsheet formulas."
+      }
+    ],
+    "comparisonTable": {
+      "title": "Performance & Architecture Comparison",
+      "subtitle": "Why AnyOnlineTools delivers superior speed, privacy, and reliability compared to traditional server-based repeaters.",
+      "ourLabel": "AnyOnlineTools (Client-Side)",
+      "traditionalLabel": "Traditional Repeaters (Server-Based)",
+      "rows": [
+        {
+          "feature": "Data Privacy & Confidentiality",
+          "us": "100% In-Memory RAM (0 Bytes Uploaded)",
+          "traditional": "Transmitted to remote server, logged in access files"
+        },
+        {
+          "feature": "Execution Latency",
+          "us": "Instant 0ms (Local device CPU acceleration)",
+          "traditional": "500ms - 3000ms (Server network roundtrip lag)"
+        },
+        {
+          "feature": "Offline & PWA Capability",
+          "us": "Full offline support via PWA caching",
+          "traditional": "Requires constant internet; fails offline"
+        },
+        {
+          "feature": "Repetition Capacity",
+          "us": "Up to 10,000 repeats per batch free",
+          "traditional": "Often capped at 100-500 repeats or paywalled"
+        },
+        {
+          "feature": "Intrusive Popups & Ads",
+          "us": "Zero full-screen popups, zero redirect spam",
+          "traditional": "Aggressive popup ads, video overlays & redirects"
+        },
+        {
+          "feature": "Mobile Touch Optimization",
+          "us": "Native Web Share, Haptic feedback & 1-tap download",
+          "traditional": "Clunky desktop-only layouts with broken mobile inputs"
+        }
+      ]
     }
   },
   "hi": {
@@ -2264,6 +3860,22 @@
       {
         "q": "व्हाट्सएप पर यह टेक्स्ट कैसे भेजें?",
         "a": "टेक्स्ट जनरेट होने के बाद बस 'व्हाट्सएप पर शेयर करें' बटन दबाएं, व्हाट्सएप अपने आप खुल जाएगा और मैसेज तैयार मिलेगा।"
+      },
+      {
+        "q": "क्या मेरा गोपनीय टेक्स्ट या डेटा किसी सर्वर पर सेव या अपलोड होता है?",
+        "a": "बिल्कुल नहीं। पारंपरिक ऑनलाइन टूल्स के विपरीत, AnyOnlineTools 100% आपके डिवाइस की ब्राउज़र मेमोरी में चलता है। सर्वर पर 0 बाइट्स अपलोड होते हैं और पेज बंद करते ही सब कुछ साफ हो जाता है।"
+      },
+      {
+        "q": "कस्टम सेपरेटर और लाइन नंबर कैसे काम करते हैं?",
+        "a": "आप न्यूलाइन, स्पेस, कॉमा या अपनी पसंद का कोई भी कस्टम कैरेक्टर चुन सकते हैं। \"Add line numbers\" को चालू करने से हर रिपीटेड लाइन के आगे 1, 2, 3 जैसी नंबरिंग जुड़ जाती है।"
+      },
+      {
+        "q": "अगर रिपीट किया गया टेक्स्ट क्लिपबोर्ड में कॉपी होने के लिए बहुत बड़ा है तो क्या करें?",
+        "a": "कुछ मोबाइल ब्राउज़र्स में क्लिपबोर्ड की सीमा होती है। अगर आपका टेक्स्ट बहुत बड़ा है, तो \"Download\" बटन पर क्लिक करें। आपका पूरा टेक्स्ट तुरंत एक .txt फाइल के रूप में आपके डिवाइस में सेव हो जाएगा।"
+      },
+      {
+        "q": "क्या मैं इस टेक्स्ट रिपीटर को बिना इंटरनेट (Offline) इस्तेमाल कर सकता हूँ?",
+        "a": "हाँ! AnyOnlineTools एक PWA (प्रोग्रेसिव वेब ऐप) है। पहली बार खोलने के बाद यह आपके ब्राउज़र में सुरक्षित हो जाता है, जिससे आप इसे बिना किसी इंटरनेट कनेक्शन के कभी भी इस्तेमाल कर सकते हैं।"
       }
     ],
     "features": [
@@ -2307,6 +3919,66 @@
       "howToUseTitle": "{tool} का उपयोग कैसे करें",
       "faqBadge": "सवाल और जवाब",
       "faqTitle": "अक्सर पूछे जाने वाले सवाल"
+    },
+    "useCases": [
+      {
+        "tag": "QA व इंजीनियरिंग",
+        "title": "सॉफ्टवेयर टेस्टिंग और स्ट्रेस टेस्टिंग",
+        "desc": "डेटाबेस फील्ड लिमिट, चैट ऐप इनपुट लिमिट, और मोबाइल यूआई पर लंबे टेक्स्ट को टेस्ट करने के लिए तुरंत बल्क स्ट्रिंग्स बनाएं।"
+      },
+      {
+        "tag": "सोशल मीडिया",
+        "title": "मजेदार मैसेजिंग और व्हाट्सएप स्पैम",
+        "desc": "दोस्तों के लिए फनी व्हाट्सएप ग्रीटिंग्स, रिपीटेड बर्थडे विशेज और लंबी फन चैट्स 1-क्लिक में तैयार करें।"
+      },
+      {
+        "tag": "डिज़ाइन व UI/UX",
+        "title": "लेआउट डमी टेक्स्ट व प्लेसहोल्डर्स",
+        "desc": "वेबसाइट और ऐप लेआउट की कार्ड रैपिंग और टाइपोग्राफी को टेस्ट करने के लिए कस्टम रिपीटेड प्लेसहोल्डर टेक्स्ट बनाएं।"
+      },
+      {
+        "tag": "डेटा व प्रोडक्टिविटी",
+        "title": "नंबर लिस्ट और मॉक डेटा तैयार करना",
+        "desc": "क्रमबद्ध नंबरिंग वाली चेकलिस्ट, स्प्रेडशीट के लिए मॉक CSV टेस्ट डेटा और रिपीटेड वैल्यूज तुरंत जनरेट करें।"
+      }
+    ],
+    "comparisonTable": {
+      "title": "परफॉर्मेंस और आर्किटेक्चर तुलना",
+      "subtitle": "जानिए AnyOnlineTools पारंपरिक सर्वर-आधारित रिपीटर टूल्स से तेज़, सुरक्षित और अधिक विश्वसनीय क्यों है।",
+      "ourLabel": "AnyOnlineTools (क्लाइंट-साइड)",
+      "traditionalLabel": "पारंपरिक रिपीटर (सर्वर-आधारित)",
+      "rows": [
+        {
+          "feature": "डेटा गोपनीयता व सुरक्षा",
+          "us": "100% डिवाइस RAM (0 बाइट्स अपलोड)",
+          "traditional": "रिमोट सर्वर पर भेजा जाता है और लॉग होता है"
+        },
+        {
+          "feature": "प्रोसेसिंग स्पीड",
+          "us": "तुरंत 0ms (डिवाइस CPU द्वारा प्रोसेस)",
+          "traditional": "500ms - 3000ms (सर्वर नेटवर्क देरी)"
+        },
+        {
+          "feature": "ऑफलाइन PWA सपोर्ट",
+          "us": "बिना इंटरनेट पूरी तरह काम करता है",
+          "traditional": "हमेशा इंटरनेट आवश्यक; ऑफलाइन फेल"
+        },
+        {
+          "feature": "रिपीट करने की क्षमता",
+          "us": "10,000 बार तक पूरी तरह फ्री",
+          "traditional": "अक्सर 100-500 पर लिमिट या पैसे मांगते हैं"
+        },
+        {
+          "feature": "परेशान करने वाले ऐड्स व पॉपअप्स",
+          "us": "जीरो फुल-स्क्रीन पॉपअप, जीरो रीडायरेक्ट",
+          "traditional": "जबरन पॉपअप ऐड्स और भ्रामक लिंक्स"
+        },
+        {
+          "feature": "मोबाइल टच ऑप्टिमाइजेशन",
+          "us": "नेविट वेब शेयर, हैप्टिक फीडबैक और डाउनलोड",
+          "traditional": "मोबाइल स्क्रीन पर खराब और टूटा हुआ लेआउट"
+        }
+      ]
     }
   },
   "ms": {
@@ -2361,6 +4033,22 @@
       {
         "q": "Bagaimanakah cara berkongsi ke WhatsApp?",
         "a": "Tekan butang 'Kongsi ke WhatsApp' dan aplikasi akan dibuka dengan mesej sedia dihantar."
+      },
+      {
+        "q": "Is my confidential text or data saved, logged, or uploaded to any server?",
+        "a": "Never. Unlike traditional online tools that transmit your input to remote cloud servers for processing, AnyOnlineTools runs 100% locally in your device's browser memory. Zero bytes are uploaded to remote servers, zero logs are created, and your inputs are completely cleared when you refresh or close the page."
+      },
+      {
+        "q": "How do custom separators and sequential line numbers work?",
+        "a": "You can select pre-configured separators (newline, single space, comma, period, or none) or enter your own custom separator string (such as pipes, dashes, or decorative emojis). Enabling the 'Add line numbers' toggle prefixes each repetition with sequential numbering (e.g., 1., 2., 3...), ideal for generating ordered testing lists."
+      },
+      {
+        "q": "What should I do if the repeated text is too large to copy to the clipboard?",
+        "a": "Certain mobile browsers and operating systems impose clipboard buffer limits (typically between 1 MB and 4 MB). If your repeated output exceeds clipboard thresholds, click the 'Download' button to instantly save your complete generated text as an offline UTF-8 .txt file onto your device with zero data loss."
+      },
+      {
+        "q": "Can I use this Text Repeater offline without an active internet connection?",
+        "a": "Yes. Because AnyOnlineTools is architected as an offline-first Progressive Web Application (PWA), after your first visit all core JavaScript assets are cached locally by your browser. You can bookmark the tool or add it to your mobile Home Screen and generate repeated text anywhere with zero data connection."
       }
     ],
     "features": [
@@ -2404,6 +4092,66 @@
       "howToUseTitle": "Cara Menggunakan {tool}",
       "faqBadge": "Soal & Jawab",
       "faqTitle": "Soalan Lazim"
+    },
+    "useCases": [
+      {
+        "tag": "QA & Engineering",
+        "title": "Software QA & Stress Testing",
+        "desc": "Test database field boundaries, chat app input limits, API payload sizes, and mobile UI text wrapping under heavy stress with long strings."
+      },
+      {
+        "tag": "Social Media",
+        "title": "Social Messaging & Viral Fun",
+        "desc": "Create engaging WhatsApp greetings, playful multi-line spam messages for friends, repetitive birthday wishes, and custom Instagram captions."
+      },
+      {
+        "tag": "Design & UI/UX",
+        "title": "Layout Dummy Text & Placeholders",
+        "desc": "Generate custom repetitive dummy text and length-variable placeholder strings to stress-test layout overflow, card wrapping, and typography."
+      },
+      {
+        "tag": "Data & Productivity",
+        "title": "Data Preparation & Numbered Lists",
+        "desc": "Produce sequential numbered items, bulk mock CSV test data, ordered checklists, and repetitive string fixtures for spreadsheet formulas."
+      }
+    ],
+    "comparisonTable": {
+      "title": "Performance & Architecture Comparison",
+      "subtitle": "Why AnyOnlineTools delivers superior speed, privacy, and reliability compared to traditional server-based repeaters.",
+      "ourLabel": "AnyOnlineTools (Client-Side)",
+      "traditionalLabel": "Traditional Repeaters (Server-Based)",
+      "rows": [
+        {
+          "feature": "Data Privacy & Confidentiality",
+          "us": "100% In-Memory RAM (0 Bytes Uploaded)",
+          "traditional": "Transmitted to remote server, logged in access files"
+        },
+        {
+          "feature": "Execution Latency",
+          "us": "Instant 0ms (Local device CPU acceleration)",
+          "traditional": "500ms - 3000ms (Server network roundtrip lag)"
+        },
+        {
+          "feature": "Offline & PWA Capability",
+          "us": "Full offline support via PWA caching",
+          "traditional": "Requires constant internet; fails offline"
+        },
+        {
+          "feature": "Repetition Capacity",
+          "us": "Up to 10,000 repeats per batch free",
+          "traditional": "Often capped at 100-500 repeats or paywalled"
+        },
+        {
+          "feature": "Intrusive Popups & Ads",
+          "us": "Zero full-screen popups, zero redirect spam",
+          "traditional": "Aggressive popup ads, video overlays & redirects"
+        },
+        {
+          "feature": "Mobile Touch Optimization",
+          "us": "Native Web Share, Haptic feedback & 1-tap download",
+          "traditional": "Clunky desktop-only layouts with broken mobile inputs"
+        }
+      ]
     }
   },
   "uk": {
@@ -2458,6 +4206,22 @@
       {
         "q": "Як поділитися результатом у WhatsApp?",
         "a": "Натисніть кнопку 'Поділитися у WhatsApp' і програма відкриється з готовим текстом."
+      },
+      {
+        "q": "Is my confidential text or data saved, logged, or uploaded to any server?",
+        "a": "Never. Unlike traditional online tools that transmit your input to remote cloud servers for processing, AnyOnlineTools runs 100% locally in your device's browser memory. Zero bytes are uploaded to remote servers, zero logs are created, and your inputs are completely cleared when you refresh or close the page."
+      },
+      {
+        "q": "How do custom separators and sequential line numbers work?",
+        "a": "You can select pre-configured separators (newline, single space, comma, period, or none) or enter your own custom separator string (such as pipes, dashes, or decorative emojis). Enabling the 'Add line numbers' toggle prefixes each repetition with sequential numbering (e.g., 1., 2., 3...), ideal for generating ordered testing lists."
+      },
+      {
+        "q": "What should I do if the repeated text is too large to copy to the clipboard?",
+        "a": "Certain mobile browsers and operating systems impose clipboard buffer limits (typically between 1 MB and 4 MB). If your repeated output exceeds clipboard thresholds, click the 'Download' button to instantly save your complete generated text as an offline UTF-8 .txt file onto your device with zero data loss."
+      },
+      {
+        "q": "Can I use this Text Repeater offline without an active internet connection?",
+        "a": "Yes. Because AnyOnlineTools is architected as an offline-first Progressive Web Application (PWA), after your first visit all core JavaScript assets are cached locally by your browser. You can bookmark the tool or add it to your mobile Home Screen and generate repeated text anywhere with zero data connection."
       }
     ],
     "features": [
@@ -2501,6 +4265,66 @@
       "howToUseTitle": "Як користуватися {tool}",
       "faqBadge": "Запитання та відповіді",
       "faqTitle": "Часті запитання"
+    },
+    "useCases": [
+      {
+        "tag": "QA & Engineering",
+        "title": "Software QA & Stress Testing",
+        "desc": "Test database field boundaries, chat app input limits, API payload sizes, and mobile UI text wrapping under heavy stress with long strings."
+      },
+      {
+        "tag": "Social Media",
+        "title": "Social Messaging & Viral Fun",
+        "desc": "Create engaging WhatsApp greetings, playful multi-line spam messages for friends, repetitive birthday wishes, and custom Instagram captions."
+      },
+      {
+        "tag": "Design & UI/UX",
+        "title": "Layout Dummy Text & Placeholders",
+        "desc": "Generate custom repetitive dummy text and length-variable placeholder strings to stress-test layout overflow, card wrapping, and typography."
+      },
+      {
+        "tag": "Data & Productivity",
+        "title": "Data Preparation & Numbered Lists",
+        "desc": "Produce sequential numbered items, bulk mock CSV test data, ordered checklists, and repetitive string fixtures for spreadsheet formulas."
+      }
+    ],
+    "comparisonTable": {
+      "title": "Performance & Architecture Comparison",
+      "subtitle": "Why AnyOnlineTools delivers superior speed, privacy, and reliability compared to traditional server-based repeaters.",
+      "ourLabel": "AnyOnlineTools (Client-Side)",
+      "traditionalLabel": "Traditional Repeaters (Server-Based)",
+      "rows": [
+        {
+          "feature": "Data Privacy & Confidentiality",
+          "us": "100% In-Memory RAM (0 Bytes Uploaded)",
+          "traditional": "Transmitted to remote server, logged in access files"
+        },
+        {
+          "feature": "Execution Latency",
+          "us": "Instant 0ms (Local device CPU acceleration)",
+          "traditional": "500ms - 3000ms (Server network roundtrip lag)"
+        },
+        {
+          "feature": "Offline & PWA Capability",
+          "us": "Full offline support via PWA caching",
+          "traditional": "Requires constant internet; fails offline"
+        },
+        {
+          "feature": "Repetition Capacity",
+          "us": "Up to 10,000 repeats per batch free",
+          "traditional": "Often capped at 100-500 repeats or paywalled"
+        },
+        {
+          "feature": "Intrusive Popups & Ads",
+          "us": "Zero full-screen popups, zero redirect spam",
+          "traditional": "Aggressive popup ads, video overlays & redirects"
+        },
+        {
+          "feature": "Mobile Touch Optimization",
+          "us": "Native Web Share, Haptic feedback & 1-tap download",
+          "traditional": "Clunky desktop-only layouts with broken mobile inputs"
+        }
+      ]
     }
   },
   "sw": {
@@ -2555,6 +4379,22 @@
       {
         "q": "Jinsi ya kushiriki kwenye WhatsApp?",
         "a": "Bofya kitufe cha 'Shiriki kwenye WhatsApp' na programu itafunguka ikiwa na ujumbe tayari kutumwa."
+      },
+      {
+        "q": "Is my confidential text or data saved, logged, or uploaded to any server?",
+        "a": "Never. Unlike traditional online tools that transmit your input to remote cloud servers for processing, AnyOnlineTools runs 100% locally in your device's browser memory. Zero bytes are uploaded to remote servers, zero logs are created, and your inputs are completely cleared when you refresh or close the page."
+      },
+      {
+        "q": "How do custom separators and sequential line numbers work?",
+        "a": "You can select pre-configured separators (newline, single space, comma, period, or none) or enter your own custom separator string (such as pipes, dashes, or decorative emojis). Enabling the 'Add line numbers' toggle prefixes each repetition with sequential numbering (e.g., 1., 2., 3...), ideal for generating ordered testing lists."
+      },
+      {
+        "q": "What should I do if the repeated text is too large to copy to the clipboard?",
+        "a": "Certain mobile browsers and operating systems impose clipboard buffer limits (typically between 1 MB and 4 MB). If your repeated output exceeds clipboard thresholds, click the 'Download' button to instantly save your complete generated text as an offline UTF-8 .txt file onto your device with zero data loss."
+      },
+      {
+        "q": "Can I use this Text Repeater offline without an active internet connection?",
+        "a": "Yes. Because AnyOnlineTools is architected as an offline-first Progressive Web Application (PWA), after your first visit all core JavaScript assets are cached locally by your browser. You can bookmark the tool or add it to your mobile Home Screen and generate repeated text anywhere with zero data connection."
       }
     ],
     "features": [
@@ -2598,6 +4438,66 @@
       "howToUseTitle": "Jinsi ya Kutumia {tool}",
       "faqBadge": "Maswali & Majibu",
       "faqTitle": "Maswali Yanayoulizwa Mara kwa Mara"
+    },
+    "useCases": [
+      {
+        "tag": "QA & Engineering",
+        "title": "Software QA & Stress Testing",
+        "desc": "Test database field boundaries, chat app input limits, API payload sizes, and mobile UI text wrapping under heavy stress with long strings."
+      },
+      {
+        "tag": "Social Media",
+        "title": "Social Messaging & Viral Fun",
+        "desc": "Create engaging WhatsApp greetings, playful multi-line spam messages for friends, repetitive birthday wishes, and custom Instagram captions."
+      },
+      {
+        "tag": "Design & UI/UX",
+        "title": "Layout Dummy Text & Placeholders",
+        "desc": "Generate custom repetitive dummy text and length-variable placeholder strings to stress-test layout overflow, card wrapping, and typography."
+      },
+      {
+        "tag": "Data & Productivity",
+        "title": "Data Preparation & Numbered Lists",
+        "desc": "Produce sequential numbered items, bulk mock CSV test data, ordered checklists, and repetitive string fixtures for spreadsheet formulas."
+      }
+    ],
+    "comparisonTable": {
+      "title": "Performance & Architecture Comparison",
+      "subtitle": "Why AnyOnlineTools delivers superior speed, privacy, and reliability compared to traditional server-based repeaters.",
+      "ourLabel": "AnyOnlineTools (Client-Side)",
+      "traditionalLabel": "Traditional Repeaters (Server-Based)",
+      "rows": [
+        {
+          "feature": "Data Privacy & Confidentiality",
+          "us": "100% In-Memory RAM (0 Bytes Uploaded)",
+          "traditional": "Transmitted to remote server, logged in access files"
+        },
+        {
+          "feature": "Execution Latency",
+          "us": "Instant 0ms (Local device CPU acceleration)",
+          "traditional": "500ms - 3000ms (Server network roundtrip lag)"
+        },
+        {
+          "feature": "Offline & PWA Capability",
+          "us": "Full offline support via PWA caching",
+          "traditional": "Requires constant internet; fails offline"
+        },
+        {
+          "feature": "Repetition Capacity",
+          "us": "Up to 10,000 repeats per batch free",
+          "traditional": "Often capped at 100-500 repeats or paywalled"
+        },
+        {
+          "feature": "Intrusive Popups & Ads",
+          "us": "Zero full-screen popups, zero redirect spam",
+          "traditional": "Aggressive popup ads, video overlays & redirects"
+        },
+        {
+          "feature": "Mobile Touch Optimization",
+          "us": "Native Web Share, Haptic feedback & 1-tap download",
+          "traditional": "Clunky desktop-only layouts with broken mobile inputs"
+        }
+      ]
     }
   }
 }
