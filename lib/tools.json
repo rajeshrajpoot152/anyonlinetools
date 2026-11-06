@@ -381,7 +381,7 @@
       "title": "Stylish Text Architecture Comparison",
       "subtitle": "Why AnyOnlineTools delivers superior speed, zero ads, and instant copy compared to traditional font generators.",
       "ourLabel": "AnyOnlineTools (Client-Side)",
-      "traditionalLabel": "Traditional Font Generators (LingoJam, etc.)",
+      "traditionalLabel": "Traditional Online Font Generators",
       "rows": [
         {
           "feature": "1-Click Copy Ergonomics",
@@ -525,7 +525,7 @@
       "title": "Blank Text Generator Architecture Comparison",
       "subtitle": "Why AnyOnlineTools delivers superior speed, zero captchas, and multi-platform compatibility compared to ad-heavy competitors.",
       "ourLabel": "AnyOnlineTools (Client-Side)",
-      "traditionalLabel": "Traditional Competitors (Prepostseo, TextStudio, etc.)",
+      "traditionalLabel": "Traditional Server-Based Tools",
       "rows": [
         {
           "feature": "1-Click Copy Velocity",
@@ -659,10 +659,10 @@
       }
     ],
     "comparisonTable": {
-      "title": "Why Gamers Choose AnyOnlineTools Over Nickfinder",
+      "title": "Why Gamers Choose AnyOnlineTools (Architecture Comparison)",
       "subtitle": "Purpose-built for battle royale players with zero spam and zero ban risk.",
       "ourLabel": "AnyOnlineTools",
-      "traditionalLabel": "Nickfinder / Ad Sites",
+      "traditionalLabel": "Ad-Heavy Gaming Sites",
       "rows": [
         {
           "feature": "12-Char Limit Safe Guard",

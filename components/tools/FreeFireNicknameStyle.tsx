@@ -92,7 +92,7 @@ const PRESET_CATEGORIES = [
   { id: 'clan', label: '🛡️ Clan & Guild' },
 ];
 
-// Top Curated Viral Names (like FFNick & Nickfinder)
+// Top Curated Viral Names (Curated Pro Gaming Names)
 const TOP_CURATED_NAMES = [
   { name: 'Bad Boy Smile', styled: '×͜× ㅤB A D B O Y 亗', cat: 'Boy Attitude' },
   { name: 'Raistar Legend', styled: '꧁༒☬RAISTAR☬༒꧂', cat: 'Pro Player' },
@@ -533,7 +533,7 @@ export default function FreeFireNicknameStyle() {
       )}
 
       {/* ============================================================== */}
-      {/* 2. TOP CURATED VIRAL NAMES TAB (Like FFNick & Nickfinder) */}
+      {/* 2. TOP CURATED VIRAL NAMES TAB (Curated Pro Gaming Names) */}
       {/* ============================================================== */}
       {activeTab === 'curated' && (
         <div className="bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 rounded-3xl p-5 sm:p-7 shadow-sm space-y-6">
