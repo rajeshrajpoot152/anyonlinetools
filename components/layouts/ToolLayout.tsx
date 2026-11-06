@@ -211,11 +211,6 @@ export default function ToolLayout({
                 <h1 className="text-xl sm:text-2xl lg:text-3xl font-black text-slate-900 dark:text-white tracking-tight">
                   {title}
                 </h1>
-                {badge && badge !== uiLabels?.badgeText && (
-                  <span className="inline-flex px-2 py-0.5 text-[10px] font-bold rounded-full bg-emerald-50 dark:bg-emerald-950 text-emerald-600 border border-emerald-200 dark:border-emerald-800">
-                    {badge}
-                  </span>
-                )}
               </div>
               <p className="text-xs sm:text-sm text-slate-500 dark:text-slate-400 line-clamp-1 mt-0.5">
                 {description}
@@ -224,7 +219,7 @@ export default function ToolLayout({
           </div>
 
           <div className="hidden md:inline-flex items-center space-x-2 px-3 py-1.5 rounded-full bg-blue-50 dark:bg-blue-950/60 border border-blue-200/80 dark:border-blue-900/60 text-blue-700 dark:text-blue-300 text-xs font-bold tracking-wide flex-shrink-0">
-            <Sparkles className="w-3.5 h-3.5 text-blue-600 dark:text-blue-400" />
+            <ShieldCheck className="w-3.5 h-3.5 text-blue-600 dark:text-blue-400" />
             <span>{uiLabels?.badgeText || '100% Free · Client-Side Private · No Upload'}</span>
           </div>
         </div>
@@ -301,7 +296,7 @@ export default function ToolLayout({
         <section className="mb-14">
           <div className="text-center max-w-2xl mx-auto mb-8">
             <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-blue-50 dark:bg-blue-950/60 border border-blue-200/80 dark:border-blue-900/60 text-blue-700 dark:text-blue-300 text-xs font-bold mb-3">
-              <Sparkles className="w-3.5 h-3.5 text-blue-600 dark:text-blue-400" />
+              <Zap className="w-3.5 h-3.5 text-blue-600 dark:text-blue-400" />
               <span>{uiLabels?.useCasesBadge || 'Versatile Applications'}</span>
             </div>
             <h2 className="text-2xl sm:text-3xl font-black text-slate-900 dark:text-white tracking-tight">
@@ -396,7 +391,7 @@ export default function ToolLayout({
               className="p-6 rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm"
             >
               <div className="mb-4 text-blue-600 dark:text-blue-400">
-                {f.icon || <Sparkles className="w-6 h-6" />}
+                {f.icon || <ShieldCheck className="w-6 h-6" />}
               </div>
               <h3 className="text-base font-bold text-slate-900 dark:text-white mb-2">
                 {f.title}

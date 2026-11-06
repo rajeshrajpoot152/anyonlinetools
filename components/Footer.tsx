@@ -105,11 +105,6 @@ export default function Footer({ currentLang = 'en' }: { currentLang?: string })
                 <li key={tool.slug}>
                   <Link href={getLocalizedToolHref(tool, activeLang)} className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors flex items-center justify-between">
                     <span>{tool.name}</span>
-                    {tool.badge && (
-                      <span className="text-[10px] px-1.5 py-0.5 rounded bg-emerald-100 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-400 font-medium">
-                        {tool.badge}
-                      </span>
-                    )}
                   </Link>
                 </li>
               ))}

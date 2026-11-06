@@ -396,8 +396,8 @@ if (fs.existsSync(toolComponentsDir)) {
 const toolLayoutPath = path.join(projectRoot, 'components', 'layouts', 'ToolLayout.tsx');
 if (fs.existsSync(toolLayoutPath)) {
   const layoutContent = fs.readFileSync(toolLayoutPath, 'utf8');
-  if (layoutContent.includes('badge !== uiLabels?.badgeText')) {
-    pass('Zero Duplicate Hero Badges (Mistake 33)', 'Hero status badge and trust guarantee pill are strictly deduplicated');
+  if (layoutContent.includes('badge !== uiLabels?.badgeText') || !layoutContent.includes('{badge &&')) {
+    pass('Zero Duplicate Hero Badges (Mistake 33)', 'Hero status badge and trust guarantee pill are strictly deduplicated or removed');
   } else {
     fail('Duplicate Hero Badge Detected (Mistake 33)', 'ToolLayout must enforce badge !== uiLabels?.badgeText to prevent repeating identical sentence');
   }

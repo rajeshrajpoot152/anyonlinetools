@@ -102,8 +102,8 @@ export default function AllToolsContent() {
         {/* Header Section */}
         <div className="text-center max-w-3xl mx-auto mb-12">
           <div className="inline-flex items-center space-x-2 px-3 py-1.5 rounded-full bg-blue-100 dark:bg-blue-900/40 text-blue-700 dark:text-blue-300 text-xs font-semibold tracking-wide uppercase mb-4">
-            <Sparkles className="w-3.5 h-3.5 text-blue-600 dark:text-blue-400" />
-            <span>Unified Tools Catalog</span>
+            <Search className="w-3.5 h-3.5 text-blue-600 dark:text-blue-400" />
+            <span>Master Tools Directory</span>
           </div>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight text-slate-900 dark:text-white mb-4">
             All Online Tools at a Glance
@@ -176,9 +176,6 @@ export default function AllToolsContent() {
                       <span className="text-sm font-bold text-slate-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors truncate block">
                         {tool.name}
                       </span>
-                      <span className="text-[10px] font-semibold text-slate-400 block">
-                        {tool.category}
-                      </span>
                     </span>
                   </Link>
                   <button
@@ -224,9 +221,6 @@ export default function AllToolsContent() {
                   </div>
 
                   <Link href={tool.href} className="block group">
-                    <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500 mb-1 block">
-                      {tool.category}
-                    </span>
                     <span className="text-base font-bold text-slate-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors mb-1.5 block">
                       {tool.name}
                     </span>

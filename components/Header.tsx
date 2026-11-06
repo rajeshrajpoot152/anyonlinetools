@@ -140,7 +140,7 @@ export default function Header({ currentLang = 'en' }: { currentLang?: string })
               onClick={() => setToolsOpen(!toolsOpen)}
               className="flex items-center space-x-1.5 hover:text-blue-600 dark:hover:text-blue-400 transition-colors py-2"
             >
-              <Sparkles className="w-4 h-4 text-blue-600 dark:text-blue-400" />
+              <Wrench className="w-4 h-4 text-blue-600 dark:text-blue-400" />
               <span>All Tools ({TOOLS.length})</span>
               <ChevronDown className={`w-3.5 h-3.5 transition-transform duration-200 ${toolsOpen ? 'rotate-180 text-blue-600' : 'text-slate-400'}`} />
             </button>
@@ -151,7 +151,7 @@ export default function Header({ currentLang = 'en' }: { currentLang?: string })
                 onMouseLeave={() => setToolsOpen(false)}
               >
                 <div className="text-[11px] font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500 mb-1 flex items-center space-x-1.5">
-                  <Sparkles className="w-3.5 h-3.5 text-blue-500" />
+                  <Wrench className="w-3.5 h-3.5 text-blue-500" />
                   <span>Free Online Utilities ({TOOLS.length})</span>
                 </div>
                 <div className="space-y-1.5">
@@ -164,15 +164,8 @@ export default function Header({ currentLang = 'en' }: { currentLang?: string })
                     >
                       <ToolIcon name={tool.icon} className="w-4 h-4 text-blue-500 group-hover:scale-110 transition-transform mt-0.5" />
                       <span className="flex-1 block">
-                        <span className="flex items-center justify-between">
-                          <span className="text-xs font-bold text-slate-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400">
-                            {tool.name}
-                          </span>
-                          {tool.badge && (
-                            <span className="text-[10px] font-bold px-1.5 py-0.5 rounded-full bg-emerald-50 dark:bg-emerald-950 text-emerald-600 border border-emerald-200 dark:border-emerald-800">
-                              {tool.badge}
-                            </span>
-                          )}
+                        <span className="text-xs font-bold text-slate-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400">
+                          {tool.name}
                         </span>
                         <span className="block text-[11px] text-slate-500 dark:text-slate-400 line-clamp-1 mt-0.5">
                           {tool.shortDesc}
