@@ -275,15 +275,17 @@ export default function Header({ currentLang = 'en' }: { currentLang?: string })
             )}
           </div>
 
-          {/* PWA Install Button */}
+          {/* PWA Install Button (Desktop & Mobile) */}
           {installable && (
             <button
               onClick={handleInstallClick}
-              className="hidden sm:flex items-center space-x-1.5 px-3 py-1.5 text-xs font-bold text-white bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors shadow-sm"
-              title="Install App"
+              className="flex items-center space-x-1.5 px-2.5 sm:px-3 py-1.5 text-xs font-bold text-white bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors shadow-sm active:scale-95"
+              title="Install App for 100% Offline Access"
+              aria-label="Install App for Offline Access"
             >
               <Download className="w-3.5 h-3.5" />
-              <span>Install App</span>
+              <span className="hidden sm:inline">Install Offline App</span>
+              <span className="sm:hidden">Install</span>
             </button>
           )}
 
@@ -387,6 +389,22 @@ export default function Header({ currentLang = 'en' }: { currentLang?: string })
               ))}
             </div>
           </div>
+
+          {installable && (
+            <div className="pt-2 pb-1">
+              <button
+                type="button"
+                onClick={() => {
+                  setMobileMenuOpen(false);
+                  handleInstallClick();
+                }}
+                className="w-full flex items-center justify-center space-x-2 p-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold transition-all shadow-sm active:scale-98"
+              >
+                <Download className="w-4 h-4" />
+                <span>Install App (100% Offline Access)</span>
+              </button>
+            </div>
+          )}
 
           <div className="pt-2 border-t border-slate-200 dark:border-slate-800 flex items-center space-x-4 text-sm font-medium">
             <Link
