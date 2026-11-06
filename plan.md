@@ -447,6 +447,20 @@ Every tool must identify its **Top 3 Companion Tools** and cross-reference them 
 
 ---
 
+### 6.1.3 Zero-Duplicate Single Source of Truth Standard (शून्य-डुप्लीकेशन नियम)
+- **Pre-Ingestion Duplicate Verification:** Before writing any new section, keyword, or metric, compare it against existing tool documentation. If a domain or screenshot has already been analyzed, do NOT create a duplicate entry.
+- **Delta-Only Ingestion:** Only extract fresh, previously unseen keywords, features, or UI angles.
+- **Redundancy Scrubbing:** If duplicate competitor rows or sections exist, immediately consolidate them into a single clean section.
+
+---
+
+### 6.1.4 Non-Interactive Git & Credential Freeze Guardrail (गिट फ्रीज़ सुरक्षा नियम)
+- **Zero Background Credential Freezing:** Running git push in a non-interactive background process will freeze if GitHub requests browser/OAuth credentials or Personal Access Tokens.
+- **Mandatory Direct Communication Protocol:** When a git push requires remote authentication, credential prompts, or times out (>15s), the assistant must **never loop or poll in the background**. Instead, immediately notify the user with the exact terminal command (`git push origin main`) to run in their local interactive terminal.
+- **Clean Sync Assurance:** Never advise the user to delete or move local workspaces until `git status` explicitly verifies: `Your branch is up to date with 'origin/main'` and working tree is 100% clean.
+
+---
+
 ### 6.2 Managing 500+ .md Files Without Folder Chaos
 
 - **Eliminating Flat File Sprawl:** Loose `.md` files in a single root folder become unmanageable. With `tool-intel/tools/[slug]/`, every tool has exactly one home.

@@ -719,7 +719,7 @@ Similarweb Web Intelligence (Sep 2026) for **gamesroid.com**:
 - **Monthly Traffic:** 45,800 Visits/mo
 - **AI Referral:** **ChatGPT.com refers 100% of their GenAI traffic**
 - **Traffic Geographic Mix:** India 11.29%, United States 9.96%, France 7.63%, Russia 7.24%, Germany 6.02%.
-- **Ranking Game Keywords:** `free fire name`, `free fire names`, `astroneer codes`.
+- **Ranking Game Keywords:** `free fire name`, `free fire names`.
 
 ---
 
@@ -948,9 +948,6 @@ Similarweb Web Intelligence (Sep 2026) for multi-utility generator **writebyhand
 
 ### High-Volume / High-RPM Keyword Queries:
 1. **`stylish name`**: **1.2K traffic** | **$0.30 CPC**
-2. **`cheat sheet maker`**: **$1.68 CPC** (High education monetization)
-3. **`handwritten notes`**: **$1.34 CPC**
-4. **`text to handwriting`**: 830 traffic | $0.21 CPC
 
 ---
 
